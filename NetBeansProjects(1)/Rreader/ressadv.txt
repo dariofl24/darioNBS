@@ -1,0 +1,1301 @@
+****Info: 
+
+ Rmin1= 0.0
+ Rmax1= 3.999999999999982
+ N.puntos(1)= 60.0
+ Subm.area (1)= 2.0
+ Total Capas (1)= 128.0
+
+ Rmin2= 0.0
+ N.puntos(2)= 60.0
+ Subm.area (2)= 2.0
+ Total Capas (2)= 128.0
+
+ u=1.0
+ Nombre de archivo: ressadv
+ Procesos sim: 6.0
+
+*Resultados:
+------------------------------------------
+
+lun,16 may, 21:55:43   @ 3.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 1.0
+N poits:60.0
+Rmin=0.0
+Rmax=0.7937005259840998
+Integral(capa):43.7780388781404
+Integral(Parcial): 43.7780388781404
+------------------------------------------
+lun,16 may, 21:52:44   @ 4.0 seg
+Tiempo capa: 4.0 seg 
+ 
+Capa ID: 2.0
+N poits:60.0
+Rmin=0.7937005259840998
+Rmax=1.0
+Integral(capa):44.52737748039265
+Integral(Parcial): 88.30541635853305
+------------------------------------------
+lun,16 may, 21:51:27   @ 4.0 seg
+Tiempo capa: 4.0 seg 
+ 
+Capa ID: 3.0
+N poits:60.0
+Rmin=1.0
+Rmax=1.1447142425533319
+Integral(capa):33.568336132532494
+Integral(Parcial): 121.87375249106555
+------------------------------------------
+lun,16 may, 21:44:42   @ 4.0 seg
+Tiempo capa: 4.0 seg 
+ 
+Capa ID: 4.0
+N poits:60.0
+Rmin=1.1447142425533319
+Rmax=1.2599210498948732
+Integral(capa):26.25160818909961
+Integral(Parcial): 148.12536068016516
+------------------------------------------
+lun,16 may, 21:43:01   @ 3.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 5.0
+N poits:60.0
+Rmin=1.2599210498948732
+Rmax=1.3572088082974534
+Integral(capa):19.26463633133747
+Integral(Parcial): 167.38999701150263
+------------------------------------------
+lun,16 may, 21:40:02   @ 3.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 6.0
+N poits:60.0
+Rmin=1.3572088082974534
+Rmax=1.4422495703074083
+Integral(capa):14.78186308716484
+Integral(Parcial): 182.17186009866748
+------------------------------------------
+lun,16 may, 21:55:46   @ 6.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 7.0
+N poits:60.0
+Rmin=1.4422495703074083
+Rmax=1.5182944859378311
+Integral(capa):10.828107950331836
+Integral(Parcial): 192.9999680489993
+------------------------------------------
+lun,16 may, 21:52:47   @ 7.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 8.0
+N poits:60.0
+Rmin=1.5182944859378311
+Rmax=1.5874010519681994
+Integral(capa):8.252731272435085
+Integral(Parcial): 201.2526993214344
+------------------------------------------
+lun,16 may, 21:51:30   @ 7.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 9.0
+N poits:60.0
+Rmin=1.5874010519681994
+Rmax=1.6509636244473131
+Integral(capa):6.210381270157173
+Integral(Parcial): 207.46308059159156
+------------------------------------------
+lun,16 may, 21:44:45   @ 7.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 10.0
+N poits:60.0
+Rmin=1.6509636244473131
+Rmax=1.7099759466766966
+Integral(capa):4.897271491029864
+Integral(Parcial): 212.36035208262143
+------------------------------------------
+lun,16 may, 21:43:04   @ 7.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 11.0
+N poits:60.0
+Rmin=1.7099759466766966
+Rmax=1.765174167663031
+Integral(capa):3.9244799222149878
+Integral(Parcial): 216.28483200483643
+------------------------------------------
+lun,16 may, 21:40:05   @ 6.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 12.0
+N poits:60.0
+Rmin=1.765174167663031
+Rmax=1.8171205928321392
+Integral(capa):3.064693154339969
+Integral(Parcial): 219.3495251591764
+------------------------------------------
+lun,16 may, 21:55:49   @ 9.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 13.0
+N poits:60.0
+Rmin=1.8171205928321392
+Rmax=1.8662555784086237
+Integral(capa):2.433988195581394
+Integral(Parcial): 221.78351335475782
+------------------------------------------
+lun,16 may, 21:52:50   @ 9.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 14.0
+N poits:60.0
+Rmin=1.8662555784086237
+Rmax=1.9129311827723885
+Integral(capa):1.9401048426474314
+Integral(Parcial): 223.72361819740524
+------------------------------------------
+lun,16 may, 21:51:35   @ 12.0 seg
+Tiempo capa: 5.0 seg 
+ 
+Capa ID: 15.0
+N poits:60.0
+Rmin=1.9129311827723885
+Rmax=1.957433820584431
+Integral(capa):1.6078664735507335
+Integral(Parcial): 225.33148467095597
+------------------------------------------
+lun,16 may, 21:44:49   @ 11.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 16.0
+N poits:60.0
+Rmin=1.957433820584431
+Rmax=1.9999999999999991
+Integral(capa):1.2632523886395108
+Integral(Parcial): 226.59473705959547
+------------------------------------------
+lun,16 may, 21:43:07   @ 10.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 17.0
+N poits:60.0
+Rmin=1.9999999999999991
+Rmax=2.040827550958673
+Integral(capa):1.0398171149939026
+Integral(Parcial): 227.63455417458937
+------------------------------------------
+lun,16 may, 21:40:07   @ 9.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 18.0
+N poits:60.0
+Rmin=2.040827550958673
+Rmax=2.080083823051903
+Integral(capa):0.8513700761602818
+Integral(Parcial): 228.48592425074966
+------------------------------------------
+lun,16 may, 21:55:51   @ 11.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 19.0
+N poits:60.0
+Rmin=2.080083823051903
+Rmax=2.1179117921274457
+Integral(capa):0.7126821809463965
+Integral(Parcial): 229.19860643169605
+------------------------------------------
+lun,16 may, 21:52:53   @ 12.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 20.0
+N poits:60.0
+Rmin=2.1179117921274457
+Rmax=2.154434690031883
+Integral(capa):0.5775695956318989
+Integral(Parcial): 229.77617602732795
+------------------------------------------
+lun,16 may, 21:51:39   @ 16.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 21.0
+N poits:60.0
+Rmin=2.154434690031883
+Rmax=2.1897595699439436
+Integral(capa):0.4843085604481393
+Integral(Parcial): 230.2604845877761
+------------------------------------------
+lun,16 may, 21:44:52   @ 14.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 22.0
+N poits:60.0
+Rmin=2.1897595699439436
+Rmax=2.2239800905693143
+Integral(capa):0.40464414646503993
+Integral(Parcial): 230.66512873424114
+------------------------------------------
+lun,16 may, 21:43:10   @ 13.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 23.0
+N poits:60.0
+Rmin=2.2239800905693143
+Rmax=2.2571787177369993
+Integral(capa):0.33662954255816796
+Integral(Parcial): 231.0017582767993
+------------------------------------------
+lun,16 may, 21:40:10   @ 11.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 24.0
+N poits:60.0
+Rmin=2.2571787177369993
+Rmax=2.2894284851066624
+Integral(capa):0.28262223493838157
+Integral(Parcial): 231.28438051173768
+------------------------------------------
+lun,16 may, 21:55:54   @ 14.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 25.0
+N poits:60.0
+Rmin=2.2894284851066624
+Rmax=2.320794416806388
+Integral(capa):0.23989471395292541
+Integral(Parcial): 231.52427522569062
+------------------------------------------
+lun,16 may, 21:52:56   @ 15.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 26.0
+N poits:60.0
+Rmin=2.320794416806388
+Rmax=2.351334687720756
+Integral(capa):0.19872742272149277
+Integral(Parcial): 231.72300264841212
+------------------------------------------
+lun,16 may, 21:51:42   @ 18.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 27.0
+N poits:60.0
+Rmin=2.351334687720756
+Rmax=2.3811015779522977
+Integral(capa):0.16792714075126366
+Integral(Parcial): 231.89092978916338
+------------------------------------------
+lun,16 may, 21:44:55   @ 16.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 28.0
+N poits:60.0
+Rmin=2.3811015779522977
+Rmax=2.4101422641752284
+Integral(capa):0.14282851275772407
+Integral(Parcial): 232.0337583019211
+------------------------------------------
+lun,16 may, 21:43:13   @ 16.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 29.0
+N poits:60.0
+Rmin=2.4101422641752284
+Rmax=2.438499480536655
+Integral(capa):0.12228069548533647
+Integral(Parcial): 232.15603899740643
+------------------------------------------
+lun,16 may, 21:40:13   @ 14.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 30.0
+N poits:60.0
+Rmin=2.438499480536655
+Rmax=2.4662120743304685
+Integral(capa):0.10320415103034498
+Integral(Parcial): 232.25924314843678
+------------------------------------------
+lun,16 may, 21:55:57   @ 17.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 31.0
+N poits:60.0
+Rmin=2.4662120743304685
+Rmax=2.4933154761193213
+Integral(capa):0.0869925361655668
+Integral(Parcial): 232.34623568460233
+------------------------------------------
+lun,16 may, 21:52:59   @ 18.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 32.0
+N poits:60.0
+Rmin=2.4933154761193213
+Rmax=2.5198420997897446
+Integral(capa):0.07514095197119215
+Integral(Parcial): 232.4213766365735
+------------------------------------------
+lun,16 may, 21:51:45   @ 21.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 33.0
+N poits:60.0
+Rmin=2.5198420997897446
+Rmax=2.5458216848297424
+Integral(capa):0.06428850820137913
+Integral(Parcial): 232.48566514477488
+------------------------------------------
+lun,16 may, 21:44:58   @ 19.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 34.0
+N poits:60.0
+Rmin=2.5458216848297424
+Rmax=2.5712815906582334
+Integral(capa):0.054897709078028566
+Integral(Parcial): 232.54056285385292
+------------------------------------------
+lun,16 may, 21:43:16   @ 19.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 35.0
+N poits:60.0
+Rmin=2.5712815906582334
+Rmax=2.59624705092555
+Integral(capa):0.04749756957834964
+Integral(Parcial): 232.58806042343127
+------------------------------------------
+lun,16 may, 21:40:16   @ 17.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 36.0
+N poits:60.0
+Rmin=2.59624705092555
+Rmax=2.6207413942088946
+Integral(capa):0.040937684643278856
+Integral(Parcial): 232.62899810807454
+------------------------------------------
+lun,16 may, 21:56:00   @ 20.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 37.0
+N poits:60.0
+Rmin=2.6207413942088946
+Rmax=2.6447862363471017
+Integral(capa):0.034965289325491464
+Integral(Parcial): 232.66396339740004
+------------------------------------------
+lun,16 may, 21:53:02   @ 21.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 38.0
+N poits:60.0
+Rmin=2.6447862363471017
+Rmax=2.6684016487219426
+Integral(capa):0.03066326893477479
+Integral(Parcial): 232.6946266663348
+------------------------------------------
+lun,16 may, 21:51:48   @ 24.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 39.0
+N poits:60.0
+Rmin=2.6684016487219426
+Rmax=2.6916063060436395
+Integral(capa):0.026639310925112396
+Integral(Parcial): 232.72126597725992
+------------------------------------------
+lun,16 may, 21:45:01   @ 22.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 40.0
+N poits:60.0
+Rmin=2.6916063060436395
+Rmax=2.714417616594904
+Integral(capa):0.023092389623171825
+Integral(Parcial): 232.7443583668831
+------------------------------------------
+lun,16 may, 21:43:20   @ 22.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 41.0
+N poits:60.0
+Rmin=2.714417616594904
+Rmax=2.7368518373992115
+Integral(capa):0.019964833555105435
+Integral(Parcial): 232.76432320043818
+------------------------------------------
+lun,16 may, 21:40:18   @ 20.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 42.0
+N poits:60.0
+Rmin=2.7368518373992115
+Rmax=2.758924176381118
+Integral(capa):0.017346486933867283
+Integral(Parcial): 232.78166968737204
+------------------------------------------
+lun,16 may, 21:56:03   @ 23.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 43.0
+N poits:60.0
+Rmin=2.758924176381118
+Rmax=2.780648883260615
+Integral(capa):0.015249735348338879
+Integral(Parcial): 232.79691942272038
+------------------------------------------
+lun,16 may, 21:53:04   @ 24.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 44.0
+N poits:60.0
+Rmin=2.780648883260615
+Rmax=2.802039330655384
+Integral(capa):0.013300798495749399
+Integral(Parcial): 232.81022022121613
+------------------------------------------
+lun,16 may, 21:51:51   @ 27.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 45.0
+N poits:60.0
+Rmin=2.802039330655384
+Rmax=2.8231080866430824
+Integral(capa):0.011697568253813585
+Integral(Parcial): 232.82191778946995
+------------------------------------------
+lun,16 may, 21:45:04   @ 26.0 seg
+Tiempo capa: 4.0 seg 
+ 
+Capa ID: 46.0
+N poits:60.0
+Rmin=2.8231080866430824
+Rmax=2.8438669798515623
+Integral(capa):0.01003378856643523
+Integral(Parcial): 232.83195157803638
+------------------------------------------
+lun,16 may, 21:43:23   @ 26.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 47.0
+N poits:60.0
+Rmin=2.8438669798515623
+Rmax=2.8643271579912155
+Integral(capa):0.00893397843861483
+Integral(Parcial): 232.840885556475
+------------------------------------------
+lun,16 may, 21:40:21   @ 22.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 48.0
+N poits:60.0
+Rmin=2.8643271579912155
+Rmax=2.884499140614813
+Integral(capa):0.007976934166416821
+Integral(Parcial): 232.8488624906414
+------------------------------------------
+lun,16 may, 21:56:06   @ 26.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 49.0
+N poits:60.0
+Rmin=2.884499140614813
+Rmax=2.904392866781848
+Integral(capa):0.006838190008121723
+Integral(Parcial): 232.85570068064953
+------------------------------------------
+lun,16 may, 21:53:07   @ 27.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 50.0
+N poits:60.0
+Rmin=2.904392866781848
+Rmax=2.924017738212862
+Integral(capa):0.00597276420584593
+Integral(Parcial): 232.86167344485537
+------------------------------------------
+lun,16 may, 21:51:54   @ 30.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 51.0
+N poits:60.0
+Rmin=2.924017738212862
+Rmax=2.943382658441664
+Integral(capa):0.005247972171581568
+Integral(Parcial): 232.86692141702696
+------------------------------------------
+lun,16 may, 21:45:08   @ 30.0 seg
+Tiempo capa: 4.0 seg 
+ 
+Capa ID: 52.0
+N poits:60.0
+Rmin=2.943382658441664
+Rmax=2.9624960684073662
+Integral(capa):0.004669864295607676
+Integral(Parcial): 232.87159128132257
+------------------------------------------
+lun,16 may, 21:43:26   @ 29.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 53.0
+N poits:60.0
+Rmin=2.9624960684073662
+Rmax=2.981365978871841
+Integral(capa):0.0041987561158747634
+Integral(Parcial): 232.87579003743843
+------------------------------------------
+lun,16 may, 21:40:24   @ 25.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 54.0
+N poits:60.0
+Rmin=2.981365978871841
+Rmax=2.9999999999999956
+Integral(capa):0.0036630491215905643
+Integral(Parcial): 232.87945308656003
+------------------------------------------
+lun,16 may, 21:56:08   @ 28.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 55.0
+N poits:60.0
+Rmin=2.9999999999999956
+Rmax=3.018405368398838
+Integral(capa):0.0032541566618651254
+Integral(Parcial): 232.8827072432219
+------------------------------------------
+lun,16 may, 21:53:10   @ 30.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 56.0
+N poits:60.0
+Rmin=3.018405368398838
+Rmax=3.0365889718756574
+Integral(capa):0.0028207735211599064
+Integral(Parcial): 232.88552801674305
+------------------------------------------
+lun,16 may, 21:51:57   @ 33.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 57.0
+N poits:60.0
+Rmin=3.0365889718756574
+Rmax=3.0545573721447976
+Integral(capa):0.0025126752790929382
+Integral(Parcial): 232.88804069202214
+------------------------------------------
+lun,16 may, 21:45:11   @ 33.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 58.0
+N poits:60.0
+Rmin=3.0545573721447976
+Rmax=3.0723168256858417
+Integral(capa):0.002229634844066281
+Integral(Parcial): 232.89027032686622
+------------------------------------------
+lun,16 may, 21:43:30   @ 32.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 59.0
+N poits:60.0
+Rmin=3.0723168256858417
+Rmax=3.0898733029328165
+Integral(capa):0.001961735202282431
+Integral(Parcial): 232.8922320620685
+------------------------------------------
+lun,16 may, 21:40:27   @ 28.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 60.0
+N poits:60.0
+Rmin=3.0898733029328165
+Rmax=3.1072325059538533
+Integral(capa):0.0017305221943726007
+Integral(Parcial): 232.89396258426288
+------------------------------------------
+lun,16 may, 21:56:11   @ 31.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 61.0
+N poits:60.0
+Rmin=3.1072325059538533
+Rmax=3.124399884763116
+Integral(capa):0.0015759222236031989
+Integral(Parcial): 232.89553850648647
+------------------------------------------
+lun,16 may, 21:53:13   @ 33.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 62.0
+N poits:60.0
+Rmin=3.124399884763116
+Rmax=3.141380652391387
+Integral(capa):0.0013709293685293098
+Integral(Parcial): 232.896909435855
+------------------------------------------
+lun,16 may, 21:52:00   @ 36.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 63.0
+N poits:60.0
+Rmin=3.141380652391387
+Rmax=3.1581797988281832
+Integral(capa):0.0012394385254288663
+Integral(Parcial): 232.89814887438044
+------------------------------------------
+lun,16 may, 21:45:14   @ 36.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 64.0
+N poits:60.0
+Rmin=3.1581797988281832
+Rmax=3.1748021039363925
+Integral(capa):0.0011005710842120378
+Integral(Parcial): 232.89924944546465
+------------------------------------------
+lun,16 may, 21:43:33   @ 35.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 65.0
+N poits:60.0
+Rmin=3.1748021039363925
+Rmax=3.191252149429947
+Integral(capa):9.671630404125226E-4
+Integral(Parcial): 232.90021660850505
+------------------------------------------
+lun,16 may, 21:40:29   @ 31.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 66.0
+N poits:60.0
+Rmin=3.191252149429947
+Rmax=3.2075343299958194
+Integral(capa):8.772943541745162E-4
+Integral(Parcial): 232.90109390285923
+------------------------------------------
+lun,16 may, 21:56:14   @ 34.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 67.0
+N poits:60.0
+Rmin=3.2075343299958194
+Rmax=3.22365286363345
+Integral(capa):7.738538319555546E-4
+Integral(Parcial): 232.9018677566912
+------------------------------------------
+lun,16 may, 21:53:16   @ 36.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 68.0
+N poits:60.0
+Rmin=3.22365286363345
+Rmax=3.2396118012774764
+Integral(capa):6.893057558000353E-4
+Integral(Parcial): 232.902557062447
+------------------------------------------
+lun,16 may, 21:52:03   @ 39.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 69.0
+N poits:60.0
+Rmin=3.2396118012774764
+Rmax=3.255415035763209
+Integral(capa):6.227406935035471E-4
+Integral(Parcial): 232.9031798031405
+------------------------------------------
+lun,16 may, 21:45:18   @ 40.0 seg
+Tiempo capa: 4.0 seg 
+ 
+Capa ID: 70.0
+N poits:60.0
+Rmin=3.255415035763209
+Rmax=3.2710663101885826
+Integral(capa):5.531207735205647E-4
+Integral(Parcial): 232.90373292391402
+------------------------------------------
+lun,16 may, 21:43:36   @ 39.0 seg
+Tiempo capa: 4.0 seg 
+ 
+Capa ID: 71.0
+N poits:60.0
+Rmin=3.2710663101885826
+Rmax=3.2865692257212076
+Integral(capa):4.970312244088639E-4
+Integral(Parcial): 232.90422995513842
+------------------------------------------
+lun,16 may, 21:40:32   @ 33.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 72.0
+N poits:60.0
+Rmin=3.2865692257212076
+Rmax=3.301927248894619
+Integral(capa):4.4543988041227987E-4
+Integral(Parcial): 232.90467539501884
+------------------------------------------
+lun,16 may, 21:56:17   @ 37.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 73.0
+N poits:60.0
+Rmin=3.301927248894619
+Rmax=3.3171437184337407
+Integral(capa):3.9085439761089077E-4
+Integral(Parcial): 232.90506624941645
+------------------------------------------
+lun,16 may, 21:53:19   @ 38.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 74.0
+N poits:60.0
+Rmin=3.3171437184337407
+Rmax=3.3322218516459454
+Integral(capa):3.549484722259418E-4
+Integral(Parcial): 232.90542119788867
+------------------------------------------
+lun,16 may, 21:52:06   @ 42.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 75.0
+N poits:60.0
+Rmin=3.3322218516459454
+Rmax=3.3471647504108395
+Integral(capa):3.1324872823347116E-4
+Integral(Parcial): 232.90573444661692
+------------------------------------------
+lun,16 may, 21:45:21   @ 43.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 76.0
+N poits:60.0
+Rmin=3.3471647504108395
+Rmax=3.361975406798955
+Integral(capa):2.7718575074781103E-4
+Integral(Parcial): 232.90601163236767
+------------------------------------------
+lun,16 may, 21:43:40   @ 42.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 77.0
+N poits:60.0
+Rmin=3.361975406798955
+Rmax=3.376656708346902
+Integral(capa):2.5687330576329274E-4
+Integral(Parcial): 232.90626850567344
+------------------------------------------
+lun,16 may, 21:40:35   @ 36.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 78.0
+N poits:60.0
+Rmin=3.376656708346902
+Rmax=3.3912114430141584
+Integral(capa):2.293365782414535E-4
+Integral(Parcial): 232.90649784225167
+------------------------------------------
+lun,16 may, 21:56:19   @ 39.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 79.0
+N poits:60.0
+Rmin=3.3912114430141584
+Rmax=3.405642303844531
+Integral(capa):2.1177857936278532E-4
+Integral(Parcial): 232.90670962083104
+------------------------------------------
+lun,16 may, 21:53:22   @ 41.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 80.0
+N poits:60.0
+Rmin=3.405642303844531
+Rmax=3.4199518933533852
+Integral(capa):1.8901503177308886E-4
+Integral(Parcial): 232.9068986358628
+------------------------------------------
+lun,16 may, 21:52:09   @ 45.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 81.0
+N poits:60.0
+Rmin=3.4199518933533852
+Rmax=3.434142727659987
+Integral(capa):1.6853028755909038E-4
+Integral(Parcial): 232.90706716615037
+------------------------------------------
+lun,16 may, 21:45:24   @ 45.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 82.0
+N poits:60.0
+Rmin=3.434142727659987
+Rmax=3.4482172403827214
+Integral(capa):1.487817635781173E-4
+Integral(Parcial): 232.90721594791395
+------------------------------------------
+lun,16 may, 21:43:42   @ 45.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 83.0
+N poits:60.0
+Rmin=3.4482172403827214
+Rmax=3.462177786313511
+Integral(capa):1.3515323466843524E-4
+Integral(Parcial): 232.90735110114863
+------------------------------------------
+lun,16 may, 21:40:38   @ 39.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 84.0
+N poits:60.0
+Rmin=3.462177786313511
+Rmax=3.4760266448864408
+Integral(capa):1.2075692683595763E-4
+Integral(Parcial): 232.90747185807547
+------------------------------------------
+lun,16 may, 21:56:22   @ 42.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 85.0
+N poits:60.0
+Rmin=3.4760266448864408
+Rmax=3.4897660234544343
+Integral(capa):1.0522981870280251E-4
+Integral(Parcial): 232.90757708789417
+------------------------------------------
+lun,16 may, 21:53:25   @ 45.0 seg
+Tiempo capa: 4.0 seg 
+ 
+Capa ID: 86.0
+N poits:60.0
+Rmin=3.4897660234544343
+Rmax=3.5033980603867145
+Integral(capa):9.832421351054768E-5
+Integral(Parcial): 232.90767541210766
+------------------------------------------
+lun,16 may, 21:52:12   @ 48.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 87.0
+N poits:60.0
+Rmin=3.5033980603867145
+Rmax=3.516924827998822
+Integral(capa):8.956474313738913E-5
+Integral(Parcial): 232.9077649768508
+------------------------------------------
+lun,16 may, 21:45:27   @ 48.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 88.0
+N poits:60.0
+Rmin=3.516924827998822
+Rmax=3.530348335326053
+Integral(capa):8.14043124194808E-5
+Integral(Parcial): 232.90784638116324
+------------------------------------------
+lun,16 may, 21:43:45   @ 48.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 89.0
+N poits:60.0
+Rmin=3.530348335326053
+Rmax=3.5436705307503673
+Integral(capa):7.398846865753403E-5
+Integral(Parcial): 232.9079203696319
+------------------------------------------
+lun,16 may, 21:40:40   @ 42.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 90.0
+N poits:60.0
+Rmin=3.5436705307503673
+Rmax=3.556893304490053
+Integral(capa):6.3340090924818E-5
+Integral(Parcial): 232.90798370972283
+------------------------------------------
+lun,16 may, 21:56:25   @ 45.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 91.0
+N poits:60.0
+Rmin=3.556893304490053
+Rmax=3.570018490960768
+Integral(capa):5.873865225639348E-5
+Integral(Parcial): 232.90804244837508
+------------------------------------------
+lun,16 may, 21:53:28   @ 48.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 92.0
+N poits:60.0
+Rmin=3.570018490960768
+Rmax=3.583047871015936
+Integral(capa):5.3476821490041E-5
+Integral(Parcial): 232.90809592519656
+------------------------------------------
+lun,16 may, 21:52:15   @ 51.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 93.0
+N poits:60.0
+Rmin=3.583047871015936
+Rmax=3.5959831740738943
+Integral(capa):4.881798347220899E-5
+Integral(Parcial): 232.90814474318003
+------------------------------------------
+lun,16 may, 21:45:29   @ 51.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 94.0
+N poits:60.0
+Rmin=3.5959831740738943
+Rmax=3.608826080138684
+Integral(capa):4.459978536243109E-5
+Integral(Parcial): 232.9081893429654
+------------------------------------------
+lun,16 may, 21:43:48   @ 51.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 95.0
+N poits:60.0
+Rmin=3.608826080138684
+Rmax=3.6215782217208594
+Integral(capa):3.8615962794127697E-5
+Integral(Parcial): 232.9082279589282
+------------------------------------------
+lun,16 may, 21:40:43   @ 44.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 96.0
+N poits:60.0
+Rmin=3.6215782217208594
+Rmax=3.6342411856642682
+Integral(capa):3.597233581505535E-5
+Integral(Parcial): 232.908263931264
+------------------------------------------
+lun,16 may, 21:56:28   @ 48.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 97.0
+N poits:60.0
+Rmin=3.6342411856642682
+Rmax=3.6468165148843283
+Integral(capa):3.198875262914335E-5
+Integral(Parcial): 232.90829592001663
+------------------------------------------
+lun,16 may, 21:53:31   @ 51.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 98.0
+N poits:60.0
+Rmin=3.6468165148843283
+Rmax=3.65930571002296
+Integral(capa):2.9675652081246543E-5
+Integral(Parcial): 232.9083255956687
+------------------------------------------
+lun,16 may, 21:52:18   @ 54.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 99.0
+N poits:60.0
+Rmin=3.65930571002296
+Rmax=3.6717102310249694
+Integral(capa):2.6888535388113008E-5
+Integral(Parcial): 232.9083524842041
+------------------------------------------
+lun,16 may, 21:45:32   @ 54.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 100.0
+N poits:60.0
+Rmin=3.6717102310249694
+Rmax=3.6840314986403744
+Integral(capa):2.4594767742173623E-5
+Integral(Parcial): 232.90837707897185
+------------------------------------------
+lun,16 may, 21:43:51   @ 54.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 101.0
+N poits:60.0
+Rmin=3.6840314986403744
+Rmax=3.6962708958568453
+Integral(capa):2.2516868330410216E-5
+Integral(Parcial): 232.9083995958402
+------------------------------------------
+lun,16 may, 21:40:46   @ 47.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 102.0
+N poits:60.0
+Rmin=3.6962708958568453
+Rmax=3.7084297692661767
+Integral(capa):1.9736765668975683E-5
+Integral(Parcial): 232.90841933260586
+------------------------------------------
+lun,16 may, 21:56:30   @ 50.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 103.0
+N poits:60.0
+Rmin=3.7084297692661767
+Rmax=3.7205094303684403
+Integral(capa):1.8232620241436286E-5
+Integral(Parcial): 232.9084375652261
+------------------------------------------
+lun,16 may, 21:53:34   @ 54.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 104.0
+N poits:60.0
+Rmin=3.7205094303684403
+Rmax=3.7325111568172353
+Integral(capa):1.6239969533845373E-5
+Integral(Parcial): 232.90845380519565
+------------------------------------------
+lun,16 may, 21:52:20   @ 57.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 105.0
+N poits:60.0
+Rmin=3.7325111568172353
+Rmax=3.7444361936092405
+Integral(capa):1.4876962627546947E-5
+Integral(Parcial): 232.9084686821583
+------------------------------------------
+lun,16 may, 21:45:35   @ 57.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 106.0
+N poits:60.0
+Rmin=3.7444361936092405
+Rmax=3.7562857542210586
+Integral(capa):1.3589809729771435E-5
+Integral(Parcial): 232.908482271968
+------------------------------------------
+lun,16 may, 21:43:54   @ 57.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 107.0
+N poits:60.0
+Rmin=3.7562857542210586
+Rmax=3.768061021696167
+Integral(capa):1.2022581336894182E-5
+Integral(Parcial): 232.90849429454934
+------------------------------------------
+lun,16 may, 21:40:49   @ 50.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 108.0
+N poits:60.0
+Rmin=3.768061021696167
+Rmax=3.7797631496846056
+Integral(capa):1.1479893119301386E-5
+Integral(Parcial): 232.90850577444246
+------------------------------------------
+lun,16 may, 21:56:33   @ 53.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 109.0
+N poits:60.0
+Rmin=3.7797631496846056
+Rmax=3.7913932634378766
+Integral(capa):1.0136876410400118E-5
+Integral(Parcial): 232.90851591131886
+------------------------------------------
+lun,16 may, 21:53:37   @ 57.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 110.0
+N poits:60.0
+Rmin=3.7913932634378766
+Rmax=3.802952460761377
+Integral(capa):9.487280269653645E-6
+Integral(Parcial): 232.90852539859912
+------------------------------------------
+lun,16 may, 21:52:23   @ 1.0 min, 
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 111.0
+N poits:60.0
+Rmin=3.802952460761377
+Rmax=3.8144418129265434
+Integral(capa):8.495775189976921E-6
+Integral(Parcial): 232.9085338943743
+------------------------------------------
+lun,16 may, 21:45:38   @ 1.0 min, 
+Tiempo capa: 4.0 seg 
+ 
+Capa ID: 112.0
+N poits:60.0
+Rmin=3.8144418129265434
+Rmax=3.825862365544763
+Integral(capa):7.442725432170554E-6
+Integral(Parcial): 232.90854133709973
+------------------------------------------
+lun,16 may, 21:43:57   @ 1.0 min, 
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 113.0
+N poits:60.0
+Rmin=3.825862365544763
+Rmax=3.8372151394049765
+Integral(capa):7.171179407151112E-6
+Integral(Parcial): 232.90854850827915
+------------------------------------------
+lun,16 may, 21:40:51   @ 52.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 114.0
+N poits:60.0
+Rmin=3.8372151394049765
+Rmax=3.8485011312767896
+Integral(capa):6.339172002786187E-6
+Integral(Parcial): 232.90855484745114
+------------------------------------------
+lun,16 may, 21:56:36   @ 56.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 115.0
+N poits:60.0
+Rmin=3.8485011312767896
+Rmax=3.859721314680805
+Integral(capa):6.010726328326689E-6
+Integral(Parcial): 232.90856085817748
+------------------------------------------
+lun,16 may, 21:53:40   @ 1.0 min, 
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 116.0
+N poits:60.0
+Rmin=3.859721314680805
+Rmax=3.8708766406277806
+Integral(capa):5.372048014138833E-6
+Integral(Parcial): 232.9085662302255
+------------------------------------------
+lun,16 may, 21:52:26   @ 1.0 min, 3.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 117.0
+N poits:60.0
+Rmin=3.8708766406277806
+Rmax=3.881968038328137
+Integral(capa):4.943052570189622E-6
+Integral(Parcial): 232.90857117327806
+------------------------------------------
+lun,16 may, 21:45:42   @ 1.0 min, 4.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 118.0
+N poits:60.0
+Rmin=3.881968038328137
+Rmax=3.892996415873244
+Integral(capa):4.470157940327918E-6
+Integral(Parcial): 232.908575643436
+------------------------------------------
+lun,16 may, 21:44:00   @ 1.0 min, 2.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 119.0
+N poits:60.0
+Rmin=3.892996415873244
+Rmax=3.903962660889838
+Integral(capa):4.130824280567951E-6
+Integral(Parcial): 232.9085797742603
+------------------------------------------
+lun,16 may, 21:40:54   @ 55.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 120.0
+N poits:60.0
+Rmin=3.903962660889838
+Rmax=3.9148676411688466
+Integral(capa):3.7353084671008663E-6
+Integral(Parcial): 232.90858350956876
+------------------------------------------
+lun,16 may, 21:56:39   @ 59.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 121.0
+N poits:60.0
+Rmin=3.9148676411688466
+Rmax=3.9257122052698277
+Integral(capa):3.406724222420646E-6
+Integral(Parcial): 232.908586916293
+------------------------------------------
+lun,16 may, 21:53:43   @ 1.0 min, 2.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 122.0
+N poits:60.0
+Rmin=3.9257122052698277
+Rmax=3.936497183102156
+Integral(capa):3.0323069064600274E-6
+Integral(Parcial): 232.90858994859988
+------------------------------------------
+lun,16 may, 21:52:29   @ 1.0 min, 5.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 123.0
+N poits:60.0
+Rmin=3.936497183102156
+Rmax=3.94722338648404
+Integral(capa):2.9216127582572744E-6
+Integral(Parcial): 232.90859287021263
+------------------------------------------
+lun,16 may, 21:45:45   @ 1.0 min, 6.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 124.0
+N poits:60.0
+Rmin=3.94722338648404
+Rmax=3.957891609680388
+Integral(capa):2.5498012927468837E-6
+Integral(Parcial): 232.9085954200139
+------------------------------------------
+lun,16 may, 21:44:02   @ 1.0 min, 5.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 125.0
+N poits:60.0
+Rmin=3.957891609680388
+Rmax=3.968502629920481
+Integral(capa):2.3731352339902887E-6
+Integral(Parcial): 232.90859779314914
+------------------------------------------
+lun,16 may, 21:40:57   @ 58.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 126.0
+N poits:60.0
+Rmin=3.968502629920481
+Rmax=3.979057207896374
+Integral(capa):2.1580377206151504E-6
+Integral(Parcial): 232.90859995118686
+------------------------------------------
+lun,16 may, 21:56:42   @ 1.0 min, 2.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 127.0
+N poits:60.0
+Rmin=3.979057207896374
+Rmax=3.989556088242883
+Integral(capa):1.994681640093081E-6
+Integral(Parcial): 232.9086019458685
+------------------------------------------
+lun,16 may, 21:53:46   @ 1.0 min, 5.0 seg
+Tiempo capa: 3.0 seg 
+ 
+Capa ID: 128.0
+N poits:60.0
+Rmin=3.989556088242883
+Rmax=3.999999999999982
+Integral(capa):1.7581718974008564E-6
+Integral(Parcial): 232.9086037040404
+------------------------------------------
+

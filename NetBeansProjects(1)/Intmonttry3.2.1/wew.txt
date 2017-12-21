@@ -1,0 +1,2020 @@
+Capa ID: 1.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.42
+Rmax=48.42036774435595
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 2.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.42036774435595
+Rmax=48.420735466369614
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 3.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.420735466369614
+Rmax=48.42110316604388
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 4.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.42110316604388
+Rmax=48.42147084338163
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 5.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.42147084338163
+Rmax=48.421838498385746
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 6.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.421838498385746
+Rmax=48.42220613105911
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 7.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.42220613105911
+Rmax=48.42257374140461
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 8.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.42257374140461
+Rmax=48.42294132942513
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 9.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.42294132942513
+Rmax=48.42330889512354
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 10.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.42330889512354
+Rmax=48.423676438502724
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+
+Capa ID: 11.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.423676438502724
+Rmax=48.424043959565566
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 12.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.424043959565566
+Rmax=48.42441145831494
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 13.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.42441145831494
+Rmax=48.42477893475373
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 14.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.42477893475373
+Rmax=48.42514638888481
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 15.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.42514638888481
+Rmax=48.42551382071106
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 16.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.42551382071106
+Rmax=48.425881230235355
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 17.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.425881230235355
+Rmax=48.42624861746057
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 18.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.42624861746057
+Rmax=48.426615982389585
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 19.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.426615982389585
+Rmax=48.42698332502527
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 20.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.42698332502527
+Rmax=48.427350645370495
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+
+Capa ID: 21.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.427350645370495
+Rmax=48.42771794342815
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 22.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.42771794342815
+Rmax=48.428085219201094
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 23.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.428085219201094
+Rmax=48.42845247269221
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 24.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.42845247269221
+Rmax=48.42881970390436
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 25.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.42881970390436
+Rmax=48.42918691284042
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 26.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.42918691284042
+Rmax=48.42955409950327
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 27.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.42955409950327
+Rmax=48.42992126389578
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 28.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.42992126389578
+Rmax=48.43028840602081
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 29.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.43028840602081
+Rmax=48.43065552588123
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 30.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.43065552588123
+Rmax=48.43102262347991
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+
+Capa ID: 31.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.43102262347991
+Rmax=48.43138969881973
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 32.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.43138969881973
+Rmax=48.431756751903535
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 33.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.431756751903535
+Rmax=48.43212378273421
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 34.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.43212378273421
+Rmax=48.43249079131462
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 35.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.43249079131462
+Rmax=48.43285777764763
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 36.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.43285777764763
+Rmax=48.4332247417361
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 37.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.4332247417361
+Rmax=48.4335916835829
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 38.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.4335916835829
+Rmax=48.43395860319089
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 39.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.43395860319089
+Rmax=48.434325500562935
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 40.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.434325500562935
+Rmax=48.43469237570191
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+
+Capa ID: 41.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.43469237570191
+Rmax=48.43505922861066
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 42.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.43505922861066
+Rmax=48.43542605929206
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 43.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.43542605929206
+Rmax=48.43579286774897
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 44.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.43579286774897
+Rmax=48.43615965398425
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 45.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.43615965398425
+Rmax=48.43652641800075
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 46.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.43652641800075
+Rmax=48.43689315980135
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 47.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.43689315980135
+Rmax=48.43725987938889
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 48.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.43725987938889
+Rmax=48.43762657676624
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 49.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.43762657676624
+Rmax=48.437993251936255
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 50.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.437993251936255
+Rmax=48.438359904901795
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+
+Capa ID: 51.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.438359904901795
+Rmax=48.438726535665715
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 52.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.438726535665715
+Rmax=48.43909314423087
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 53.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.43909314423087
+Rmax=48.43945973060011
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 54.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.43945973060011
+Rmax=48.43982629477631
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 55.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.43982629477631
+Rmax=48.44019283676231
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 56.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.44019283676231
+Rmax=48.44055935656097
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 57.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.44055935656097
+Rmax=48.440925854175134
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 58.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.440925854175134
+Rmax=48.44129232960766
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 59.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.44129232960766
+Rmax=48.44165878286141
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 60.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.44165878286141
+Rmax=48.442025213939225
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+
+Capa ID: 61.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.442025213939225
+Rmax=48.442391622843964
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 62.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.442391622843964
+Rmax=48.44275800957847
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 63.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.44275800957847
+Rmax=48.4431243741456
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 64.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.4431243741456
+Rmax=48.4434907165482
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 65.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.4434907165482
+Rmax=48.443857036789126
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 66.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.443857036789126
+Rmax=48.44422333487122
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 67.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.44422333487122
+Rmax=48.44458961079733
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 68.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.44458961079733
+Rmax=48.444955864570304
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 69.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.444955864570304
+Rmax=48.445322096192996
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 70.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.445322096192996
+Rmax=48.44568830566824
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+
+Capa ID: 71.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.44568830566824
+Rmax=48.4460544929989
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 72.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.4460544929989
+Rmax=48.4464206581878
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 73.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.4464206581878
+Rmax=48.44678680123779
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 74.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.44678680123779
+Rmax=48.44715292215173
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 75.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.44715292215173
+Rmax=48.44751902093245
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 76.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.44751902093245
+Rmax=48.44788509758279
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 77.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.44788509758279
+Rmax=48.448251152105605
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 78.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.448251152105605
+Rmax=48.44861718450373
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 79.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.44861718450373
+Rmax=48.448983194780006
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 80.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.448983194780006
+Rmax=48.44934918293727
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+
+Capa ID: 81.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.44934918293727
+Rmax=48.44971514897837
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 82.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.44971514897837
+Rmax=48.450081092906146
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 83.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.450081092906146
+Rmax=48.45044701472343
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 84.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.45044701472343
+Rmax=48.450812914433065
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 85.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.450812914433065
+Rmax=48.451178792037894
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 86.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.451178792037894
+Rmax=48.45154464754074
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 87.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.45154464754074
+Rmax=48.451910480944456
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 88.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.451910480944456
+Rmax=48.45227629225187
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 89.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.45227629225187
+Rmax=48.45264208146582
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 90.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.45264208146582
+Rmax=48.45300784858914
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+
+Capa ID: 91.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.45300784858914
+Rmax=48.45337359362466
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 92.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.45337359362466
+Rmax=48.45373931657522
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 93.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.45373931657522
+Rmax=48.454105017443666
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 94.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.454105017443666
+Rmax=48.45447069623281
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 95.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.45447069623281
+Rmax=48.45483635294549
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 96.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.45483635294549
+Rmax=48.455201987584545
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 97.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.455201987584545
+Rmax=48.455567600152804
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 98.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.455567600152804
+Rmax=48.4559331906531
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 99.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.4559331906531
+Rmax=48.456298759088256
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 100.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.456298759088256
+Rmax=48.4566643054611
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+
+Capa ID: 101.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.4566643054611
+Rmax=48.45702982977447
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 102.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.45702982977447
+Rmax=48.45739533203119
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 103.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.45739533203119
+Rmax=48.45776081223409
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 104.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.45776081223409
+Rmax=48.458126270386
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 105.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.458126270386
+Rmax=48.458491706489745
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 106.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.458491706489745
+Rmax=48.458857120548146
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 107.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.458857120548146
+Rmax=48.45922251256403
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 108.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.45922251256403
+Rmax=48.459587882540234
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 109.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.459587882540234
+Rmax=48.45995323047957
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 110.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.45995323047957
+Rmax=48.46031855638486
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+
+Capa ID: 111.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.46031855638486
+Rmax=48.46068386025894
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 112.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.46068386025894
+Rmax=48.46104914210463
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 113.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.46104914210463
+Rmax=48.46141440192474
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 114.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.46141440192474
+Rmax=48.46177963972211
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 115.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.46177963972211
+Rmax=48.46214485549955
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 116.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.46214485549955
+Rmax=48.46251004925989
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 117.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.46251004925989
+Rmax=48.46287522100594
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 118.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.46287522100594
+Rmax=48.46324037074052
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 119.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.46324037074052
+Rmax=48.46360549846646
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 120.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.46360549846646
+Rmax=48.463970604186564
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+
+Capa ID: 121.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.463970604186564
+Rmax=48.46433568790366
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 122.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.46433568790366
+Rmax=48.46470074962057
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 123.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.46470074962057
+Rmax=48.4650657893401
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 124.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.4650657893401
+Rmax=48.465430807065076
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 125.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.465430807065076
+Rmax=48.465795802798304
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 126.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.465795802798304
+Rmax=48.46616077654261
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 127.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.46616077654261
+Rmax=48.466525728300795
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 128.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.466525728300795
+Rmax=48.466890658075684
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 129.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.466890658075684
+Rmax=48.46725556587009
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 130.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.46725556587009
+Rmax=48.46762045168683
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+
+Capa ID: 131.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.46762045168683
+Rmax=48.4679853155287
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 132.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.4679853155287
+Rmax=48.468350157398525
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 133.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.468350157398525
+Rmax=48.468714977299115
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 134.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.468714977299115
+Rmax=48.46907977523328
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 135.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.46907977523328
+Rmax=48.469444551203836
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 136.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.469444551203836
+Rmax=48.46980930521359
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 137.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.46980930521359
+Rmax=48.47017403726534
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 138.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.47017403726534
+Rmax=48.4705387473619
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 139.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.4705387473619
+Rmax=48.47090343550609
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 140.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.47090343550609
+Rmax=48.47126810170071
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+
+Capa ID: 141.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.47126810170071
+Rmax=48.47163274594857
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 142.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.47163274594857
+Rmax=48.47199736825247
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 143.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.47199736825247
+Rmax=48.47236196861522
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 144.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.47236196861522
+Rmax=48.47272654703962
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 145.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.47272654703962
+Rmax=48.47309110352848
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 146.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.47309110352848
+Rmax=48.47345563808461
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 147.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.47345563808461
+Rmax=48.47382015071081
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 148.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.47382015071081
+Rmax=48.47418464140988
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 149.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.47418464140988
+Rmax=48.47454911018462
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 150.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.47454911018462
+Rmax=48.47491355703784
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+
+Capa ID: 151.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.47491355703784
+Rmax=48.47527798197233
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 152.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.47527798197233
+Rmax=48.475642384990905
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 153.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.475642384990905
+Rmax=48.47600676609636
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 154.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.47600676609636
+Rmax=48.47637112529149
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 155.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.47637112529149
+Rmax=48.4767354625791
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 156.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.4767354625791
+Rmax=48.47709977796199
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 157.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.47709977796199
+Rmax=48.47746407144295
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 158.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.47746407144295
+Rmax=48.47782834302479
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 159.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.47782834302479
+Rmax=48.4781925927103
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 160.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.4781925927103
+Rmax=48.47855682050228
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+
+Capa ID: 161.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.47855682050228
+Rmax=48.47892102640352
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 162.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.47892102640352
+Rmax=48.47928521041682
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 163.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.47928521041682
+Rmax=48.479649372544976
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 164.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.479649372544976
+Rmax=48.480013512790784
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 165.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.480013512790784
+Rmax=48.48037763115703
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 166.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.48037763115703
+Rmax=48.48074172764652
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 167.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.48074172764652
+Rmax=48.48110580226203
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 168.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.48110580226203
+Rmax=48.48146985500637
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 169.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.48146985500637
+Rmax=48.48183388588232
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 170.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.48183388588232
+Rmax=48.48219789489267
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+
+Capa ID: 171.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.48219789489267
+Rmax=48.48256188204022
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 172.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.48256188204022
+Rmax=48.482925847327756
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 173.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.482925847327756
+Rmax=48.483289790758064
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 174.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.483289790758064
+Rmax=48.48365371233394
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 175.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.48365371233394
+Rmax=48.48401761205817
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 176.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.48401761205817
+Rmax=48.48438148993354
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 177.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.48438148993354
+Rmax=48.484745345962835
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 178.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.484745345962835
+Rmax=48.48510918014885
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 179.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.48510918014885
+Rmax=48.485472992494365
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 180.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.485472992494365
+Rmax=48.48583678300217
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+
+Capa ID: 181.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.48583678300217
+Rmax=48.48620055167505
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 182.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.48620055167505
+Rmax=48.48656429851578
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 183.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.48656429851578
+Rmax=48.486928023527156
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 184.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.486928023527156
+Rmax=48.48729172671196
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 185.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.48729172671196
+Rmax=48.48765540807297
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 186.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.48765540807297
+Rmax=48.48801906761297
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 187.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.48801906761297
+Rmax=48.48838270533474
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 188.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.48838270533474
+Rmax=48.48874632124107
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 189.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.48874632124107
+Rmax=48.48910991533472
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 190.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.48910991533472
+Rmax=48.4894734876185
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+
+Capa ID: 191.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.4894734876185
+Rmax=48.48983703809517
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 192.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.48983703809517
+Rmax=48.49020056676751
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 193.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.49020056676751
+Rmax=48.49056407363831
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 194.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.49056407363831
+Rmax=48.49092755871034
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 195.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.49092755871034
+Rmax=48.491291021986385
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 196.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.491291021986385
+Rmax=48.49165446346921
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 197.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.49165446346921
+Rmax=48.4920178831616
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 198.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.4920178831616
+Rmax=48.49238128106633
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 199.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.49238128106633
+Rmax=48.49274465718617
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+Capa ID: 200.0
+N poits:2000.0
+asm=1.0E-11
+Rmin=48.49274465718617
+Rmax=48.49310801152391
+Integral:0.0
+Error:0.0
+Partial e:0.0
+Partial I:0.0
+---------------------------------
+

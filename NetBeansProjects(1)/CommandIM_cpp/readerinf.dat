@@ -1,0 +1,18 @@
+mhhy
+****Info: 
+
+ Rmin1= 0.0
+ Rmax1= 3.999999999999965
+ N.puntos(1)= 200.0
+ Subm.area (1)= 4.0
+ Total Capas (1)= 256.0
+
+ Rmin2= 0.0
+ Rmax2=3.999999999999965
+ N.puntos(2)= 200.0
+ Subm.area (2)= 4.0
+ Total Capas (2)= 256.0
+
+ u=0.5
+ Nombre de archivo: mhhy
+ Procesos sim: 1.0

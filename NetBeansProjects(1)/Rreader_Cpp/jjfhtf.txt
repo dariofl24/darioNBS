@@ -1,0 +1,1302 @@
+****Info: 
+
+ Rmin1= 0.0
+ Rmax1= 3.999999999999982
+ N.puntos(1)= 200.0
+ Subm.area (1)= 2.0
+ Total Capas (1)= 128.0
+
+ Rmin2= 0.0
+ Rmax2=3.999999999999982
+ N.puntos(2)= 200.0
+ Subm.area (2)= 2.0
+ Total Capas (2)= 128.0
+
+ u=0.5
+ Nombre de archivo: jjfhtf
+ Procesos sim: 1.0
+
+*Resultados:
+------------------------------------------
+
+Thu Jun 16 16:29:05 2011@ 1 min, 22 seg  
+Tiempo capa: 1 min, 22 seg  
+
+Capa ID: 1
+N pns: 200
+Rmin= 0.000000000000000000 
+Rmax= 0.793700525984099792 
+*Integral(capa)= 70.382198365828799069 
+Integral(Parcial): 70.3821983658288
+------------------------------------------
+Thu Jun 16 16:30:22 2011@ 2 min, 39 seg  
+Tiempo capa: 1 min, 17 seg  
+
+Capa ID: 2
+N pns: 200
+Rmin= 0.793700525984099792 
+Rmax= 1.000000000000000000 
+*Integral(capa)= 56.794141019194675835 
+Integral(Parcial): 127.17633938502348
+------------------------------------------
+Thu Jun 16 16:31:40 2011@ 3 min, 57 seg  
+Tiempo capa: 1 min, 18 seg  
+
+Capa ID: 3
+N pns: 200
+Rmin= 1.000000000000000000 
+Rmax= 1.144714242553331873 
+*Integral(capa)= 46.998466176381356263 
+Integral(Parcial): 174.17480556140484
+------------------------------------------
+Thu Jun 16 16:33:00 2011@ 5 min, 17 seg  
+Tiempo capa: 1 min, 20 seg  
+
+Capa ID: 4
+N pns: 200
+Rmin= 1.144714242553331873 
+Rmax= 1.259921049894873191 
+*Integral(capa)= 38.811965090251263177 
+Integral(Parcial): 212.98677065165612
+------------------------------------------
+Thu Jun 16 16:34:15 2011@ 6 min, 32 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 5
+N pns: 200
+Rmin= 1.259921049894873191 
+Rmax= 1.357208808297453384 
+*Integral(capa)= 32.714580284623494322 
+Integral(Parcial): 245.7013509362796
+------------------------------------------
+Thu Jun 16 16:35:30 2011@ 7 min, 47 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 6
+N pns: 200
+Rmin= 1.357208808297453384 
+Rmax= 1.442249570307408302 
+*Integral(capa)= 27.767527283615695666 
+Integral(Parcial): 273.4688782198953
+------------------------------------------
+Thu Jun 16 16:36:45 2011@ 9 min, 2 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 7
+N pns: 200
+Rmin= 1.442249570307408302 
+Rmax= 1.518294485937831118 
+*Integral(capa)= 23.628539133683293727 
+Integral(Parcial): 297.09741735357863
+------------------------------------------
+Thu Jun 16 16:38:00 2011@ 10 min, 17 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 8
+N pns: 200
+Rmin= 1.518294485937831118 
+Rmax= 1.587401051968199361 
+*Integral(capa)= 20.019406907797129946 
+Integral(Parcial): 317.11682426137577
+------------------------------------------
+Thu Jun 16 16:39:14 2011@ 11 min, 31 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 9
+N pns: 200
+Rmin= 1.587401051968199361 
+Rmax= 1.650963624447313149 
+*Integral(capa)= 17.407990072830653361 
+Integral(Parcial): 334.52481433420644
+------------------------------------------
+Thu Jun 16 16:40:29 2011@ 12 min, 46 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 10
+N pns: 200
+Rmin= 1.650963624447313149 
+Rmax= 1.709975946676696612 
+*Integral(capa)= 14.854099352895397956 
+Integral(Parcial): 349.37891368710183
+------------------------------------------
+Thu Jun 16 16:41:44 2011@ 14 min, 1 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 11
+N pns: 200
+Rmin= 1.709975946676696612 
+Rmax= 1.765174167663031035 
+*Integral(capa)= 12.785725027864236480 
+Integral(Parcial): 362.1646387149661
+------------------------------------------
+Thu Jun 16 16:42:58 2011@ 15 min, 15 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 12
+N pns: 200
+Rmin= 1.765174167663031035 
+Rmax= 1.817120592832139225 
+*Integral(capa)= 11.139811177106022200 
+Integral(Parcial): 373.3044498920721
+------------------------------------------
+Thu Jun 16 16:44:15 2011@ 16 min, 32 seg  
+Tiempo capa: 1 min, 17 seg  
+
+Capa ID: 13
+N pns: 200
+Rmin= 1.817120592832139225 
+Rmax= 1.866255578408623661 
+*Integral(capa)= 9.694181426867368501 
+Integral(Parcial): 382.9986313189395
+------------------------------------------
+Thu Jun 16 16:45:31 2011@ 17 min, 48 seg  
+Tiempo capa: 1 min, 16 seg  
+
+Capa ID: 14
+N pns: 200
+Rmin= 1.866255578408623661 
+Rmax= 1.912931182772388494 
+*Integral(capa)= 8.357150199732487295 
+Integral(Parcial): 391.35578151867196
+------------------------------------------
+Thu Jun 16 16:46:47 2011@ 19 min, 4 seg  
+Tiempo capa: 1 min, 16 seg  
+
+Capa ID: 15
+N pns: 200
+Rmin= 1.912931182772388494 
+Rmax= 1.957433820584431050 
+*Integral(capa)= 7.284874138831212598 
+Integral(Parcial): 398.64065565750315
+------------------------------------------
+Thu Jun 16 16:48:07 2011@ 20 min, 24 seg  
+Tiempo capa: 1 min, 20 seg  
+
+Capa ID: 16
+N pns: 200
+Rmin= 1.957433820584431050 
+Rmax= 1.999999999999999112 
+*Integral(capa)= 6.349682305157354101 
+Integral(Parcial): 404.9903379626605
+------------------------------------------
+Thu Jun 16 16:49:22 2011@ 21 min, 39 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 17
+N pns: 200
+Rmin= 1.999999999999999112 
+Rmax= 2.040827550958673076 
+*Integral(capa)= 5.579027722128477862 
+Integral(Parcial): 410.569365684789
+------------------------------------------
+Thu Jun 16 16:50:39 2011@ 22 min, 56 seg  
+Tiempo capa: 1 min, 17 seg  
+
+Capa ID: 18
+N pns: 200
+Rmin= 2.040827550958673076 
+Rmax= 2.080083823051903202 
+*Integral(capa)= 4.889066286892847835 
+Integral(Parcial): 415.4584319716818
+------------------------------------------
+Thu Jun 16 16:51:53 2011@ 24 min, 10 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 19
+N pns: 200
+Rmin= 2.080083823051903202 
+Rmax= 2.117911792127445736 
+*Integral(capa)= 4.283262121397963362 
+Integral(Parcial): 419.7416940930798
+------------------------------------------
+Thu Jun 16 16:53:08 2011@ 25 min, 25 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 20
+N pns: 200
+Rmin= 2.117911792127445736 
+Rmax= 2.154434690031882926 
+*Integral(capa)= 3.768112924138070863 
+Integral(Parcial): 423.50980701721784
+------------------------------------------
+Thu Jun 16 16:54:23 2011@ 26 min, 40 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 21
+N pns: 200
+Rmin= 2.154434690031882926 
+Rmax= 2.189759569943943607 
+*Integral(capa)= 3.320519091770358422 
+Integral(Parcial): 426.8303261089882
+------------------------------------------
+Thu Jun 16 16:55:38 2011@ 27 min, 55 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 22
+N pns: 200
+Rmin= 2.189759569943943607 
+Rmax= 2.223980090569314338 
+*Integral(capa)= 2.927004080076945680 
+Integral(Parcial): 429.7573301890651
+------------------------------------------
+Thu Jun 16 16:56:52 2011@ 29 min, 9 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 23
+N pns: 200
+Rmin= 2.223980090569314338 
+Rmax= 2.257178717736999296 
+*Integral(capa)= 2.578323656896763794 
+Integral(Parcial): 432.3356538459619
+------------------------------------------
+Thu Jun 16 16:58:12 2011@ 30 min, 29 seg  
+Tiempo capa: 1 min, 20 seg  
+
+Capa ID: 24
+N pns: 200
+Rmin= 2.257178717736999296 
+Rmax= 2.289428485106662414 
+*Integral(capa)= 2.279559981804422542 
+Integral(Parcial): 434.6152138277663
+------------------------------------------
+Thu Jun 16 16:59:29 2011@ 31 min, 46 seg  
+Tiempo capa: 1 min, 17 seg  
+
+Capa ID: 25
+N pns: 200
+Rmin= 2.289428485106662414 
+Rmax= 2.320794416806387872 
+*Integral(capa)= 2.009053070498471261 
+Integral(Parcial): 436.62426689826475
+------------------------------------------
+Thu Jun 16 17:00:44 2011@ 33 min, 1 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 26
+N pns: 200
+Rmin= 2.320794416806387872 
+Rmax= 2.351334687720755934 
+*Integral(capa)= 1.775606042425128761 
+Integral(Parcial): 438.3998729406899
+------------------------------------------
+Thu Jun 16 17:01:59 2011@ 34 min, 16 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 27
+N pns: 200
+Rmin= 2.351334687720755934 
+Rmax= 2.381101577952297710 
+*Integral(capa)= 1.591755760584487200 
+Integral(Parcial): 439.99162870127435
+------------------------------------------
+Thu Jun 16 17:03:14 2011@ 35 min, 31 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 28
+N pns: 200
+Rmin= 2.381101577952297710 
+Rmax= 2.410142264175228366 
+*Integral(capa)= 1.402353462615882451 
+Integral(Parcial): 441.39398216389026
+------------------------------------------
+Thu Jun 16 17:04:28 2011@ 36 min, 45 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 29
+N pns: 200
+Rmin= 2.410142264175228366 
+Rmax= 2.438499480536655106 
+*Integral(capa)= 1.243097711360247271 
+Integral(Parcial): 442.6370798752505
+------------------------------------------
+Thu Jun 16 17:05:43 2011@ 38 min,  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 30
+N pns: 200
+Rmin= 2.438499480536655106 
+Rmax= 2.466212074330468518 
+*Integral(capa)= 1.111229525530927909 
+Integral(Parcial): 443.7483094007814
+------------------------------------------
+Thu Jun 16 17:06:58 2011@ 39 min, 15 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 31
+N pns: 200
+Rmin= 2.466212074330468518 
+Rmax= 2.493315476119321250 
+*Integral(capa)= 0.989140193006658897 
+Integral(Parcial): 444.7374495937881
+------------------------------------------
+Thu Jun 16 17:08:15 2011@ 40 min, 32 seg  
+Tiempo capa: 1 min, 17 seg  
+
+Capa ID: 32
+N pns: 200
+Rmin= 2.493315476119321250 
+Rmax= 2.519842099789744605 
+*Integral(capa)= 0.882006343236220514 
+Integral(Parcial): 445.6194559370243
+------------------------------------------
+Thu Jun 16 17:09:30 2011@ 41 min, 47 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 33
+N pns: 200
+Rmin= 2.519842099789744605 
+Rmax= 2.545821684829742360 
+*Integral(capa)= 0.787399950069943455 
+Integral(Parcial): 446.40685588709425
+------------------------------------------
+Thu Jun 16 17:10:44 2011@ 43 min, 1 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 34
+N pns: 200
+Rmin= 2.545821684829742360 
+Rmax= 2.571281590658233362 
+*Integral(capa)= 0.701145816713652281 
+Integral(Parcial): 447.10800170380793
+------------------------------------------
+Thu Jun 16 17:12:05 2011@ 44 min, 22 seg  
+Tiempo capa: 1 min, 21 seg  
+
+Capa ID: 35
+N pns: 200
+Rmin= 2.571281590658233362 
+Rmax= 2.596247050925549971 
+*Integral(capa)= 0.626893980950065433 
+Integral(Parcial): 447.734895684758
+------------------------------------------
+Thu Jun 16 17:13:19 2011@ 45 min, 36 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 36
+N pns: 200
+Rmin= 2.596247050925549971 
+Rmax= 2.620741394208894626 
+*Integral(capa)= 0.560541414598971888 
+Integral(Parcial): 448.29543709935695
+------------------------------------------
+Thu Jun 16 17:14:44 2011@ 47 min, 1 seg  
+Tiempo capa: 1 min, 25 seg  
+
+Capa ID: 37
+N pns: 200
+Rmin= 2.620741394208894626 
+Rmax= 2.644786236347101749 
+*Integral(capa)= 0.501909657776081986 
+Integral(Parcial): 448.797346757133
+------------------------------------------
+Thu Jun 16 17:15:59 2011@ 48 min, 16 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 38
+N pns: 200
+Rmin= 2.644786236347101749 
+Rmax= 2.668401648721942632 
+*Integral(capa)= 0.450043837309434702 
+Integral(Parcial): 449.24739059444244
+------------------------------------------
+Thu Jun 16 17:17:14 2011@ 49 min, 31 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 39
+N pns: 200
+Rmin= 2.668401648721942632 
+Rmax= 2.691606306043639485 
+*Integral(capa)= 0.402440495770246875 
+Integral(Parcial): 449.6498310902127
+------------------------------------------
+Thu Jun 16 17:18:34 2011@ 50 min, 51 seg  
+Tiempo capa: 1 min, 20 seg  
+
+Capa ID: 40
+N pns: 200
+Rmin= 2.691606306043639485 
+Rmax= 2.714417616594904104 
+*Integral(capa)= 0.361186523463913611 
+Integral(Parcial): 450.0110176136766
+------------------------------------------
+Thu Jun 16 17:19:52 2011@ 52 min, 9 seg  
+Tiempo capa: 1 min, 18 seg  
+
+Capa ID: 41
+N pns: 200
+Rmin= 2.714417616594904104 
+Rmax= 2.736851837399211451 
+*Integral(capa)= 0.323294217324219146 
+Integral(Parcial): 450.33431183100083
+------------------------------------------
+Thu Jun 16 17:21:07 2011@ 53 min, 24 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 42
+N pns: 200
+Rmin= 2.736851837399211451 
+Rmax= 2.758924176381118087 
+*Integral(capa)= 0.291493931632583414 
+Integral(Parcial): 450.62580576263343
+------------------------------------------
+Thu Jun 16 17:22:23 2011@ 54 min, 40 seg  
+Tiempo capa: 1 min, 16 seg  
+
+Capa ID: 43
+N pns: 200
+Rmin= 2.758924176381118087 
+Rmax= 2.780648883260615101 
+*Integral(capa)= 0.262345719499946506 
+Integral(Parcial): 450.88815148213337
+------------------------------------------
+Thu Jun 16 17:23:44 2011@ 56 min, 1 seg  
+Tiempo capa: 1 min, 21 seg  
+
+Capa ID: 44
+N pns: 200
+Rmin= 2.780648883260615101 
+Rmax= 2.802039330655384131 
+*Integral(capa)= 0.234867329837050082 
+Integral(Parcial): 451.12301881197044
+------------------------------------------
+Thu Jun 16 17:24:59 2011@ 57 min, 16 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 45
+N pns: 200
+Rmin= 2.802039330655384131 
+Rmax= 2.823108086643082437 
+*Integral(capa)= 0.211632102556768370 
+Integral(Parcial): 451.33465091452723
+------------------------------------------
+Thu Jun 16 17:26:13 2011@ 58 min, 30 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 46
+N pns: 200
+Rmin= 2.823108086643082437 
+Rmax= 2.843866979851562338 
+*Integral(capa)= 0.189856965606197858 
+Integral(Parcial): 451.52450788013346
+------------------------------------------
+Thu Jun 16 17:27:28 2011@ 59 min, 45 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 47
+N pns: 200
+Rmin= 2.843866979851562338 
+Rmax= 2.864327157991215511 
+*Integral(capa)= 0.170784648111649728 
+Integral(Parcial): 451.6952925282451
+------------------------------------------
+Thu Jun 16 17:28:43 2011@ 1 hor, 1 min,  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 48
+N pns: 200
+Rmin= 2.864327157991215511 
+Rmax= 2.884499140614813051 
+*Integral(capa)= 0.155577554232784937 
+Integral(Parcial): 451.85087008247785
+------------------------------------------
+Thu Jun 16 17:29:58 2011@ 1 hor, 2 min, 15 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 49
+N pns: 200
+Rmin= 2.884499140614813051 
+Rmax= 2.904392866781848159 
+*Integral(capa)= 0.139143240834338183 
+Integral(Parcial): 451.9900133233122
+------------------------------------------
+Thu Jun 16 17:31:12 2011@ 1 hor, 3 min, 29 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 50
+N pns: 200
+Rmin= 2.904392866781848159 
+Rmax= 2.924017738212862039 
+*Integral(capa)= 0.125909493100897052 
+Integral(Parcial): 452.1159228164131
+------------------------------------------
+Thu Jun 16 17:32:27 2011@ 1 hor, 4 min, 44 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 51
+N pns: 200
+Rmin= 2.924017738212862039 
+Rmax= 2.943382658441664024 
+*Integral(capa)= 0.113806793118636562 
+Integral(Parcial): 452.2297296095317
+------------------------------------------
+Thu Jun 16 17:33:41 2011@ 1 hor, 5 min, 58 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 52
+N pns: 200
+Rmin= 2.943382658441664024 
+Rmax= 2.962496068407366234 
+*Integral(capa)= 0.102937935863978758 
+Integral(Parcial): 452.3326675453957
+------------------------------------------
+Thu Jun 16 17:34:55 2011@ 1 hor, 7 min, 12 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 53
+N pns: 200
+Rmin= 2.962496068407366234 
+Rmax= 2.981365978871841182 
+*Integral(capa)= 0.092705052632361576 
+Integral(Parcial): 452.42537259802805
+------------------------------------------
+Thu Jun 16 17:36:10 2011@ 1 hor, 8 min, 27 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 54
+N pns: 200
+Rmin= 2.981365978871841182 
+Rmax= 2.999999999999995559 
+*Integral(capa)= 0.083546045921624679 
+Integral(Parcial): 452.5089186439497
+------------------------------------------
+Thu Jun 16 17:37:24 2011@ 1 hor, 9 min, 41 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 55
+N pns: 200
+Rmin= 2.999999999999995559 
+Rmax= 3.018405368398838107 
+*Integral(capa)= 0.076129595858322505 
+Integral(Parcial): 452.58504823980803
+------------------------------------------
+Thu Jun 16 17:38:38 2011@ 1 hor, 10 min, 55 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 56
+N pns: 200
+Rmin= 3.018405368398838107 
+Rmax= 3.036588971875657350 
+*Integral(capa)= 0.068789525261293130 
+Integral(Parcial): 452.65383776506934
+------------------------------------------
+Thu Jun 16 17:39:54 2011@ 1 hor, 12 min, 11 seg  
+Tiempo capa: 1 min, 16 seg  
+
+Capa ID: 57
+N pns: 200
+Rmin= 3.036588971875657350 
+Rmax= 3.054557372144797611 
+*Integral(capa)= 0.062209826608052354 
+Integral(Parcial): 452.7160475916774
+------------------------------------------
+Thu Jun 16 17:41:12 2011@ 1 hor, 13 min, 29 seg  
+Tiempo capa: 1 min, 18 seg  
+
+Capa ID: 58
+N pns: 200
+Rmin= 3.054557372144797611 
+Rmax= 3.072316825685841746 
+*Integral(capa)= 0.056687054524454605 
+Integral(Parcial): 452.77273464620185
+------------------------------------------
+Thu Jun 16 17:42:26 2011@ 1 hor, 14 min, 43 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 59
+N pns: 200
+Rmin= 3.072316825685841746 
+Rmax= 3.089873302932816479 
+*Integral(capa)= 0.051244230787632697 
+Integral(Parcial): 452.8239788769895
+------------------------------------------
+Thu Jun 16 17:43:41 2011@ 1 hor, 15 min, 58 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 60
+N pns: 200
+Rmin= 3.089873302932816479 
+Rmax= 3.107232505953853252 
+*Integral(capa)= 0.046479555369401258 
+Integral(Parcial): 452.8704584323589
+------------------------------------------
+Thu Jun 16 17:44:55 2011@ 1 hor, 17 min, 12 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 61
+N pns: 200
+Rmin= 3.107232505953853252 
+Rmax= 3.124399884763116031 
+*Integral(capa)= 0.042118239079509207 
+Integral(Parcial): 452.9125766714384
+------------------------------------------
+Thu Jun 16 17:46:09 2011@ 1 hor, 18 min, 26 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 62
+N pns: 200
+Rmin= 3.124399884763116031 
+Rmax= 3.141380652391386974 
+*Integral(capa)= 0.038185382773060848 
+Integral(Parcial): 452.95076205421145
+------------------------------------------
+Thu Jun 16 17:47:23 2011@ 1 hor, 19 min, 40 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 63
+N pns: 200
+Rmin= 3.141380652391386974 
+Rmax= 3.158179798828183227 
+*Integral(capa)= 0.034749716804862378 
+Integral(Parcial): 452.9855117710163
+------------------------------------------
+Thu Jun 16 17:48:38 2011@ 1 hor, 20 min, 55 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 64
+N pns: 200
+Rmin= 3.158179798828183227 
+Rmax= 3.174802103936392506 
+*Integral(capa)= 0.031584276698471532 
+Integral(Parcial): 453.0170960477148
+------------------------------------------
+Thu Jun 16 17:49:52 2011@ 1 hor, 22 min, 9 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 65
+N pns: 200
+Rmin= 3.174802103936392506 
+Rmax= 3.191252149429947060 
+*Integral(capa)= 0.028655025229667213 
+Integral(Parcial): 453.0457510729445
+------------------------------------------
+Thu Jun 16 17:51:06 2011@ 1 hor, 23 min, 23 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 66
+N pns: 200
+Rmin= 3.191252149429947060 
+Rmax= 3.207534329995819444 
+*Integral(capa)= 0.026103981034375577 
+Integral(Parcial): 453.0718550539789
+------------------------------------------
+Thu Jun 16 17:52:21 2011@ 1 hor, 24 min, 38 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 67
+N pns: 200
+Rmin= 3.207534329995819444 
+Rmax= 3.223652863633450050 
+*Integral(capa)= 0.023683967237476494 
+Integral(Parcial): 453.0955390212164
+------------------------------------------
+Thu Jun 16 17:53:35 2011@ 1 hor, 25 min, 52 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 68
+N pns: 200
+Rmin= 3.223652863633450050 
+Rmax= 3.239611801277476388 
+*Integral(capa)= 0.021619625988170705 
+Integral(Parcial): 453.1171586472046
+------------------------------------------
+Thu Jun 16 17:54:49 2011@ 1 hor, 27 min, 6 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 69
+N pns: 200
+Rmin= 3.239611801277476388 
+Rmax= 3.255415035763209008 
+*Integral(capa)= 0.019645268279024426 
+Integral(Parcial): 453.1368039154836
+------------------------------------------
+Thu Jun 16 17:56:04 2011@ 1 hor, 28 min, 21 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 70
+N pns: 200
+Rmin= 3.255415035763209008 
+Rmax= 3.271066310188582626 
+*Integral(capa)= 0.017802502624280434 
+Integral(Parcial): 453.1546064181079
+------------------------------------------
+Thu Jun 16 17:57:18 2011@ 1 hor, 29 min, 35 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 71
+N pns: 200
+Rmin= 3.271066310188582626 
+Rmax= 3.286569225721207577 
+*Integral(capa)= 0.016292230790929379 
+Integral(Parcial): 453.17089864889886
+------------------------------------------
+Thu Jun 16 17:58:32 2011@ 1 hor, 30 min, 49 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 72
+N pns: 200
+Rmin= 3.286569225721207577 
+Rmax= 3.301927248894619193 
+*Integral(capa)= 0.014845127900353201 
+Integral(Parcial): 453.1857437767992
+------------------------------------------
+Thu Jun 16 17:59:47 2011@ 1 hor, 32 min, 4 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 73
+N pns: 200
+Rmin= 3.301927248894619193 
+Rmax= 3.317143718433740673 
+*Integral(capa)= 0.013540584770652441 
+Integral(Parcial): 453.1992843615699
+------------------------------------------
+Thu Jun 16 18:01:01 2011@ 1 hor, 33 min, 18 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 74
+N pns: 200
+Rmin= 3.317143718433740673 
+Rmax= 3.332221851645945421 
+*Integral(capa)= 0.012379679432506575 
+Integral(Parcial): 453.2116640410024
+------------------------------------------
+Thu Jun 16 18:02:15 2011@ 1 hor, 34 min, 32 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 75
+N pns: 200
+Rmin= 3.332221851645945421 
+Rmax= 3.347164750410839495 
+*Integral(capa)= 0.011303378945422384 
+Integral(Parcial): 453.2229674199478
+------------------------------------------
+Thu Jun 16 18:03:29 2011@ 1 hor, 35 min, 46 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 76
+N pns: 200
+Rmin= 3.347164750410839495 
+Rmax= 3.361975406798955124 
+*Integral(capa)= 0.010302953492216072 
+Integral(Parcial): 453.23327037344
+------------------------------------------
+Thu Jun 16 18:04:44 2011@ 1 hor, 37 min, 1 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 77
+N pns: 200
+Rmin= 3.361975406798955124 
+Rmax= 3.376656708346902125 
+*Integral(capa)= 0.009403041178599086 
+Integral(Parcial): 453.2426734146186
+------------------------------------------
+Thu Jun 16 18:05:58 2011@ 1 hor, 38 min, 15 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 78
+N pns: 200
+Rmin= 3.376656708346902125 
+Rmax= 3.391211443014158444 
+*Integral(capa)= 0.008567631193591130 
+Integral(Parcial): 453.2512410458122
+------------------------------------------
+Thu Jun 16 18:07:12 2011@ 1 hor, 39 min, 29 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 79
+N pns: 200
+Rmin= 3.391211443014158444 
+Rmax= 3.405642303844531149 
+*Integral(capa)= 0.007850257019691180 
+Integral(Parcial): 453.2590913028319
+------------------------------------------
+Thu Jun 16 18:08:27 2011@ 1 hor, 40 min, 44 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 80
+N pns: 200
+Rmin= 3.405642303844531149 
+Rmax= 3.419951893353385231 
+*Integral(capa)= 0.007172945994480768 
+Integral(Parcial): 453.26626424882636
+------------------------------------------
+Thu Jun 16 18:09:41 2011@ 1 hor, 41 min, 58 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 81
+N pns: 200
+Rmin= 3.419951893353385231 
+Rmax= 3.434142727659986960 
+*Integral(capa)= 0.006558907089391573 
+Integral(Parcial): 453.2728231559158
+------------------------------------------
+Thu Jun 16 18:10:57 2011@ 1 hor, 43 min, 14 seg  
+Tiempo capa: 1 min, 16 seg  
+
+Capa ID: 82
+N pns: 200
+Rmin= 3.434142727659986960 
+Rmax= 3.448217240382721371 
+*Integral(capa)= 0.005981724177914378 
+Integral(Parcial): 453.2788048800937
+------------------------------------------
+Thu Jun 16 18:12:11 2011@ 1 hor, 44 min, 28 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 83
+N pns: 200
+Rmin= 3.448217240382721371 
+Rmax= 3.462177786313510808 
+*Integral(capa)= 0.005482894881559392 
+Integral(Parcial): 453.2842877749752
+------------------------------------------
+Thu Jun 16 18:13:25 2011@ 1 hor, 45 min, 42 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 84
+N pns: 200
+Rmin= 3.462177786313510808 
+Rmax= 3.476026644886440753 
+*Integral(capa)= 0.005008244032066956 
+Integral(Parcial): 453.2892960190073
+------------------------------------------
+Thu Jun 16 18:14:40 2011@ 1 hor, 46 min, 57 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 85
+N pns: 200
+Rmin= 3.476026644886440753 
+Rmax= 3.489766023454434318 
+*Integral(capa)= 0.004576513735926051 
+Integral(Parcial): 453.2938725327432
+------------------------------------------
+Thu Jun 16 18:15:54 2011@ 1 hor, 48 min, 11 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 86
+N pns: 200
+Rmin= 3.489766023454434318 
+Rmax= 3.503398060386714530 
+*Integral(capa)= 0.004209170568127993 
+Integral(Parcial): 453.2980817033113
+------------------------------------------
+Thu Jun 16 18:17:08 2011@ 1 hor, 49 min, 25 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 87
+N pns: 200
+Rmin= 3.503398060386714530 
+Rmax= 3.516924827998821890 
+*Integral(capa)= 0.003838932649987169 
+Integral(Parcial): 453.3019206359613
+------------------------------------------
+Thu Jun 16 18:18:23 2011@ 1 hor, 50 min, 40 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 88
+N pns: 200
+Rmin= 3.516924827998821890 
+Rmax= 3.530348335326053189 
+*Integral(capa)= 0.003532656678913663 
+Integral(Parcial): 453.3054532926402
+------------------------------------------
+Thu Jun 16 18:19:37 2011@ 1 hor, 51 min, 54 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 89
+N pns: 200
+Rmin= 3.530348335326053189 
+Rmax= 3.543670530750367309 
+*Integral(capa)= 0.003239049600542757 
+Integral(Parcial): 453.30869234224076
+------------------------------------------
+Thu Jun 16 18:20:51 2011@ 1 hor, 53 min, 8 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 90
+N pns: 200
+Rmin= 3.543670530750367309 
+Rmax= 3.556893304490052810 
+*Integral(capa)= 0.002954243703330220 
+Integral(Parcial): 453.3116465859441
+------------------------------------------
+Thu Jun 16 18:22:06 2011@ 1 hor, 54 min, 23 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 91
+N pns: 200
+Rmin= 3.556893304490052810 
+Rmax= 3.570018490960768176 
+*Integral(capa)= 0.002712564680792903 
+Integral(Parcial): 453.3143591506249
+------------------------------------------
+Thu Jun 16 18:23:20 2011@ 1 hor, 55 min, 37 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 92
+N pns: 200
+Rmin= 3.570018490960768176 
+Rmax= 3.583047871015935915 
+*Integral(capa)= 0.002501697638729453 
+Integral(Parcial): 453.3168608482636
+------------------------------------------
+Thu Jun 16 18:24:34 2011@ 1 hor, 56 min, 51 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 93
+N pns: 200
+Rmin= 3.583047871015935915 
+Rmax= 3.595983174073894340 
+*Integral(capa)= 0.002282795343977777 
+Integral(Parcial): 453.3191436436076
+------------------------------------------
+Thu Jun 16 18:25:49 2011@ 1 hor, 58 min, 6 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 94
+N pns: 200
+Rmin= 3.595983174073894340 
+Rmax= 3.608826080138683778 
+*Integral(capa)= 0.002091344638157326 
+Integral(Parcial): 453.32123498824575
+------------------------------------------
+Thu Jun 16 18:27:03 2011@ 1 hor, 59 min, 20 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 95
+N pns: 200
+Rmin= 3.608826080138683778 
+Rmax= 3.621578221720859414 
+*Integral(capa)= 0.001916531405226880 
+Integral(Parcial): 453.323151519651
+------------------------------------------
+Thu Jun 16 18:28:18 2011@ 2 hor, 35 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 96
+N pns: 200
+Rmin= 3.621578221720859414 
+Rmax= 3.634241185664268237 
+*Integral(capa)= 0.001763134030739072 
+Integral(Parcial): 453.32491465368173
+------------------------------------------
+Thu Jun 16 18:29:32 2011@ 2 hor, 1 min, 49 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 97
+N pns: 200
+Rmin= 3.634241185664268237 
+Rmax= 3.646816514884328342 
+*Integral(capa)= 0.001614256968982690 
+Integral(Parcial): 453.3265289106507
+------------------------------------------
+Thu Jun 16 18:30:47 2011@ 2 hor, 3 min, 4 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 98
+N pns: 200
+Rmin= 3.646816514884328342 
+Rmax= 3.659305710022959790 
+*Integral(capa)= 0.001486704039536994 
+Integral(Parcial): 453.3280156146903
+------------------------------------------
+Thu Jun 16 18:32:01 2011@ 2 hor, 4 min, 18 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 99
+N pns: 200
+Rmin= 3.659305710022959790 
+Rmax= 3.671710231024969406 
+*Integral(capa)= 0.001365840554629533 
+Integral(Parcial): 453.3293814552449
+------------------------------------------
+Thu Jun 16 18:33:15 2011@ 2 hor, 5 min, 32 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 100
+N pns: 200
+Rmin= 3.671710231024969406 
+Rmax= 3.684031498640374380 
+*Integral(capa)= 0.001256245966009710 
+Integral(Parcial): 453.33063770121095
+------------------------------------------
+Thu Jun 16 18:34:29 2011@ 2 hor, 6 min, 46 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 101
+N pns: 200
+Rmin= 3.684031498640374380 
+Rmax= 3.696270895856845318 
+*Integral(capa)= 0.001156621234521401 
+Integral(Parcial): 453.3317943224455
+------------------------------------------
+Thu Jun 16 18:35:44 2011@ 2 hor, 8 min, 1 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 102
+N pns: 200
+Rmin= 3.696270895856845318 
+Rmax= 3.708429769266176734 
+*Integral(capa)= 0.001060515439793412 
+Integral(Parcial): 453.3328548378853
+------------------------------------------
+Thu Jun 16 18:36:58 2011@ 2 hor, 9 min, 15 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 103
+N pns: 200
+Rmin= 3.708429769266176734 
+Rmax= 3.720509430368440285 
+*Integral(capa)= 0.000977930741485938 
+Integral(Parcial): 453.3338327686268
+------------------------------------------
+Thu Jun 16 18:38:12 2011@ 2 hor, 10 min, 29 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 104
+N pns: 200
+Rmin= 3.720509430368440285 
+Rmax= 3.732511156817235332 
+*Integral(capa)= 0.000898100307932274 
+Integral(Parcial): 453.33473086893474
+------------------------------------------
+Thu Jun 16 18:39:27 2011@ 2 hor, 11 min, 44 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 105
+N pns: 200
+Rmin= 3.732511156817235332 
+Rmax= 3.744436193609240515 
+*Integral(capa)= 0.000824681476209202 
+Integral(Parcial): 453.33555555041096
+------------------------------------------
+Thu Jun 16 18:40:41 2011@ 2 hor, 12 min, 58 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 106
+N pns: 200
+Rmin= 3.744436193609240515 
+Rmax= 3.756285754221058593 
+*Integral(capa)= 0.000764588580946165 
+Integral(Parcial): 453.3363201389919
+------------------------------------------
+Thu Jun 16 18:41:55 2011@ 2 hor, 14 min, 12 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 107
+N pns: 200
+Rmin= 3.756285754221058593 
+Rmax= 3.768061021696166968 
+*Integral(capa)= 0.000700242712449328 
+Integral(Parcial): 453.33702038170435
+------------------------------------------
+Thu Jun 16 18:43:10 2011@ 2 hor, 15 min, 27 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 108
+N pns: 200
+Rmin= 3.768061021696166968 
+Rmax= 3.779763149684605583 
+*Integral(capa)= 0.000644657645393459 
+Integral(Parcial): 453.33766503934976
+------------------------------------------
+Thu Jun 16 18:44:24 2011@ 2 hor, 16 min, 41 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 109
+N pns: 200
+Rmin= 3.779763149684605583 
+Rmax= 3.791393263437876637 
+*Integral(capa)= 0.000594470422537763 
+Integral(Parcial): 453.3382595097723
+------------------------------------------
+Thu Jun 16 18:45:38 2011@ 2 hor, 17 min, 55 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 110
+N pns: 200
+Rmin= 3.791393263437876637 
+Rmax= 3.802952460761376940 
+*Integral(capa)= 0.000546320722781473 
+Integral(Parcial): 453.33880583049506
+------------------------------------------
+Thu Jun 16 18:46:52 2011@ 2 hor, 19 min, 9 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 111
+N pns: 200
+Rmin= 3.802952460761376940 
+Rmax= 3.814441812926543385 
+*Integral(capa)= 0.000502548264235265 
+Integral(Parcial): 453.3393083787593
+------------------------------------------
+Thu Jun 16 18:48:07 2011@ 2 hor, 20 min, 24 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 112
+N pns: 200
+Rmin= 3.814441812926543385 
+Rmax= 3.825862365544763222 
+*Integral(capa)= 0.000463242055449589 
+Integral(Parcial): 453.33977162081476
+------------------------------------------
+Thu Jun 16 18:49:21 2011@ 2 hor, 21 min, 38 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 113
+N pns: 200
+Rmin= 3.825862365544763222 
+Rmax= 3.837215139404976494 
+*Integral(capa)= 0.000427767556487498 
+Integral(Parcial): 453.3401993883712
+------------------------------------------
+Thu Jun 16 18:50:35 2011@ 2 hor, 22 min, 52 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 114
+N pns: 200
+Rmin= 3.837215139404976494 
+Rmax= 3.848501131276789611 
+*Integral(capa)= 0.000393588169307357 
+Integral(Parcial): 453.3405929765405
+------------------------------------------
+Thu Jun 16 18:51:49 2011@ 2 hor, 24 min, 6 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 115
+N pns: 200
+Rmin= 3.848501131276789611 
+Rmax= 3.859721314680804927 
+*Integral(capa)= 0.000363639496011478 
+Integral(Parcial): 453.3409566160365
+------------------------------------------
+Thu Jun 16 18:53:04 2011@ 2 hor, 25 min, 21 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 116
+N pns: 200
+Rmin= 3.859721314680804927 
+Rmax= 3.870876640627780585 
+*Integral(capa)= 0.000335810975152762 
+Integral(Parcial): 453.3412924270117
+------------------------------------------
+Thu Jun 16 18:54:18 2011@ 2 hor, 26 min, 35 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 117
+N pns: 200
+Rmin= 3.870876640627780585 
+Rmax= 3.881968038328137194 
+*Integral(capa)= 0.000308778121192842 
+Integral(Parcial): 453.34160120513286
+------------------------------------------
+Thu Jun 16 18:55:32 2011@ 2 hor, 27 min, 49 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 118
+N pns: 200
+Rmin= 3.881968038328137194 
+Rmax= 3.892996415873243965 
+*Integral(capa)= 0.000286391159542944 
+Integral(Parcial): 453.3418875962924
+------------------------------------------
+Thu Jun 16 18:56:47 2011@ 2 hor, 29 min, 4 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 119
+N pns: 200
+Rmin= 3.892996415873243965 
+Rmax= 3.903962660889837899 
+*Integral(capa)= 0.000263313229773622 
+Integral(Parcial): 453.34215090952216
+------------------------------------------
+Thu Jun 16 18:58:01 2011@ 2 hor, 30 min, 18 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 120
+N pns: 200
+Rmin= 3.903962660889837899 
+Rmax= 3.914867641168846557 
+*Integral(capa)= 0.000243133813080756 
+Integral(Parcial): 453.3423940433352
+------------------------------------------
+Thu Jun 16 18:59:15 2011@ 2 hor, 31 min, 32 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 121
+N pns: 200
+Rmin= 3.914867641168846557 
+Rmax= 3.925712205269827670 
+*Integral(capa)= 0.000224115947293839 
+Integral(Parcial): 453.3426181592825
+------------------------------------------
+Thu Jun 16 19:00:30 2011@ 2 hor, 32 min, 47 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 122
+N pns: 200
+Rmin= 3.925712205269827670 
+Rmax= 3.936497183102155795 
+*Integral(capa)= 0.000206842397577611 
+Integral(Parcial): 453.34282500168007
+------------------------------------------
+Thu Jun 16 19:01:44 2011@ 2 hor, 34 min, 1 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 123
+N pns: 200
+Rmin= 3.936497183102155795 
+Rmax= 3.947223386484040031 
+*Integral(capa)= 0.000190940468237482 
+Integral(Parcial): 453.3430159421483
+------------------------------------------
+Thu Jun 16 19:02:58 2011@ 2 hor, 35 min, 15 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 124
+N pns: 200
+Rmin= 3.947223386484040031 
+Rmax= 3.957891609680388001 
+*Integral(capa)= 0.000176617551179231 
+Integral(Parcial): 453.3431925596995
+------------------------------------------
+Thu Jun 16 19:04:13 2011@ 2 hor, 36 min, 30 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 125
+N pns: 200
+Rmin= 3.957891609680388001 
+Rmax= 3.968502629920481084 
+*Integral(capa)= 0.000162638094199027 
+Integral(Parcial): 453.3433551977937
+------------------------------------------
+Thu Jun 16 19:05:27 2011@ 2 hor, 37 min, 44 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 126
+N pns: 200
+Rmin= 3.968502629920481084 
+Rmax= 3.979057207896373960 
+*Integral(capa)= 0.000150443139332557 
+Integral(Parcial): 453.343505640933
+------------------------------------------
+Thu Jun 16 19:06:41 2011@ 2 hor, 38 min, 58 seg  
+Tiempo capa: 1 min, 14 seg  
+
+Capa ID: 127
+N pns: 200
+Rmin= 3.979057207896373960 
+Rmax= 3.989556088242883103 
+*Integral(capa)= 0.000139679123950609 
+Integral(Parcial): 453.34364532005696
+------------------------------------------
+Thu Jun 16 19:07:56 2011@ 2 hor, 40 min, 13 seg  
+Tiempo capa: 1 min, 15 seg  
+
+Capa ID: 128
+N pns: 200
+Rmin= 3.989556088242883103 
+Rmax= 3.999999999999981792 
+*Integral(capa)= 0.000128978507328219 
+Integral(Parcial): 453.3437742985643
+------------------------------------------
+

@@ -1,0 +1,935 @@
+Consideremos un estado asint\'otico incidente, que es el producto de dos gausianas normalizadas en el sistema de referencia del laboratorio:
+
+\begin{equation}\label{estin}
+\varphi_{in,\v{p_{0}}}(\v{p}_{1},\v{p}_{2}) = \varphi_{\v{p}_{0}}(\v{p}_{1})\, \varphi_{-\v{p}_{0}}(\v{p}_{2})
+\end{equation}
+
+En donde
+
+\begin{equation}\label{estin1}
+\varphi_{\v{p}_{0}}(\v{p}_{1})= \frac{1}{( \sigma^{2} \pi )^{3/4}}\, 
+e^{-| \v{p}_{1} - \v{p}_{0} |^{2}/2 \sigma^{2}} \,\,,\,\,\,\, \v{p}_{1} \in \R^{3}
+\end{equation}
+
+\begin{equation}\label{estin2}
+\varphi_{-\v{p}_{0}}(\v{p}_{2})= \frac{1}{( \sigma^{2} \pi )^{3/4}}\, 
+e^{-| \v{p}_{1} + \v{p}_{0} |^{2}/2 \sigma^{2}} \,\,,\,\,\,\, \v{p}_{2} \in \R^{3}
+\end{equation}
+
+En el estado \eqref{estin} las part\'iculas uno y dos tienen momento promedio $\v{p}_{0}$ y $-\v{p}_{0}$ respectivamente, siendo $\sigma$ la varianza de la distribuci\'on de momento de ambas.\\
+Asumimos que la disperci\'on de las part\'iculas tiene lugar en el origen del sistema de referencia del laboratorio al tiempo cero, por esta raz\'on en el estado \eqref{estin} la posici\'on promedio de ambas part\'iculas es cero. Para observar esto \'ultimo escribamos:
+$$ \v{p}_{0}=( p_{0,1},p_{0,2},p_{0,3} ) \,\,;\,\, \v{p}_{1}=( p_{1,1},p_{1,2},p_{1,3} ) \,\,;\,\, \v{p}_{2}=( p_{2,1},p_{2,2},p_{2,3} ) $$ 
+y sean
+$$ \v{x}_{1}= ( x_{1,1},x_{1,2},x_{1,3} ) $$ 
+$$ \v{x}_{2}= ( x_{2,1},x_{2,2},x_{2,3} ) $$
+Los vectores de posici\'on de las part\'iculas uno y dos respectivamente.
+Luego la posici\'on promedio de la primera part\'icula en la coordenada $x_{1,\,j}$  $(j=1,2,3)$ esta dada por:
+
+$$ \langle x_{1,\,j} \rangle= \left(\varphi_{in,\v{p_{0}}}\, , i\hbar\, \frac{\partial \varphi_{in,\v{p_{0}}} }{\partial p_{1,j}}   \right)_{ L^{2}(\R^{6}) }= i \hbar \int_{\R^{3}} \int_{\R^{3}} \varphi_{in,\v{p_{0}}} \cdot \frac{\partial \varphi_{in,\v{p_{0}}} }{\partial p_{1,j}} \, d\v{p}_{1}\, d\v{p}_{2} $$
+
+$$ =\frac{i \hbar}{(\sigma^{2} \pi)^{3}} \int_{\R^{3}} \int_{\R^{3}} \exp \left( \frac{ -|\v{p}_{1}-\v{p}_{0}|^{2}-|\v{p}_{2}+\v{p}_{0}|^{2} }{\sigma^{2}} \right)\, \frac{\partial}{\partial p_{1,j}} \left( -\frac{|\v{p}_{1}-\v{p}_{0}|^{2}}{2 \sigma^{2}} \right) \, d\v{p}_{1}\, d\v{p}_{2}  $$
+
+$$ =-\frac{i \hbar}{(\sigma^{2} \pi)^{3}} \int_{\R^{3}} \int_{\R^{3}} \exp \left( \frac{ -|\v{p}_{1}-\v{p}_{0}|^{2}-|\v{p}_{2}+\v{p}_{0}|^{2} }{\sigma^{2}} \right)\, \frac{\partial}{\partial p_{1,j}} \left( \frac{ ( p_{1,j}-p_{0,j} )^{2} }{2 \sigma^{2}} \right) \, d\v{p}_{1}\, d\v{p}_{2}  $$
+
+$$ =-\frac{i \hbar}{(\sigma^{2} \pi)^{3}} \int_{\R^{3}} \int_{\R^{3}} \exp \left( \frac{ -|\v{p}_{1}-\v{p}_{0}|^{2}-|\v{p}_{2}+\v{p}_{0}|^{2} }{\sigma^{2}} \right)\,  \left( \frac{ p_{1,j}-p_{0,j} }{\sigma^{2}} \right) \, d\v{p}_{1}\, d\v{p}_{2}  $$
+
+$$ =-\frac{i \hbar}{(\sigma^{2} \pi)^{3}} \int_{\R^{3}} \exp \left( -\frac{|\v{p}_{2}+\v{p}_{0}|^{2}}{\sigma^{2}} \right)  d\v{p}_{2} \cdot \int_{\R} \exp \left( -\frac{( p_{1,i}-p_{0,i} )^{2}}{\sigma^{2}} \right) dp_{1,i} \cdot \int_{\R} \exp \left( -\frac{( p_{1,k}-p_{0,k} )^{2}}{\sigma^{2}} \right) dp_{1,k}  $$
+$$ \cdot \int_{\R} \exp \left( -\frac{( p_{1,j}-p_{0,j} )^{2}}{\sigma^{2}} \right)  \left( \frac{ p_{1,j}-p_{0,j} }{\sigma^{2}} \right) dp_{1,j} $$
+
+Donde $i,k \neq j$.\\
+
+\newpage
+
+Haciendo el cambio de variable $ p= p_{1,j}-p_{0,j} $ en la integral del extremo derecho de la ultima ecuaci\'on se tiene que:
+
+$$ \int_{-\infty}^{\infty} \exp \left( -\frac{( p_{1,j}-p_{0,j} )^{2}}{\sigma^{2}} \right)  \left( \frac{ p_{1,j}-p_{0,j} }{\sigma^{2}} \right) dp_{1,j} =\int_{-\infty}^{\infty} \exp \left( -\frac{p^{2}}{\sigma^{2}} \right)  \left( \frac{ p }{\sigma^{2}} \right) dp=0 $$
+ya que, $\exp \left( -\frac{p^{2}}{\sigma^{2}} \right)  \left( \frac{ p }{\sigma^{2}} \right)$ es una funci\'on impar. Por tanto, $\langle x_{i,\, j} \rangle=0 $ para $j=1,2,3$ y podemos concluir que, $ \langle \v{x}_{1} \rangle=0 $ .\\
+De forma similar obtenemos que la posici\'on promedio de la segunda part\'icula en la coordenada $x_{2,\,j}$ $j=1,2,3$ est\'a dada por: 
+
+$$ \langle x_{2,\,j} \rangle= \left(\varphi_{in,\v{p_{0}}}\, , i\hbar\, \frac{\partial \varphi_{in,\v{p_{0}}} }{\partial p_{2,j}}   \right)_{ L^{2}(\R^{6}) } $$
+
+$$ =-\frac{i \hbar}{(\sigma^{2} \pi)^{3}} \int_{\R^{3}} \exp \left( -\frac{|\v{p}_{1}-\v{p}_{0}|^{2}}{\sigma^{2}} \right)  d\v{p}_{1} \cdot \int_{\R} \exp \left( -\frac{( p_{2,i}+p_{0,i} )^{2}}{\sigma^{2}} \right) dp_{2,i} \cdot \int_{\R} \exp \left( -\frac{( p_{2,k}+p_{0,k} )^{2}}{\sigma^{2}} \right) dp_{2,k}  $$
+$$ \cdot \int_{\R} \exp \left( -\frac{( p_{2,j}+p_{0,j} )^{2}}{\sigma^{2}} \right)  \left( \frac{ p_{2,j}+p_{0,j} }{\sigma^{2}} \right) dp_{2,j} $$
+
+Haciendo el cambio de variable $p=p_{2,j}+p_{0,j}$ en la integral del extremo derecho de la ultima ecuaci\'on se tiene que:
+$$  \int_{-\infty}^{\infty} \exp \left( -\frac{( p_{2,j}+p_{0,j} )^{2}}{\sigma^{2}} \right)  \left( \frac{ p_{2,j}+p_{0,j} }{\sigma^{2}} \right) dp_{2,j} =\int_{-\infty}^{\infty} \exp \left( -\frac{p^{2}}{\sigma^{2}} \right)  \left( \frac{ p }{\sigma^{2}} \right) dp=0 $$
+Por tanto $\langle x_{2,\,j} \rangle =0 $ para $j=1,2,3$ y podemos concluir que $\langle \v{x}_{2} \rangle=0 $ .\\
+
+Otra cantidad de inter\'es que se puede obtener del estado \eqref{estin} es el promedio del momento relativo $\v{p}=\mu_{2}\v{p}_{1} - \mu_{1}\v{p}_{2} $; asi el valor promedio de la coordenada $p_{j}= \mu_{2}p_{1,j}-\mu_{1}p_{2,j} $ ($j=1,2,3$) del momento relativo esta dado por,
+$$ \langle p_{j} \rangle = \left(\varphi_{in,\v{p_{0}}}\, , p_{j}\, \varphi_{in,\v{p_{0}}}  \right)_{ L^{2}(\R^{6}) } 
+=\frac{1}{( \sigma^{2} \pi )^{3}} \int_{\mathbb{R}^{3}} \int_{\mathbb{R}^{3}} p_{j} \cdot \exp \left( \frac{-| \v{p}_{1}-\v{p}_{0} |^{2}-|\v{p}_{2}+\v{p}_{0}|^{2}}{ \sigma^{2} } \right)  d\v{p}_{1}\, d\v{p}_{2}  $$
+
+$$= \frac{1}{( \sigma^{2} \pi )^{3}} \int_{\R^{3}} 
+\exp \left( \frac{-| \v{p}_{2}+\v{p}_{0} |^{2}}{\sigma^{2}} \right) \, d\v{p}_{2} 
+\cdot \int_{\R^{3}} \exp \left( \frac{-| \v{p}_{1}-\v{p}_{0} |^{2}}{\sigma^{2}} \right) \cdot (\mu_{2} \, p_{1, j}) \, d\v{p}_{1}  $$
+$$- \frac{1}{( \sigma^{2} \pi )^{3}} \int_{\R^{3}} 
+\exp \left( \frac{-| \v{p}_{1}-\v{p}_{0} |^{2}}{\sigma^{2}} \right) \, d\v{p}_{1} 
+\cdot \int_{\R^{3}} \exp \left( \frac{-| \v{p}_{2}+\v{p}_{0} |^{2}}{\sigma^{2}} \right) \cdot (\mu_{1} \, p_{2, j}) \, d\v{p}_{2} $$
+
+$$= \frac{1}{( \sigma^{2} \pi )^{3}} ( ( \sigma^{3}\pi^{3/2} )^{2} \cdot \mu_{2}p_{0,j} ) +   \frac{1}{( \sigma^{2} \pi )^{3}} ( ( \sigma^{3}\pi^{3/2} )^{2} \cdot \mu_{1}p_{0,j} ) = ( \mu_{2}+\mu_{1} ) p_{0,j}= p_{0,j} $$
+
+Por tanto, podemos concluir que $\langle \v{p} \rangle= \v{p}_{0}$.\\
+
+Hay que notar que para trabajar en el r\'egimen de bajas energ\'ias, es necesario que el promedio del momento relativo, $\langle \v{p} \rangle= \v{p}_{0}$ y la varianza de la distribuci\'on $\sigma$, tengan un valor peque\~no, ya que si $\sigma$ tiene un valor grande el estado asint\'otico inicial $ \varphi_{in,\v{p_{0}}} $ va a tener una gran probabilidad de tener un momento muy grande, no importando que el promedio del momento relativo sea muy peque\~no.\\
+
+Ya que $\varphi_{in,\v{p}_{0}}$ es un estado producto, su pureza es uno,
+\begin{equation}\label{p:estin}
+\P ( \varphi_{in,\v{p}_{0}} )= 1
+\end{equation}
+
+Una vez que el proceso de disperci\'on termina, las part\'iculas est\'an en el estado asint\'otico de salida $\varphi_{out,\v{p}_{0}}$ dado por,
+\begin{equation}\label{estout}
+\varphi_{out,\v{p}_{0}}(\v{p}_{1},\v{p}_{2})= ( \mathcal{S}(\v{p}^{2}/2m) \varphi_{in,\v{p}_{0}} ) (\v{p}_{1},\v{p}_{2})
+\end{equation}
+
+Ya que el momento relativo $\v{p}$ depende tanto de $\v{p}_{1}$ como de $\v{p}_{2}$, $\varphi_{out,\v{p}_{0}}$ no es mas un estado producto y por tanto tiene una pureza menor que uno, lo cual indica que se ha creado un entrelazamiento entre las dos part\'iculas debido al proceso de disperci\'on.\\
+
+Ahora introduciremos la notaci\'on que usaremos desde este momento. Denotamos por $\varphi_{in}$ al estado asint\'otico inicial con momento relativo promedio cero,
+\begin{equation}\label{estinp0}
+\varphi_{in}(\v{p}_{1},\v{p}_{2})= \varphi(\v{p}_{1})\,\varphi(\v{p}_{2})
+\end{equation}
+
+En donde,
+
+\begin{equation}\label{estinp01}
+\varphi(\v{p})= \frac{1}{(\sigma^{2} \pi)^{3/4}} e^{-\v{p}^{2}/2\sigma^{2} } \,\,,\,\,\,\, \v{p} \in \R^{3} 
+\end{equation}
+
+y denotaremos por $\varphi_{out}$ al estado asint\'otico de salida con estado asint\'otico de entrada $\varphi_{in}$, 
+
+\begin{equation}\label{estoutp0}
+\varphi_{out}(\v{p}_{1},\v{p}_{2})= ( \mathcal{S}(\v{p}^{2}/2m) \varphi_{in} ) (\v{p}_{1},\v{p}_{2})
+\end{equation}
+
+Tambi\'en definimos,
+\begin{equation}
+\psi_{\v{q}_{0}}(\v{q})=\frac{1}{(\pi)^{3/4}}e^{-|\v{q}-\v{q}_{0}|^{2}/2}\,\,,\,\,\,\, \v{q} \in \R^{3} 
+\end{equation}
+\begin{equation}\label{psi}
+\psi(\v{q})=\frac{1}{(\pi)^{3/4}}e^{-\v{q}^{2}/2}\,\,,\,\,\,\, \v{q} \in \R^{3} 
+\end{equation}
+
+\begin{equation}
+\psi_{in,\v{q}_{0}}(\v{q}_{1},\v{q}_{2})=\psi_{\v{q}_{0}}(\v{q}_{1})\,\psi_{-\v{q}_{0}}(\v{q}_{2})   
+\end{equation}
+\begin{equation}\label{psi-est}
+\psi_{in}(\v{q}_{1},\v{q}_{2})=\psi(\v{q}_{1})\,\psi(\v{q}_{2})
+\end{equation}
+Notamos que,
+\begin{equation}
+\left\| \psi_{\v{q}_{0}} \right\|_{L^{2}(\R^{3})}^{2}= \frac{1}{(\pi)^{3/2}} \int_{\R^{3}} e^{-|\v{q}-\v{q}_{0}|^{2}} d \v{q}=1 
+\end{equation}
+\begin{equation}
+\left\| \psi \right\|_{L^{2}(\R^{3})}^{2}= \frac{1}{(\pi)^{3/2}} \int_{\R^{3}} e^{-\v{q}^{2}} d \v{q}=1 
+\end{equation}
+y por tanto,
+\begin{subequations}\label{p1-p2-p-pcm}
+\begin{align}\label{norm-psi}
+        \| \psi_{in,\v{q}_{0}} \|=1\\
+        \| \psi_{in} \|=1
+\end{align}
+\end{subequations}
+
+
+\newpage
+En las siguientes proposici\'ones establecemos un par de resultados que utilizaremos mas adelante. 
+
+\begin{proposition}
+\label{p1}
+
+\begin{equation}\label{p1.1}
+\| \varphi_{in,\v{p_{0}}} -\varphi_{in}  \| \leq C \min \left\{ \frac{|\v{p_{0}}|}{\sigma} , 1  \right\}
+\end{equation}
+
+\begin{equation}\label{p1.2}
+\| \v{p} (\varphi_{in,\v{p_{0}}} -\varphi_{in}) \| \leq C \, |\v{p_{0}}|
+\end{equation}
+
+\end{proposition}
+
+\n {\bf Demostraci\'on}\\
+Denotamos por $\v{q}_{i}= \v{p}_{i}/\sigma$, $i=0,1,2$. Luego observamos que,
+$$ \| \varphi_{in,\v{p}_{0}}-\varphi_{in} \|^{2} = \frac{1}{(\sigma^{2}\pi)^{3}} \int_{\R^{3}} \int_{\R^{3}} \left[ \exp\left(\frac{-|\v{p}_{1}-\v{p}_{0}|^{2}-|\v{p}_{2}+\v{p}_{0}|^{2} }{2\sigma^{2}} \right)-\exp \left(\frac{-|\v{p}_{1}|^{2}-|\v{p}_{2}|^{2}}{2\sigma^{2}} \right) \right]^{2} d\v{p}_{1}\,d\v{p}_{2} $$
+$$=\frac{1}{(\sigma^{2}\pi)^{3}} \int_{\R^{3}} \int_{\R^{3}} \left[ \exp\left(\frac{-|\v{q}_{1}-\v{q}_{0}|^{2}-|\v{q}_{2}+\v{q}_{0}|^{2} }{2} \right)-\exp \left(\frac{-|\v{q}_{1}|^{2}-|\v{q}_{2}|^{2}}{2} \right) \right]^{2} \sigma^{3} d\v{q}_{1}\, \sigma^{3} d\v{q}_{2} $$
+$$=\frac{1}{\pi^{3}} \int_{\R^{3}} \int_{\R^{3}} \left[ \exp\left(\frac{-|\v{q}_{1}-\v{q}_{0}|^{2}-|\v{q}_{2}+\v{q}_{0}|^{2} }{2} \right)-\exp \left(\frac{-|\v{q}_{1}|^{2}-|\v{q}_{2}|^{2}}{2} \right) \right]^{2} d\v{q}_{1}\, d\v{q}_{2} = \| \psi_{in,\v{q}_{0}}-\psi_{in} \|^{2}$$
+
+Por tanto,
+\begin{equation}\label{p1.3}
+\| \varphi_{in,\v{p}_{0}}-\varphi_{in} \|=\| \psi_{in,\v{q}_{0}}-\psi_{in} \| 
+\end{equation}
+Primero para $|\v{q}_{0}|\leq 1$ se tiene,
+\begin{equation}\label{p1.4}
+\psi_{in,\v{q}_{0}}-\psi_{in}= \frac{1}{\pi^{3/2}} \, e^{-(|\v{q}_{1}|^{2}+|\v{q}_{2}|^{2})/2} \left[ e^{-|\v{q}_{0}|^{2}+(\v{q}_{1}-\v{q}_{2})\cdot \v{q}_{0} }-1 \right]
+\end{equation}
+Por la desigualdad de Schwars y la desigualdad de Minkowski tenemos que,
+$$ -|\v{q}_{0}|^{2}+( \v{q}_{1}-\v{q}_{2} )\cdot \v{q}_{0} \leq |\v{q}_{0}|^{2} +|\v{q}_{1}-\v{q}_{2}|\, |\v{q}_{0}|$$ 
+$$ \leq |\v{q}_{0}|^{2} + (|\v{q}_{1}|+|\v{q}_{2}|)\, |\v{q}_{0}| $$
+
+As\'i podemos escribir,
+\begin{equation}\label{p1.5}
+\left| e^{-|\v{q}_{0}|^{2}+( \v{q}_{1}-\v{q}_{2} )\cdot \v{q}_{0}} -1 \right|=\left| \int_{0}^{-|\v{q}_{0}|^{2}+( \v{q}_{1}-\v{q}_{2} )\cdot \v{q}_{0}} e^{s}\, ds \right|
+\end{equation}
+$$\leq \left| \int_{0}^{|\v{q}_{0}|^{2} + (|\v{q}_{1}|+|\v{q}_{2}|)\, |\v{q}_{0}|} e^{s}\, ds \right|  $$
+\begin{equation}\label{p1.6}
+\leq e^{|\v{q}_{0}|^{2} + (|\v{q}_{1}|+|\v{q}_{2}|)\, |\v{q}_{0}|} ( |\v{q}_{0}|^{2} + (|\v{q}_{1}|+|\v{q}_{2}|)\, |\v{q}_{0}| )
+\end{equation}
+Por las ecuaciones \eqref{p1.4},\eqref{p1.5} y \eqref{p1.6} se tiene que
+$$\| \psi_{in,\v{q}_{0}}-\psi_{in} \|^{2}= \frac{1}{\pi^{3}}\int_{\R^{3}} \int_{\R^{3}} e^{-(|\v{q}_{1}|^{2}+|\v{q}_{2}|^{2})} \left[ e^{-|\v{q}_{0}|^{2}+(\v{q}_{1}-\v{q}_{2})\cdot \v{q}_{0} }-1 \right]^{2} d\v{q}_{1}\, d\v{q}_{2} $$
+$$ \leq \frac{1}{\pi^{3}}\int_{\R^{3}} \int_{\R^{3}} e^{-(|\v{q}_{1}|^{2}+|\v{q}_{2}|^{2})} e^{2|\v{q}_{0}|^{2} + 2(|\v{q}_{1}|+|\v{q}_{2}|)\, |\v{q}_{0}|} ( |\v{q}_{0}|^{2} + (|\v{q}_{1}|+|\v{q}_{2}|)\, |\v{q}_{0}| )^{2}  \, d\v{q}_{1}\, d\v{q}_{2} $$
+$$ =|\v{q}_{0}|^{2} \cdot \left[ \frac{1}{\pi^{3}}\int_{\R^{3}} \int_{\R^{3}} e^{-(|\v{q}_{1}|^{2}+|\v{q}_{2}|^{2})} e^{2|\v{q}_{0}|^{2} + 2(|\v{q}_{1}|+|\v{q}_{2}|)\, |\v{q}_{0}|} ( |\v{q}_{0}| + (|\v{q}_{1}|+|\v{q}_{2}|) )^{2}  \, d\v{q}_{1}\, d\v{q}_{2} \right] $$
+
+Se observa que el miembro derecho de la ultima igualdad es una constante real y por tanto,
+
+$$ \| \psi_{in,\v{q}_{0}}-\psi_{in} \| \leq C\, |\v{q}_{0}| $$
+
+Por \eqref{p1.3} y la definici\'on de $\v{q}_{0}$ concluimos que para $|\v{p}_{0}|\leq 1$,
+$$ \| \varphi_{in,\v{p}_{0}}-\varphi_{in} \| \leq C \, \frac{|\v{p}_{0}|}{\sigma} $$
+
+Ahora supongamos $1 \leq |\v{q}_{0}|$. Por la desigualdad de Schwars se tiene que,
+$$ \| \psi_{in,\v{q}_{0}}-\psi_{in} \| \leq \| \psi_{in,\v{q}_{0}} \| + \| \psi_{in} \|= 2 \leq C \cdot 1 \leq C \, |\v{q}_{0}| $$
+Por lo anterior concluimos que \eqref{p1.1} se cumple.\\
+
+Denotamos por $\v{q}=\v{p}/\sigma$ y notamos, 
+\begin{equation}\label{p1.7.1}
+|\v{q}|= | \mu_{2}\v{q}_{1} - \mu_{1}\v{q}_{2} | \leq | \mu_{2}\v{q}_{1} |+ | \mu_{1}\v{q}_{2} |\leq |\v{q}_{1}|+|\v{q}_{2}|
+\end{equation}
+
+Luego se tiene que,
+$$ \| \v{p} (\varphi_{in,\v{p}_{0}}-\varphi_{in}) \|^{2} =$$ 
+$$\frac{1}{(\sigma^{2}\pi)^{3}} \int_{\R^{3}} \int_{\R^{3}} |\v{p}|^{2} \left[ \exp\left(\frac{-|\v{p}_{1}-\v{p}_{0}|^{2}-|\v{p}_{2}+\v{p}_{0}|^{2} }{2\sigma^{2}} \right)-\exp \left(\frac{-|\v{p}_{1}|^{2}-|\v{p}_{2}|^{2}}{2\sigma^{2}} \right) \right]^{2} d\v{p}_{1}\,d\v{p}_{2} $$
+$$=\frac{1}{(\sigma^{2}\pi)^{3}} \int_{\R^{3}} \int_{\R^{3}} \sigma^{2}|\v{q}|^{2} \left[ \exp\left(\frac{-|\v{q}_{1}-\v{q}_{0}|^{2}-|\v{q}_{2}+\v{q}_{0}|^{2} }{2} \right)-\exp \left(\frac{-|\v{q}_{1}|^{2}-|\v{q}_{2}|^{2}}{2} \right) \right]^{2} \sigma^{3} d\v{q}_{1}\, \sigma^{3} d\v{q}_{2} $$
+$$=  \frac{\sigma^{2}}{\pi^{3}} \int_{\R^{3}} \int_{\R^{3}} |\v{q}|^{2} \left[ \exp\left(\frac{-|\v{q}_{1}-\v{q}_{0}|^{2}-|\v{q}_{2}+\v{q}_{0}|^{2} }{2} \right)-\exp \left(\frac{-|\v{q}_{1}|^{2}-|\v{q}_{2}|^{2}}{2} \right) \right]^{2} d\v{q}_{1}\, d\v{q}_{2} $$ 
+$$= \sigma^{2} \|\v{q} (\psi_{in,\v{q}_{0}}-\psi_{in}) \|^{2}$$
+por tanto,
+\begin{equation}\label{p1.7}
+\| \v{p}\, (\varphi_{in,\v{p}_{0}}-\varphi_{in}) \|= \sigma \, \|\v{q}\, (\psi_{in,\v{q}_{0}}-\psi_{in}) \|
+\end{equation} 
+
+Primero para $|\v{q}_{0}|\leq 1$ tenemos,
+
+\begin{equation}\label{p1.8}
+|\v{q}|(\psi_{in,\v{q}_{0}}-\psi_{in})=|\v{q}|\cdot \frac{1}{\pi^{3/2}} \, e^{-(|\v{q}_{1}|^{2}+|\v{q}_{2}|^{2})/2} \left[ e^{-|\v{q}_{0}|^{2}+(\v{q}_{1}-\v{q}_{2})\cdot \v{q}_{0} }-1 \right]
+\end{equation}
+Luego por las ecuaciones \eqref{p1.5}, \eqref{p1.6},\eqref{p1.7.1} y \eqref{p1.8},
+$$ \| \v{q}(\psi_{in,\v{q}_{0}}-\psi_{in}) \|^{2}= \frac{1}{\pi^{3}}\int_{\R^{3}} \int_{\R^{3}} |\v{q}|^{2}\, e^{-(|\v{q}_{1}|^{2}+|\v{q}_{2}|^{2})} \left[ e^{-|\v{q}_{0}|^{2}+(\v{q}_{1}-\v{q}_{2})\cdot \v{q}_{0} }-1 \right]^{2} d\v{q}_{1}\, d\v{q}_{2} $$ 
+$$\leq \frac{1}{\pi^{3}}\int_{\R^{3}} \int_{\R^{3}}(|\v{q}_{1}|+|\v{q}_{2}|)^{2} \, e^{-(|\v{q}_{1}|^{2}+|\v{q}_{2}|^{2})} e^{2|\v{q}_{0}|^{2} + 2(|\v{q}_{1}|+|\v{q}_{2}|)\, |\v{q}_{0}|} ( |\v{q}_{0}|^{2} + (|\v{q}_{1}|+|\v{q}_{2}|)\, |\v{q}_{0}| )^{2}  \, d\v{q}_{1}\, d\v{q}_{2} $$
+$$= |\v{q}_{0}|^{2} \left[ \frac{1}{\pi^{3}}\int_{\R^{3}} \int_{\R^{3}}(|\v{q}_{1}|+|\v{q}_{2}|)^{2} \, e^{-(|\v{q}_{1}|^{2}+|\v{q}_{2}|^{2})} e^{2|\v{q}_{0}|^{2} + 2(|\v{q}_{1}|+|\v{q}_{2}|)\, |\v{q}_{0}|} ( |\v{q}_{0}| + (|\v{q}_{1}|+|\v{q}_{2}|) )^{2}  \, d\v{q}_{1}\, d\v{q}_{2} \right] $$
+
+De nuevo, el miembro derecho de la ultima igualdad es una constante real y por tanto,
+$$ \| \v{q}(\psi_{in,\v{q}_{0}}-\psi_{in}) \| \leq C\, |\v{q}_{0}| $$
+Por \eqref{p1.7} y la definici\'on de $\v{q}_{0}$ concluimos que para $|\v{p}_{0}|\leq 1$,
+$$ \| \v{p}\, (\varphi_{in,\v{p}_{0}}-\varphi_{in}) \| \leq C\, |\v{p}_{0}|. $$ 
+
+Ahora supongamos que $ 1 \leq |\v{q}_{0}|$ y observamos que esto implica, $\sigma \leq |\v{p}_{0}| $. Por \eqref{p1.7.1} y la definici\'on de $\v{q}$ es claro que,
+\begin{equation}\label{p1.7.2}
+|\v{p}|\leq |\v{p}_{1}|+|\v{p}_{2}|
+\end{equation}
+As\'i por \eqref{p1.7.2} y la desigualdad de Minkowski tenemos:
+\begin{equation}\label{p1.7.3}
+\| \v{p} ( \varphi_{in,\v{p}_{0}} - \varphi_{in} ) \| \leq \| \v{p}_{1} ( \varphi_{in,\v{p}_{0}} - \varphi_{in} ) \| + \| \v{p}_{2} ( \varphi_{in,\v{p}_{0}} - \varphi_{in} ) \|
+\end{equation}
+
+Luego para $\| \v{p}_{1} ( \varphi_{in,\v{p}_{0}} - \varphi_{in} ) \|$ tenemos que:
+$$ \| \v{p}_{1} ( \varphi_{in,\v{p}_{0}} - \varphi_{in} ) \|= \| (\v{p}_{1} + \v{p}_{0}-\v{p}_{0})  ( \varphi_{in,\v{p}_{0}} - \varphi_{in} ) \| \leq \| (\v{p}_{1} + \v{p}_{0}-\v{p}_{0}) \varphi_{in,\v{p}_{0}}  \|+ \| \v{p}_{1} \varphi_{in}  \| $$
+\begin{equation}\label{p1.9}
+\leq |\v{p}_{0}| \cdot \| \varphi_{in,\v{p}_{0}} \| +\| (\v{p}_{1}-\v{p}_{0}) \varphi_{in,\v{p}_{0}}  \|+ \| \v{p}_{1} \varphi_{in}  \|= |\v{p}_{0}|  +\| (\v{p}_{1}-\v{p}_{0}) \varphi_{in,\v{p}_{0}}  \|+ \| \v{p}_{1} \varphi_{in}  \|
+\end{equation}
+
+Ahora observamos que: 
+$$ \| (\v{p}_{1}-\v{p}_{0}) \varphi_{in,\v{p}_{0}}  \|^{2}= $$
+
+$$\frac{1}{(\sigma^{2}\pi)^{3}} \int_{\R^{3}} \int_{\R^{3}} (|\v{p}_{1}|-|\v{p}_{0}|)^{2} \left[ \exp\left(\frac{-|\v{p}_{1}-\v{p}_{0}|^{2}-|\v{p}_{2}+\v{p}_{0}|^{2} }{2\sigma^{2}} \right) \right]^{2} d\v{p}_{1}\,d\v{p}_{2} $$
+
+$$=\frac{1}{(\sigma^{2}\pi)^{3}} \int_{\R^{3}} \int_{\R^{3}} \sigma^{2} (|\v{q}_{1}|-|\v{q}_{0}|)^{2} \left[ \exp\left(\frac{-|\v{q}_{1}-\v{q}_{0}|^{2}-|\v{q}_{2}+\v{q}_{0}|^{2} }{2} \right) \right]^{2} \sigma^{3} d\v{q}_{1}\, \sigma^{3} d\v{q}_{2} $$
+
+$$=  \frac{\sigma^{2}}{\pi^{3}} \int_{\R^{3}} \int_{\R^{3}} (|\v{q}_{1}|-|\v{q}_{0}|)^{2} \left[ \exp\left(\frac{-|\v{q}_{1}-\v{q}_{0}|^{2}-|\v{q}_{2}+\v{q}_{0}|^{2} }{2} \right) \right]^{2} d\v{q}_{1}\, d\v{q}_{2} $$ 
+$$= \sigma^{2} \| (\v{q}_{1}-\v{q}_{0}) (\psi_{in,\v{q}_{0}}-\psi_{in}) \|^{2}$$
+
+Por lo anterior y ya que $\sigma \leq |\v{p}_{0}|$ tenemos que,
+\begin{equation}\label{p1.10}
+\| (\v{p}_{1}-\v{p}_{0}) \varphi_{in,\v{p}_{0}}  \|=\sigma \| (\v{q}_{1}-\v{q}_{0}) (\psi_{in,\v{q}_{0}}-\psi_{in}) \| \leq |\v{p}_{0}|\cdot \| (\v{q}_{1}-\v{q}_{0}) (\psi_{in,\v{q}_{0}}-\psi_{in}) \|
+\end{equation}
+\begin{equation}\label{p1.11}
+\| \v{p}_{1} \varphi_{in,\v{p}_{0}}  \|=\sigma \| \v{q}_{1} (\psi_{in,\v{q}_{0}}-\psi_{in}) \| \leq |\v{p}_{0}|\cdot \| \v{q}_{1} (\psi_{in,\v{q}_{0}}-\psi_{in}) \|
+\end{equation}
+En donde \eqref{p1.11} se obtuvo de manera similar a \eqref{p1.10}.\\
+Luego por \eqref{p1.10} y \eqref{p1.11},
+$$ \| \v{p}_{1} ( \varphi_{in,\v{p}_{0}} - \varphi_{in} ) \| \leq C\, |\v{p}_{0}| $$
+y de manera similar se tiene que, 
+$$ \| \v{p}_{2} ( \varphi_{in,\v{p}_{0}} - \varphi_{in} ) \| \leq C\, |\v{p}_{0}| $$
+As\'i por \eqref{p1.7.3} concluimos que para $1 \leq |\v{q}_{0}|$,
+$$ \| \v{p}\, (\varphi_{in,\v{p}_{0}}-\varphi_{in}) \| \leq C\, |\v{p}_{0}| $$
+y por tanto \eqref{p1.2} se cumple. \qed
+*****************************************************************************************************************************************************************************************************************************************************************
+\begin{proposition}
+\label{p2}
+Sea:
+\begin{equation}\label{tau}
+\T ( \v{p}^{2}/2m )= \S (\v{p}^{2}/2m) - I
+\end{equation}
+Donde $I$ denota al operador identidad en $L^{2}(\mathbb{S}^{2})$. Entonces en la norma de $ \B(L^{2}(\mathbb{S}^{2})) $ se tiene que, 
+\begin{equation}\label{taucot1}
+\| \T(\v{p}^{2}/2m) \|_{\B(L^{2}(\mathbb{S}^{2}))} \leq C\, \frac{ |\v{p}/\hbar| }{1+|\v{p}/\hbar|} 
+\end{equation} 
+
+\end{proposition}
+\n {\bf Demostraci\'on}\\
+A lo largo de esta demostraci\'on denotaremos por $\| \cdot \|$ a la norma de $\B(L^{2}(\mathbb{S}^{2}))$.\\ 
+Tomando el hecho de que $\| \S(\v{p}^{2}/2m) \|= 1$, observamos que para todo valor de $|\v{p}|$ se tiene:
+\begin{equation}\label{p2.1}
+\| \T(\v{p}^{2}/2m) \|=\| \S(\v{p}^{2}/2m)-I  \|\leq \|\S(\v{p}^{2}/2m) \|+ \| I \|= 2
+\end{equation}
+
+\n En el l\'imite cuando $\left| \frac{\v{p}}{\hbar} \right| \rightarrow 0 $ podemos escribir:
+$$ \| \T ( \v{p}^{2}/2m ) \|= \left\|  i \left| \frac{\v{p}}{\hbar} \right| \Sigma_{1}^{0} - \left| \frac{\v{p}}{\hbar} \right|^{2} \Sigma_{2}^{0}  \, \right\|$$
+$$ \leq \left| \frac{\v{p}}{\hbar} \right|\cdot \left\|  \Sigma_{1}^{0} \right\|+ \left| \frac{\v{p}}{\hbar} \right|^{2} \left\|   \Sigma_{2}^{0}  \, \right\|  $$
+
+\n Observamos que la derivada respecto a $|\v{p}|$ del \'ultimo miembro de la expresi\'on anterior es, 
+$$ \left\|  \Sigma_{1}^{0} \right\|+ 2 \, \left| \frac{\v{p}}{\hbar} \right| \left\|   \Sigma_{2}^{0}  \, \right\| $$
+Cuyo valor en $|\v{p}|=0$ es $\left\|  \Sigma_{1}^{0} \right\|$ ; Por tanto si $C_{1}$ es una constante real tal que $\left\|  \Sigma_{1}^{0} \right\| < C_{1}$ y ya que estamos en el l\'imite $\left| \frac{\v{p}}{\hbar} \right| \rightarrow 0 $, concluimos que:
+
+\begin{equation}
+\| \T ( \v{p}^{2}/2m ) \| \leq C_{1}\, \left| \frac{\v{p}}{\hbar} \right| \,\,\,;\,\,\, \left| \frac{\v{p}}{\hbar} \right| \rightarrow 0
+\end{equation}
+Por otro lado supongamos que $1 \leq \left| \frac{\v{p}}{\hbar} \right|$; Entonces en este caso se tiene:
+$$ \frac{1}{2} \leq \frac{ |\v{p}/\hbar| }{1+|\v{p}/\hbar|} < 1 $$
+Luego por \eqref{p2.1} y tomando una constante real $C_{2}$ lo suficientemente grande, a saber $4<C_{2}$, tenemos que:
+$$ \| \T(\v{p}^{2}/2m) \| \leq C_{2}\, \frac{ |\v{p}/\hbar| }{1+|\v{p}/\hbar|}  $$
+Tomando una constante real $C$ tal que, $C > \max \{ C_{1},C_{2} \}$, concluimos que \eqref{taucot1} se cumple.\qed \\
+
+Ahora, como una consecuencia de la proposici\'on anterior, podemos estimar una cota superior para $\| \T(\v{p}^{2}/2m) \varphi_{in}  \|$.\\
+
+\n Ya que $ \T(\v{p}^{2}/2m) $ es un operador de $L^{2}(\S^{2})_{rel}$ es conveniente hacer el cambio de variable $ ( \v{p}_{1},\v{p}_{2} ) \rightarrow ( \v{p}_{cm},\v{p} ) $, as\'i tenemos que:
+
+$$ \| \T(\v{p}^{2}/2m) \varphi_{in}  \|^{2} = \int_{\R^{3}} \int_{\R^{3}} \left|\T(\v{p}^{2}/2m) \varphi_{in}( \v{p}_{cm},\v{p} ) \right|^{2} d\v{p}\, d\v{p}_{cm}$$ 
+$$ = \int_{\R^{3}} \int_{0}^{\infty} \int_{\S^{2}} \left|\T(p^{2}/2m) \varphi_{in} \right|^{2} p^{2} \sen (\theta) \, d\theta \, d \phi \, dp \, d\v{p}_{cm} $$
+En donde en la \'ultima igualdad se realizo el cambio a coordenadas esf\'ericas, $ \v{p} \rightarrow (p,\theta , \phi ) $. Se observa que:
+
+$$ \int_{\S^{2}} \left|\T(p^{2}/2m) \varphi_{in} \right|^{2} \sen (\theta) \, d\theta \, d \phi = \left\| \T(p^{2}/2m) \varphi_{in}  \right\|_{L^{2}(\S^{2})}^{2} $$
+Luego podemos escribir,
+
+$$ \| \T(\v{p}^{2}/2m) \varphi_{in}  \|^{2} = \int_{\R^{3}} \int_{0}^{\infty}  \left\| \T(p^{2}/2m) \varphi_{in}  \right\|_{L^{2}(\S^{2})}^{2}\, p^{2} \, dp \, d\v{p}_{cm} $$
+$$\leq C \int_{\R^{3}} \int_{0}^{\infty} \left| \frac{ |p/\hbar| }{1+|p/\hbar|} \right|^{2}\left\| \varphi_{in} \right\|_{L^{2}(\S^{2})}^{2}\, p^{2} \, dp \, d\v{p}_{cm} 
+\leq C \int_{\R^{3}} \int_{0}^{\infty} \left| \frac{p}{\hbar} \right|^{2}\left\| \varphi_{in} \right\|_{L^{2}(\S^{2})}^{2}\, p^{2} \, dp \, d\v{p}_{cm} $$
+$$= C \int_{\R^{3}} \int_{0}^{\infty} \left\| \left| p/\hbar \right| \varphi_{in} \right\|_{L^{2}(\S^{2})}^{2}\, p^{2} \, dp \, d\v{p}_{cm} = C \, \frac{1}{\hbar^{2}}\, \| \v{p} \, \varphi_{in}  \|^{2} $$
+Ahora desarrollemos $\| \v{p} \, \varphi_{in}  \|^{2}$ en las variables $\v{p}_{1}\,,\, \v{p}_{2}$ para despu\'es hacer el cambio, $ \v{p}/\sigma \rightarrow \v{q} $ y $ \v{p}_{1,2}/\sigma \rightarrow \v{q}_{1,2} $ , 
+
+$$ \| \v{p}\, \varphi_{in}  \|^{2} = \frac{1}{(\sigma^{2} \pi)^{3}} \int_{\R^{3}} \int_{\R^{3}} \v{p}^{2}\, \exp \left( \frac{-\v{p}_{1}^{2} -\v{p}_{2}^{2} }{\sigma^{2}} \right) \, d\v{p}_{1} \, d\v{p}_{2} $$ 
+$$ = \frac{1}{(\sigma^{2} \pi)^{3}} \int_{\R^{3}} \int_{\R^{3}} \sigma^{2} \v{q}^{2}\, \exp \left( -\v{q}_{1}^{2} -\v{q}_{2}^{2}  \right) \, \sigma^{3} \, d\v{q}_{1} \, \sigma^{3} \, d\v{q}_{2} = \sigma^{2} \cdot \frac{1}{\pi^{3}} \int_{\R^{3}} \int_{\R^{3}}  \v{q}^{2}\, \exp \left( -\v{q}_{1}^{2} -\v{q}_{2}^{2}  \right) \, d\v{q}_{1} \, d\v{q}_{2} $$
+$$ = \sigma^{2}\, \|\v{q}\, \psi_{in}  \|^{2} $$
+
+\n As\'i concluimos que,
+
+\begin{equation}\label{tau-phi-leq}
+\| \T(\v{p}^{2}/2m) \varphi_{in}  \| \leq C \, \frac{\sigma}{\hbar} \, \|\v{q}\, \psi_{in}  \| 
+\end{equation}
+
+Denotamos por,
+\begin{equation}\label{lphi}
+\L ( \phi_{1},\phi_{2},\phi_{3},\phi_{4} ) = \int_{\R^{12}} \phi_{1}(\v{p}_{1},\v{p}_{2}) \, \ol{ \phi_{2}(\v{p}_{3},\v{p}_{2}) } \, \phi_{3}(\v{p}_{3},\v{p}_{4}) \, \ol{ \phi_{4}(\v{p}_{1},\v{p}_{4}) } \, d\v{p}_{1}\, d\v{p}_{2}\, d\v{p}_{3} \, d\v{p}_{4}
+\end{equation}
+Notamos que cuando $\phi_{1}= \phi_{2}=\phi_{3}=\phi_{4}=\phi$ , tenemos que:
+$$ \L(\phi,\phi,\phi,\phi)= \P(\phi) $$
+Y por la desigualdad de Schwarz en $L^{2}(\R^{12})$ se tiene que,
+\begin{equation}\label{lshw}
+ \left| \L ( \phi_{1},\phi_{2},\phi_{3},\phi_{4} ) \right|=\left| \left(\phi_{2} \phi_{4},\phi_{1} \phi_{3} \right)_{L^{2}(\R^{12})} \right| \leq 
+\left\| \phi_{2} \phi_{4} \right\|_{L^{2}(\R^{12})} \cdot \left\| \phi_{1} \phi_{3} \right\|_{L^{2}(\R^{12})} = \prod_{i=1}^{4} \| \phi_{i} \|_{L^{2}(\R^{6})}
+\end{equation}
+
+\newpage
+
+El siguiente teorema es nuestra primera estimaci\'on de la pureza para bajas energ\'ias.
+
+\begin{theorem}
+Supongamos que la suposici\'on sobre el potencial $V$ se cumple y que en cero $H_{rel}$ no tiene una resonancia o un valor propio. Entonces,
+\begin{equation}\label{est0}
+\P (\varphi_{out,\v{p}_{0}})= \P (\varphi_{out})+O(|\v{p}_{0}/\hbar|)
+\end{equation}
+Cuando, $|\v{p}_{0}/\hbar| \rightarrow 0$ .
+\end{theorem}
+
+\n {\bf Demostraci\'on}\\
+Primero notamos que, $\varphi_{out,\v{p}_{0}}$ se puede escribir como:
+$$ \varphi_{out,\v{p}_{0}} = \S(\v{p}^{2}/2m) \varphi_{in,\v{p}_{0}} = \varphi_{in,\v{p}_{0}} +( \S(\v{p}^{2}/2m) - I ) \varphi_{in,\v{p}_{0}} = \varphi_{in,\v{p}_{0}} + \T(\v{p}^{2}/2m) \varphi_{in,\v{p}_{0}} $$
+As\'i,
+$$ \P(\varphi_{out,\v{p}_{0}})= \P \left( \varphi_{in,\v{p}_{0}} + \T(\v{p}^{2}/2m) \varphi_{in,\v{p}_{0}} \right) $$
+Desarrollando el t\'ermino derecho de la expresi\'on anterior tenemos por la ecuaci\'on \eqref{p:estin},
+$$ \P \left(\varphi_{in,\v{p}_{0}} + \T(\v{p}^{2}/2m) \varphi_{in,\v{p}_{0}} \right) $$
+$$ = \int_{\R^{12}} \varphi_{in,\v{p}_{0}}(\v{p}_{1},\v{p}_{2}) \, \ol{ \varphi_{in,\v{p}_{0}}(\v{p}_{3},\v{p}_{2}) } \, \varphi_{in,\v{p}_{0}}(\v{p}_{3},\v{p}_{4}) \, \ol{ \varphi_{in,\v{p}_{0}}(\v{p}_{1},\v{p}_{4}) } \, d\v{p}_{1} ... d\v{p}_{4} + \sum_{i=1}^{15} \L_{i}(\v{p}_{0}, \psi_{1},\psi_{2},\psi_{3},\psi_{4}) $$
+$$= \P(\varphi_{in,\v{p}_{0}}) + \sum_{i=1}^{15} \L_{i}(\v{p}_{0}, \psi_{1},\psi_{2},\psi_{3},\psi_{4}) = 1 + \sum_{i=1}^{15} \L_{i}(\v{p}_{0}, \psi_{1},\psi_{2},\psi_{3},\psi_{4}) $$
+Aqu\'i introdujimos $\L_{i}(\v{p}_{0}, \psi_{1},\psi_{2},\psi_{3},\psi_{4})$ que se define en funci\'on de \eqref{lphi} de la siguiente manera,
+\begin{equation}\label{li_p0}
+\L_{i}(\v{p}_{0}, \psi_{1},\psi_{2},\psi_{3},\psi_{4}) := \L(\psi_{1},\psi_{2},\psi_{3},\psi_{4})
+\end{equation}
+en donde $k$, ($ 1 \leq k \leq 4 $) de las $\psi_{i}$ son iguales a $\T(\v{p}^{2}/2m) \varphi_{in,\v{p}_{0}} $ y las $4-k$ restantes son iguales a $\varphi_{in,\v{p}_{0}}$ . Definiendo,
+\begin{equation}\label{R_p0}
+\Rr (\v{p}_{0}) :=\sum_{i=1}^{15} \L_{i}(\v{p}_{0}, \psi_{1},\psi_{2},\psi_{3},\psi_{4})
+\end{equation} 
+Tenemos que,
+\begin{equation}\label{p_phiout_p0}
+\P(\varphi_{out,\v{p}_{0}})= 1 + \Rr (\v{p}_{0}) 
+\end{equation}
+
+\n Por otro lado, ya que $\varphi_{out}$ es un caso particular de $\varphi_{out,\v{p}_{0}}$ cuando $\v{p}_{0}=0$, es claro que la pureza de este estado est\'a dada por,
+\begin{equation}\label{p_phiout_0}
+\P(\varphi_{out})= 1 + \Rr (0)
+\end{equation}
+En donde, 
+\begin{equation}\label{R0}
+\Rr (0) :=\sum_{i=1}^{15} \L_{i}(0, \psi_{1},\psi_{2},\psi_{3},\psi_{4})
+\end{equation}
+
+Ahora, sin p\'erdida de generalidad podemos suponer que,
+
+\begin{equation}
+\L_{1}(\v{p}_{0}, \psi_{1},\psi_{2},\psi_{3},\psi_{4})=
+\L(\T (\v{p}^{2}/2m) \varphi_{in,\v{p}_{0}},\varphi_{in,\v{p}_{0}},\varphi_{in,\v{p}_{0}},\varphi_{in,\v{p}_{0}} )
+\end{equation}
+
+\n Haciendo, $\T (\v{p}^{2}/2m) \varphi_{in,\v{p}_{0}}= \T (\v{p}^{2}/2m) \varphi_{in}+ \T (\v{p}^{2}/2m)( \varphi_{in,\v{p}_{0}} - \varphi_{in} )  $ en la ecuaci\'on anterior y por \eqref{lphi},
+$$ \L_{1}(\v{p}_{0}, \psi_{1},\psi_{2},\psi_{3},\psi_{4})=  $$
+\begin{equation}\label{l12}
+\L(\T (\v{p}^{2}/2m) \varphi_{in},\varphi_{in,\v{p}_{0}},\varphi_{in,\v{p}_{0}},\varphi_{in,\v{p}_{0}} )+
+\L( \T (\v{p}^{2}/2m)( \varphi_{in,\v{p}_{0}} - \varphi_{in} ) ,\varphi_{in,\v{p}_{0}},\varphi_{in,\v{p}_{0}},\varphi_{in,\v{p}_{0}} )
+\end{equation}
+
+Ahora prestemos atenci\'on al segundo t\'erminos del lado derecho de la ecuaci\'on anterior. Por \eqref{lshw} tenemos que,
+
+$$ \left|\L( \T (\v{p}^{2}/2m)( \varphi_{in,\v{p}_{0}} - \varphi_{in} ) ,\varphi_{in,\v{p}_{0}},\varphi_{in,\v{p}_{0}},\varphi_{in,\v{p}_{0}} ) \right| \leq $$ 
+$$ \| \T (\v{p}^{2}/2m)( \varphi_{in,\v{p}_{0}} - \varphi_{in} ) \| \cdot \| \varphi_{in,\v{p}_{0}} \|^{3} = \| \T (\v{p}^{2}/2m)( \varphi_{in,\v{p}_{0}} - \varphi_{in} ) \| $$
+
+\n Luego por las ecuaciones \eqref{p1.2} , \eqref{taucot1} y tomando el hecho de que $ \left| \frac{\v{p}}{\hbar} \right| \rightarrow 0 $, podemos acotar a $\| \T (\v{p}^{2}/2m)( \varphi_{in,\v{p}_{0}} - \varphi_{in} ) \|$ de la siguiente forma,
+$$ \| \T(\v{p}^{2}/2m) ( \varphi_{in,\v{p}_{0}} - \varphi_{in} ) \|^{2}= \int_{\R^{3}} \int_{0}^{\infty} \left\| \T(p^{2}/2m) ( \varphi_{in,\v{p}_{0}} - \varphi_{in} ) \right\|_{L^{2}(\S^{2})}^{2} p\, dp \, d \v{p}_{cm} $$  
+$$ \leq C \int_{\R^{3}} \int_{0}^{\infty} \left| \frac{p}{\hbar} \right|^{2} \cdot \left\| \varphi_{in,\v{p}_{0}} - \varphi_{in}  \right\|_{L^{2}(\S^{2})}^{2} p\, dp \, d \v{p}_{cm} = C\, \frac{1}{\hbar^{2}} \int_{\R^{3}} \int_{0}^{\infty} \left\|p\, (\varphi_{in,\v{p}_{0}} - \varphi_{in})  \right\|_{L^{2}(\S^{2})}^{2} p\, dp \, d \v{p}_{cm}  $$
+$$ =C \, \frac{1}{\hbar^{2}} \left\| \v{p}(\varphi_{in,\v{p}_{0}} - \varphi_{in}) \right\|^{2} \leq C \, \left|\frac{\v{p}_{0}}{\hbar} \right|^{2} $$
+As\'i tenemos que, $ \| \T (\v{p}^{2}/2m)( \varphi_{in,\v{p}_{0}} - \varphi_{in} ) \| \leq C\, |\v{q}/\hbar| $. Luego,
+$$ \left|\L( \T (\v{p}^{2}/2m)( \varphi_{in,\v{p}_{0}} - \varphi_{in} ) ,\varphi_{in,\v{p}_{0}},\varphi_{in,\v{p}_{0}},\varphi_{in,\v{p}_{0}} ) \right| \leq C \, \left|\frac{\v{p}_{0}}{\hbar} \right| $$
+
+\n Por lo anterior, en el l\'imite cuando $\left| \frac{\v{p}}{\hbar} \right| \rightarrow 0$, podemos estimar a $\L_{1}$ de la siguiente forma,
+\begin{equation} \label{l101}
+\L_{1}(\v{p}_{0}, \psi_{1},\psi_{2},\psi_{3},\psi_{4})=
+\L(\T (\v{p}^{2}/2m) \varphi_{in},\varphi_{in,\v{p}_{0}},\varphi_{in,\v{p}_{0}},\varphi_{in,\v{p}_{0}} )+ O \left( \left|\v{p}_{0}/\hbar \right| \right)
+\end{equation}
+Haciendo $ \varphi_{in,\v{p}_{0}}= ( \varphi_{in,\v{p}_{0}} - \varphi_{in} )+ \varphi_{in} $ en la segunda entrada del lado derecho de la ecuaci\'on \eqref{l101} tenemos por \eqref{lphi}, 
+$$\L_{1}(\v{p}_{0}, \psi_{1},\psi_{2},\psi_{3},\psi_{4})= \L(\T (\v{p}^{2}/2m) \varphi_{in},( \varphi_{in,\v{p}_{0}} - \varphi_{in} ),\varphi_{in,\v{p}_{0}},\varphi_{in,\v{p}_{0}} ) $$
+\begin{equation}\label{ap1}
++ \L(\T (\v{p}^{2}/2m) \varphi_{in},\varphi_{in},\varphi_{in,\v{p}_{0}},\varphi_{in,\v{p}_{0}} )+ O \left( \left|\v{p}_{0}/\hbar \right| \right)
+\end{equation}
+
+\n Ahora prestemos atenci\'on al termino $ \L(\T (\v{p}^{2}/2m) \varphi_{in},( \varphi_{in,\v{p}_{0}} - \varphi_{in} ),\varphi_{in,\v{p}_{0}},\varphi_{in,\v{p}_{0}} ) $ de la ecuaci\'on anterior. Por las ecuaciones \eqref{p1.1} , \eqref{tau-phi-leq} y \eqref{lshw} tenemos que,
+$$ \left| \L(\T (\v{p}^{2}/2m) \varphi_{in},( \varphi_{in,\v{p}_{0}} - \varphi_{in} ),\varphi_{in,\v{p}_{0}},\varphi_{in,\v{p}_{0}} ) \right| \leq \| \T (\v{p}^{2}/2m) \varphi_{in} \| \cdot \| \varphi_{in,\v{p}_{0}} - \varphi_{in} \| \cdot \| \varphi_{in,\v{p}_{0}} \|^{2} $$
+$$ = \| \T (\v{p}^{2}/2m) \varphi_{in} \| \cdot \| \varphi_{in,\v{p}_{0}} - \varphi_{in} \| \leq C \, \frac{\sigma}{\hbar}\, \| \v{q} \psi_{in} \| \cdot \left|\frac{\v{p}_{0}}{\sigma} \right| \leq C \, \left|\frac{\v{p}_{0}}{\hbar} \right| $$
+As\'i, en el l\'imite cuando $\left| \frac{\v{p}}{\hbar} \right| \rightarrow 0$, podemos estimar a $\L_{1}$ de la siguiente forma,
+\begin{equation}\label{ap2}
+\L_{1}(\v{p}_{0}, \psi_{1},\psi_{2},\psi_{3},\psi_{4})=
+\L(\T (\v{p}^{2}/2m) \varphi_{in},\varphi_{in},\varphi_{in,\v{p}_{0}},\varphi_{in,\v{p}_{0}} )+ O \left( \left|\v{p}_{0}/\hbar \right| \right)
+\end{equation}
+Repitiendo este proceso dos veces m\'as, concluimos que para $\left| \frac{\v{p}}{\hbar} \right| \rightarrow 0$, podemos estimar a $\L_{1}$ como:
+$$\L_{1}(\v{p}_{0}, \psi_{1},\psi_{2},\psi_{3},\psi_{4})=
+\L(\T (\v{p}^{2}/2m) \varphi_{in},\varphi_{in},\varphi_{in},\varphi_{in} )+ O \left( \left|\v{p}_{0}/\hbar \right| \right) $$
+\begin{equation}\label{ap3}
+= \L_{1}(0, \psi_{1},\psi_{2},\psi_{3},\psi_{4})+O \left( \left|\v{p}_{0}/\hbar \right| \right)
+\end{equation}
+Para $\L_{j}(\v{p}_{0}, \psi_{1},\psi_{2},\psi_{3},\psi_{4})$ arbitrario, podemos estimar su valor repitiendo los argumentos anteriores las veces que sean necesarias, para obtener:
+\begin{equation}\label{liest}
+\L_{j}(\v{p}_{0}, \psi_{1},\psi_{2},\psi_{3},\psi_{4}) = \L_{j}(0, \psi_{1},\psi_{2},\psi_{3},\psi_{4}) + O(|\v{p}_{0}/\hbar|)
+\end{equation}
+
+As\'i, por las ecuaciones \eqref{R_p0},\eqref{p_phiout_p0},\eqref{p_phiout_0},\eqref{R0} y \eqref{liest}, concluimos que en el l\'imite cuando $\left| \frac{\v{p}}{\hbar} \right| \rightarrow 0$, la pureza del estado $\varphi_{out,\v{p}_{0}}$ se puede estimar como:
+$$\P (\varphi_{out,\v{p}_{0}})=
+1+\sum_{i=1}^{15} \L_{i}(0, \psi_{1},\psi_{2},\psi_{3},\psi_{4})+ O(|\v{p}_{0}/\hbar|) $$
+\begin{equation}
+= \P (\varphi_{out})+O(|\v{p}_{0}/\hbar|)
+\end{equation}
+\qed
+
+\n Ahora calcularemos a primer orden la pureza del estado $\varphi_{out}$.\\ Denotamos por,
+\begin{equation}\label{tao1}
+\T_{1}( \v{p}^{2}/2m ) := \S ( \v{p}^{2}/2m ) - I -i |\v{p}/\hbar| \Sigma_{1}^{0} + |\v{p}/\hbar|^{2} \Sigma_{2}^{0} 
+\end{equation}
+
+\n Es claro que por el teorema de Kato - Jensen,
+\begin{equation}\label{tao1nor}
+\left\| \T_{1}( \v{p}^{2}/2m )  \right\|_{\B(L^{2}(\S^{2}))} \leq \begin{cases} \begin{matrix} |\v{p}/\hbar|^{2} o(1) & si\; \beta >5 \\ |\v{p}/\hbar|^{2} O(|\v{p}/\hbar|) & si\; \beta > 7 \end{matrix} \end{cases}
+\end{equation} 
+En donde $o(1)$ y $O(|\v{p}/\hbar|)$ son funciones acotadas de $|\v{p}/\hbar|$ tales que, $\lim_{|\v{p}/\hbar| \rightarrow 0} o(1)=0$ y \\
+$ O(|\v{p}/\hbar|) \leq C \, |\v{p}/\hbar|  $ para $|\v{p}/\hbar| \leq 1 $.
+
+\begin{theorem} 
+Supongamos que la suposici\'on sobre el potencial $V$ se cumple y que en cero $H_{rel}$ no tiene una resonancia o un valor propio. Entonces en el l\'imite cuando $\sigma/\hbar \rightarrow 0 $,
+$$ \P( \varphi_{out} )= \P \left( \left[ I+i|\v{p}/\hbar|\Sigma_{1}^{0} -|\v{p}/\hbar|^{2} \Sigma_{2}^{0} \right] \varphi_{in} \right) $$
+\begin{equation}\label{1.4.0}
++\begin{cases} \begin{matrix} o(|\sigma/\hbar|^{2}) & si\; \beta >5 \\ O(|\sigma/\hbar|^{3}) & si\; \beta > 7 \end{matrix} \end{cases}
+\end{equation}
+
+\end{theorem}
+\n {\bf Demostraci\'on}\\
+Primero escribimos a $\varphi_{out}$ de la siguiente manera,
+$$ \varphi_{out}= \varphi_{out,1} + \T_{1} (\v{p}^{2}/2m) \varphi_{in} $$
+En donde,
+\begin{equation}
+\varphi_{out,1}= \left[I + i|\v{p}/\hbar| \Sigma_{1}^{0} - |\v{p}/\hbar|^{2} \Sigma_{2}^{0} \right] \varphi_{in}
+\end{equation}
+As\'i, usando esta descomposici\'on tenemos que la pureza de $\varphi_{out}$ est\'a dada por,
+$$ \P (\varphi_{out})= \P \left(\varphi_{out,1} + \T_{1} (\v{p}^{2}/2m) \varphi_{in} \right) $$
+$$= \int_{\R^{12}} \varphi_{out,1}(\v{p}_{1},\v{p}_{2}) \, \ol{ \varphi_{out,1}(\v{p}_{2},\v{p}_{3}) } \, \varphi_{out,1}(\v{p}_{3},\v{p}_{4}) \, \ol{ \varphi_{out,1}(\v{p}_{1},\v{p}_{4}) } \, d\v{p}_{1} ... d\v{p}_{4} + \sum_{i=1}^{15} \L_{i}(\sigma, \psi_{1},\psi_{2},\psi_{3},\psi_{4}) $$
+$$= \P(\varphi_{out,1}) + \sum_{i=1}^{15} \L_{i}(\sigma, \psi_{1},\psi_{2},\psi_{3},\psi_{4}) $$
+Aqu\'i introdujimos $\L_{i}(\sigma, \psi_{1},\psi_{2},\psi_{3},\psi_{4})$ que se define en funci\'on de \eqref{lphi} de la siguiente manera,
+$$ \L_{i}(\sigma, \psi_{1},\psi_{2},\psi_{3},\psi_{4})=\L( \psi_{1},\psi_{2},\psi_{3},\psi_{4}) $$
+####################################################################################################################################################################################################################################################################################################
+En donde $k$ ($ 1 \leq k \leq 4 $) de las $\psi_{j}$ son iguales a $\T_{1}(\v{p}^{2}/2m) \varphi_{in} $ y las $4-k$ restantes son iguales a $\varphi_{out,1}$ . Definiendo,
+\begin{equation}\label{1.4.4}
+\Rr(\sigma):= \sum_{i=1}^{15} \L_{i}(\sigma, \psi_{1},\psi_{2},\psi_{3},\psi_{4}) 
+\end{equation}
+Tenemos que,
+\begin{equation}\label{1.4.5}
+\P (\varphi_{out})= \P(\varphi_{out,1})+\Rr (\sigma)
+\end{equation}
+Ahora tomemos $\beta > 7$ y sin p\'erdida de generalidad tomemos tambi\'en,
+\begin{equation}\label{1.4.1}
+\L_{15}(\sigma,\psi_{1},\psi_{2},\psi_{3},\psi_{4})=\L \left(\varphi_{out,1},\varphi_{out,1},\varphi_{out,1},\T_{1}(\v{p}^{2}/2m)\varphi_{in} \right)
+\end{equation}
+Luego por \eqref{lshw} tenemos que,
+$$ \left| \L \left(\varphi_{out,1},\varphi_{out,1},\varphi_{out,1},\T_{1}(\v{p}^{2}/2m)\varphi_{in} \right) \right| $$
+\begin{equation}\label{1.4.2}
+\leq \| \varphi_{out,1} \|^{3}\cdot \left\| \T_{1}(\v{p}^{2}/2m)\varphi_{in} \right\| \leq C \, \left\| \T_{1}(\v{p}^{2}/2m)\varphi_{in} \right\|
+\end{equation}
+Para alguna constante real $C$. Ahora por la ecuaci\'on \eqref{tao1nor} y tomando el hecho de que $O(|\v{p}/\hbar|)\leq C\, |\v{p}/\hbar| $ en el l\'imite cuando $ \left| \frac{\v{p}}{\hbar} \right| \rightarrow 0 $ tenemos que,
+$$ \left\| \T_{1}(\v{p}^{2}/2m)\varphi_{in} \right\|^{2} = \int_{\R^{3}} \int_{0}^{\infty} \left\| \T_{1}(p^{2}/2m)\varphi_{in} \right\|_{L^{2}(\S^{2})}^{2} p\, dp\, d\v{p}_{cm} $$
+$$\leq \int_{\R^{3}} \int_{0}^{\infty} \left\| \T_{1}(p^{2}/2m) \right\|^{2} \left\|\varphi_{in} \right\|_{L^{2}(\S^{2})}^{2} p\, dp\, d\v{p}_{cm}
+\leq C \int_{\R^{3}} \int_{0}^{\infty} \left| \frac{\v{p}^{3}}{\hbar^{3}} \right|^{2} \left\|\varphi_{in} \right\|_{L^{2}(\S^{2})}^{2} p\, dp\, d\v{p}_{cm} $$
+$$= C\,\left|\frac{1}{\hbar^{3}} \right|^{2} \int_{\R^{3}} \int_{0}^{\infty}  \left\| \v{p}^{3}  \varphi_{in} \right\|_{L^{2}(\S^{2})}^{2} p\, dp\, d\v{p}_{cm} = C\, \left|\frac{1}{\hbar^{3}} \right|^{2} \, \left\| \v{p}^{3}\, \varphi_{in} \right\|^{2} $$ 
+
+\n Ahora desarrollemos $\| \v{p}^{3} \, \varphi_{in}  \|^{2}$ en las variables $\v{p}_{1}\,,\, \v{p}_{2}$ para despu\'es hacer el cambio, $ \v{p}/\sigma \rightarrow \v{q} $ y $ \v{p}_{1,2}/\sigma \rightarrow \v{q}_{1,2} $ , 
+
+$$ \| \v{p}^{3}\, \varphi_{in}  \|^{2} = \frac{1}{(\sigma^{2} \pi)^{3}} \int_{\R^{3}} \int_{\R^{3}} \v{p}^{6}\, \exp \left( \frac{-\v{p}_{1}^{2} -\v{p}_{2}^{2} }{\sigma^{2}} \right) \, d\v{p}_{1} \, d\v{p}_{2} $$ 
+$$ = \frac{1}{(\sigma^{2} \pi)^{3}} \int_{\R^{3}} \int_{\R^{3}} \sigma^{6} \v{q}^{6}\, \exp \left( -\v{q}_{1}^{2} -\v{q}_{2}^{2}  \right) \, \sigma^{3} \, d\v{q}_{1} \, \sigma^{3} \, d\v{q}_{2} = \sigma^{6} \cdot \frac{1}{\pi^{3}} \int_{\R^{3}} \int_{\R^{3}}  \v{q}^{6}\, \exp \left( -\v{q}_{1}^{2} -\v{q}_{2}^{2}  \right) \, d\v{q}_{1} \, d\v{q}_{2} $$
+$$ = \sigma^{6}\, \|\v{q}\, \psi_{in}  \|^{2} $$
+As\'i se tiene que,
+\begin{equation}\label{1.4.3}
+\left\| \T_{1}(\v{p}^{2}/2m)\varphi_{in} \right\| \leq C \,\left|\frac{\sigma^{3}}{\hbar^{3}} \right| 
+\end{equation}
+Luego por las ecuaciones \eqref{1.4.1}, \eqref{1.4.2} y \eqref{1.4.3} concluimos que,
+\begin{equation}\label{1.4.6}
+\left| \L_{15}(\sigma,\psi_{1},\psi_{2},\psi_{3},\psi_{4}) \right| \leq C \,\left|\frac{\sigma^{3}}{\hbar^{3}} \right|
+\end{equation}
+Notemos que por la ecuaci\'on \eqref{lshw} el argumento anterior es v\'alido para toda $  \L_{i}(\sigma,\psi_{1},\psi_{2},\psi_{3},\psi_{4}) $, en donde una de las $\psi_{j}$ es igual a $\T_{1}(\v{p}^{2}/2m)\varphi_{in}$ y las otras tres son iguales a $\varphi_{out,1}$.\\
+En el caso cuando $\L_{i}(\sigma,\psi_{1},\psi_{2},\psi_{3},\psi_{4})$ tenga $l$ ($1< l \leq 4$) de las $\psi_{j}$ iguales a $\T_{1}(\v{p}^{2}/2m)\varphi_{in}$ y las $4-l$ restantes iguales a $\varphi_{out,1}$ se tiene que por la ecuaci\'on \eqref{lshw},
+$$ \left| \L_{i}(\sigma,\psi_{1},\psi_{2},\psi_{3},\psi_{4}) \right| \leq C \,\left|\frac{\sigma^{3}}{\hbar^{3}} \right|^{l} \,\,\,,\, 1 < l \leq 4 $$
+Pero, ya que estamos en el l\'imite cuando $\sigma / \hbar \rightarrow 0$ estos t\'erminos de orden $l$ quedan dominados por los t\'erminos de orden uno. As\'i, por el argumento anterior y por las ecuaciones \eqref{1.4.4}, \eqref{1.4.5} y \eqref{1.4.6} concluimos que para $\beta > 7$,
+$$ \P (\varphi_{out})= \P(\varphi_{out,1})+O(|\sigma^{3}/\hbar^{3}|) $$
+$$ = \P \left( \left[I + i|\v{p}/\hbar| \Sigma_{1}^{0} - |\v{p}/\hbar|^{2} \Sigma_{2}^{0} \right] \varphi_{in} \right) + O(|\sigma^{3}/\hbar^{3}|) $$
+De manera an\'aloga para el caso en el que $\beta >5$ concluimos que,
+$$ \P (\varphi_{out})= \P(\varphi_{out,1})+o(|\sigma^{2}/\hbar^{2}|) $$
+$$ = \P \left( \left[I + i|\v{p}/\hbar| \Sigma_{1}^{0} - |\v{p}/\hbar|^{2} \Sigma_{2}^{0} \right] \varphi_{in} \right) + o(|\sigma^{2}/\hbar^{2}|) $$
+Por tanto concluimos que \eqref{1.4.0} se cumple. \qed \\
+
+Por la definici\'on del momento relativo $\v{p}$ y del momento del centro de masa $\v{p}_{cm}$ tememos que,
+\begin{subequations}\label{p1-p2-p-pcm}
+\begin{align}
+        \v{p}_{1}= \mu_{1} \v{p}_{cm} + \v{p}\\
+        \v{p}_{2}= \mu_{2} \v{p}_{cm} - \v{p}
+\end{align}
+\end{subequations}
+Es claro que,
+$$ \v{p}_{1}^{2} = \v{p}_{1} \cdot \v{p}_{1}=(\mu_{1} \v{p}_{cm} + \v{p}) \cdot (\mu_{1} \v{p}_{cm} + \v{p})= \v{p}^{2}+2\, \mu_{1} \v{p}_{cm} \cdot \v{p} + \mu_{1}^{2}\, \v{p}_{cm}^{2}  $$
+$$ \v{p}_{2}^{2} = \v{p}_{2} \cdot \v{p}_{2}=(\mu_{2} \v{p}_{cm} - \v{p}) \cdot (\mu_{2} \v{p}_{cm} - \v{p})= \v{p}^{2}-2\, \mu_{2} \v{p}_{cm} \cdot \v{p} + \mu_{2}^{2}\, \v{p}_{cm}^{2} $$
+Haciendo este cambio en la ecuaci\'on \eqref{estinp0} obtenemos,
+\begin{equation}\label{estinpcm}
+\varphi_{in}(\v{p},\v{p}_{cm})= \frac{1}{(\sigma^{2} \pi)^{3/2}} \, e^{-\frac{\v{p}^{2}+(\mu_{1}-\mu_{2}) \v{p}_{cm}\cdot \, \v{p}}{\sigma^{2}} } \, e^{ -\frac{(\mu_{1}^{2}+\mu_{2}^{2} ) }{2 \sigma^{2}}\,\v{p}_{cm}^{2} }
+\end{equation}
+De forma similar, haciendo el cambio de variable
+\begin{subequations}\label{q1-q2-q-qcm}
+\begin{align}
+        \v{q}_{1}= \mu_{1} \v{q}_{cm} + \v{q}\\
+        \v{q}_{2}= \mu_{2} \v{q}_{cm} - \v{q}
+\end{align}
+\end{subequations}
+En la ecuaci\'on \eqref{psi-est} obtenemos,
+\begin{equation}\label{estinqcm}
+\psi_{in}(\q,\q_{cm})= \frac{1}{\pi^{3/2}} \, e^{-\v{q}^{2}-(\mu_{1}-\mu_{2}) \v{q}_{cm}\cdot\, \v{q} } \, e^{ -\frac{(\mu_{1}^{2}+\mu_{2}^{2} )}{2} \,\v{q}_{cm}^{2}} 
+\end{equation}
+
+Sea $\varphi \in L^{2}(\R^{6})$ un estado cu\'antico normalizado. Denotamos por $\I (\varphi)$ al integrando de la pureza $\P(\varphi)$,
+\begin{equation}\label{intp}
+\I(\varphi) := \varphi(\v{p}_{1},\v{p}_{2}) \, \ol{\varphi(\v{p}_{3},\v{p}_{2})}\, \varphi(\v{p}_{3},\v{p}_{4})\, \ol{\varphi(\v{p}_{1},\v{p}_{4})}
+\end{equation}
+
+\n As\'i, haciendo el cambio de variable $\v{q}_{i}= \v{p}_{i}/\sigma$ tenemos que,
+$$ \P \left( \left[I + i|\v{p}/\hbar| \Sigma_{1}^{0} - |\v{p}/\hbar|^{2} \Sigma_{2}^{0} \right] \varphi_{in} \right)= \int_{\R^{12}} \I \left( \left[I + i|\v{p}/\hbar| \Sigma_{1}^{0} - |\v{p}/\hbar|^{2} \Sigma_{2}^{0} \right] \varphi_{in} \right) \, d\v{p}_{1} \, d\v{p}_{2}\, d\v{p}_{3}\, d\v{p}_{4} $$
+$$= \int_{\R^{12}} \I \left( \left[I + i\, \sigma \,|\v{q}/\hbar| \Sigma_{1}^{0} -\sigma^{2}\, |\v{q}/\hbar|^{2} \Sigma_{2}^{0} \right]\frac{1}{\sigma^{3}}\, \psi_{in} \right) \, \sigma^{12}\, d\v{q}_{1} \, d\v{q}_{2}\, d\v{q}_{3}\, d\v{q}_{4} $$
+\begin{equation}\label{Ppsi}
+= \int_{\R^{12}} \I \left( \left[I + i\, (\sigma/\hbar)\, |\v{q}|\, \Sigma_{1}^{0} - (\sigma^{2}/\hbar^{2})\, |\v{q}|^{2} \, \Sigma_{2}^{0} \right] \psi_{in} \right) \, d\v{q}_{1} \, d\v{q}_{2}\, d\v{q}_{3}\, d\v{q}_{4} 
+\end{equation}
+
+\n Ahora, ya que estamos en el l\'imite cuando $ |\v{p}/\hbar|\rightarrow 0 $ y $|\sigma/\hbar|\rightarrow 0$ podemos desarrollar el integrando\\
+$\I \left( \left[I + i\, (\sigma/\hbar)\, |\v{q}|\, \Sigma_{1}^{0} - (\sigma^{2}/\hbar^{2})\, |\v{q}|^{2} \, \Sigma_{2}^{0} \right] \psi_{in} \right)$ hasta t\'erminos de orden $ |\sigma/\hbar|^{2} $ de la siguiente forma,
+\begin{equation}\label{expp}
+\I \left( \left[I + i\, (\sigma/\hbar)\, |\v{q}|\, \Sigma_{1}^{0} - (\sigma^{2}/\hbar^{2})\, |\v{q}|^{2} \, \Sigma_{2}^{0} \right] \psi_{in} \right)=A_{0} + (\sigma/\hbar)\, A_{1} + (\sigma/\hbar)^{2}\, A_{2}+ O(|\sigma/\hbar|^{3})
+\end{equation}
+Con $A_{0},A_{1},A_{2}$ funciones de $\v{p}_{1},\v{p}_{2},\v{p}_{3},\v{p}_{4}$. De esta forma, integrando \eqref{expp} obtendremos una expansi\'on hasta t\'erminos de orden $(\sigma/\hbar)^{2}$ de la pureza \eqref{Ppsi},
+$$\P \left( \left[I + i|\v{p}/\hbar| \Sigma_{1}^{0} - |\v{p}/\hbar|^{2} \Sigma_{2}^{0} \right] \varphi_{in} \right) $$
+$$=\int_{\R^{12}} A_{0}\,\, d\v{q}_{1}\,...\,d\v{q}_{4} + \frac{\sigma}{\hbar} \int_{\R^{12}} A_{1} \, d\v{q}_{1}\,...\,d\v{q}_{4}+
+\left(\frac{\sigma}{\hbar} \right)^{2} \int_{\R^{12}} A_{2} \, d\v{q}_{1}\,...\,d\v{q}_{4}+O(|\sigma/\hbar|^{3}) $$
+\begin{equation}\label{pb}
+= B_{0}  + \frac{\sigma}{\hbar}\, B_{1} +
+\left(\frac{\sigma}{\hbar} \right)^{2} B_{2} + O(|\sigma/\hbar|^{3})
+\end{equation}
+En donde $B_{0},B_{1},B_{2}$ son n\'umeros reales.\\
+\n Para esto primero denotamos por,
+\begin{subequations}\label{p1-p2-p-pcm}
+\begin{align}
+        a_{1}+b_{1}+c_{1}= \psi_{in}(\v{q}_{1},\v{q}_{2}) + i\, (\sigma/\hbar)\, |\v{q}|\, \Sigma_{1}^{0}\psi_{in}(\v{q}_{1},\v{q}_{2}) -(\sigma^{2}/\hbar^{2})\, |\v{q}|^{2} \, \Sigma_{2}^{0}\psi_{in}(\v{q}_{1},\v{q}_{2}) \\  
+a_{2}+b_{2}+c_{2}= \psi_{in}(\v{q}_{3},\v{q}_{2}) + i\, (\sigma/\hbar)\, |\v{q}|\, \Sigma_{1}^{0}\psi_{in}(\v{q}_{3},\v{q}_{2}) -(\sigma^{2}/\hbar^{2})\, |\v{q}|^{2} \,  \Sigma_{2}^{0}\psi_{in}(\v{q}_{3},\v{q}_{2}) \\
+a_{3}+b_{3}+c_{3}= \psi_{in}(\v{q}_{3},\v{q}_{4}) + i\, (\sigma/\hbar)\, |\v{q}|\, \Sigma_{1}^{0}\psi_{in}(\v{q}_{3},\v{q}_{4}) -(\sigma^{2}/\hbar^{2})\, |\v{q}|^{2} \, \Sigma_{2}^{0}\psi_{in}(\v{q}_{3},\v{q}_{4})\\
+a_{4}+b_{4}+c_{4}= \psi_{in}(\v{q}_{1},\v{q}_{4}) + i\, (\sigma/\hbar)\, |\v{q}|\, \Sigma_{1}^{0}\psi_{in}(\v{q}_{1},\v{q}_{4}) -(\sigma^{2}/\hbar^{2})\, |\v{q}|^{2} \,  \Sigma_{2}^{0}\psi_{in}(\v{q}_{1},\v{q}_{4})
+\end{align}
+\end{subequations}
+En donde,
+$$ (\sigma/\hbar)\, |\v{q}|\, \Sigma_{1}^{0}\psi_{in}(\v{q}_{i},\v{q}_{j})= (\sigma/\hbar)\, |\mu_{2}\v{q}_{i}-\mu_{1}\v{q}_{j}|\, \Sigma_{1}^{0}\psi_{in}(\v{q}_{i},\v{q}_{j}) $$
+$$ (\sigma^{2}/\hbar^{2})\, |\v{q}|^{2} \,  \Sigma_{2}^{0}\psi_{in}(\v{q}_{i},\v{q}_{j})=(\sigma^{2}/\hbar^{2})\, |\mu_{2}\v{q}_{i}-\mu_{1}\v{q}_{j}|^{2} \,  \Sigma_{2}^{0}\psi_{in}(\v{q}_{i},\v{q}_{j}) $$
+
+\n con la correspondencia,
+$$ a_{i} \longleftrightarrow \psi_{in} $$
+$$ b_{i} \longleftrightarrow i\,(\sigma/\hbar)\,|\v{q}|\,\Sigma_{1}^{0}\psi_{in} $$
+$$ c_{i} \longleftrightarrow -(\sigma^{2}/\hbar^{2})\, |\v{q}|^{2} \,  \Sigma_{2}^{0}\psi_{in} $$
+
+\n As\'i, el integrando $\I \left( \left[I + i\, (\sigma/\hbar)\, |\v{q}|\, \Sigma_{1}^{0} - (\sigma^{2}/\hbar^{2})\, |\v{q}|^{2} \, \Sigma_{2}^{0} \right] \psi_{in} \right)$ se puede escribir como,
+$$\I \left( \left[I + i\, (\sigma/\hbar)\, |\v{q}|\, \Sigma_{1}^{0} - (\sigma^{2}/\hbar^{2})\, |\v{q}|^{2} \, \Sigma_{2}^{0} \right] \psi_{in} \right) $$
+\begin{equation}\label{p-abc}
+= (a_{1}+b_{1}+c_{1}) \ol{(a_{2}+b_{2}+c_{2})} (a_{3}+b_{3}+c_{3}) \ol{(a_{4}+b_{4}+c_{4})} 
+\end{equation}
+ De las ecuaciones \eqref{p1-p2-p-pcm} y \eqref{p-abc} observamos que el termino de orden cero $A_{0}$ del integrando de la pureza es, 
+\begin{equation}\label{A0}
+A_{0}= a_{1}\, \ol{a_{2}}\, a_{3}\, \ol{a_{4}}= \psi_{in}(\q_{1},\q_{2})\, \psi_{in}(\q_{3},\q_{2}) \, \psi_{in}(\q_{3},\q_{4})\, \psi_{in}(\q_{1},\q_{4}) = \I(\psi_{in})
+\end{equation}
+Luego por las ecuaciones \eqref{psi-est}, \eqref{pb} y \eqref{A0} tenemos que el termino de orden cero $B_{0}$ de la pureza esta dado por,
+\begin{equation}\label{B0}
+B_{0}= \int_{\R^{12}} A_{0} \,d\v{q}_{1}\,...\,d\v{q}_{4}=\int_{\R^{12}} I(\psi_{in}) \,d\v{q}_{1}\,...\,d\v{q}_{4}= \P(\psi_{in})=1
+\end{equation}
+
+Ahora obtengamos el termino de orden uno $A_{1} |\sigma/\hbar|$ del integrando de la pureza. De las ecuaciones \eqref{p1-p2-p-pcm} y \eqref{p-abc} observamos los t\'erminos de orden $|\sigma/\hbar|$ del integrando de la pureza son, 
+
+$$ b_{1}\,\overline{a_{2}}\,a_{3}\,\overline{a_{4}} \,\,,\,\, a_{1}\, \overline{b_{2}} \, a_{3} \, \overline{a_{4}} $$ 
+$$ a_{1}\, \overline{a_{2}}\, b_{3}\, \overline{a_{4}} \,\,,\,\,  a_{1}\, \overline{a_{2}} \, a_{3}\, \overline{b_{4}} $$
+Es claro que,
+\begin{equation}\label{A1}
+A_{1} |\sigma/\hbar|= b_{1}\,\overline{a_{2}}\,a_{3}\,\overline{a_{4}}+ a_{1}\, \overline{b_{2}} \, a_{3} \, \overline{a_{4}}+a_{1}\, \overline{a_{2}}\, b_{3}\, \overline{a_{4}} +  a_{1}\, \overline{a_{2}} \, a_{3}\, \overline{b_{4}}
+\end{equation}
+Y que por tato el termino de primer orden $B_{1}|\sigma/\hbar|$ de la pureza esta dado por
+\begin{equation}\label{A1int}
+B_{1}|\sigma/\hbar|= \int_{\R^{12}} b_{1}\,\overline{a_{2}}\,a_{3}\,\overline{a_{4}}+ a_{1}\, \overline{b_{2}} \, a_{3} \, \overline{a_{4}}+a_{1}\, \overline{a_{2}}\, b_{3}\, \overline{a_{4}} +  a_{1}\, \overline{a_{2}} \, a_{3}\, \overline{b_{4}} \, d\q_{1},...,d\q_{4}
+\end{equation}
+
+\n Ya que en el c\'alculo de la pureza las variables $\v{q}_{1},...,\v{q}_{4}$ son mudas tenemos que, 
+$$\int_{\R^{12}} b_{1}\,\overline{a_{2}}\,a_{3}\,\overline{a_{4}} \,d\v{q}_{1}\, ...\, d\v{q}_{4}= \int_{\R^{12}} a_{1}\, \overline{a_{2}}\, b_{3}\, \overline{a_{4}} \,d\v{q}_{1}\, ... \, d\v{q}_{4} $$
+$$\int_{\R^{12}} a_{1}\, \overline{b_{2}} \, a_{3} \, \overline{a_{4}} \,d\v{q}_{1}\, ... \, d\v{q}_{4}=\int_{\R^{12}} a_{1}\, \overline{a_{2}} \, a_{3}\, \overline{b_{4}} \,d\v{q}_{1}\, ...\, d\v{q}_{4} $$
+Luego observamos que,
+$$\int_{\R^{12}} b_{1}\,\overline{a_{2}}\,a_{3}\,\overline{a_{4}} \,d\v{q}_{1}\,...\,d\v{q}_{4} + \int_{\R^{12}} a_{1}\, \overline{a_{2}}\, b_{3}\, \overline{a_{4}} \,d\v{q}_{1}\,...\,d\v{q}_{4} $$
+\begin{equation}\label{p11}
+=2 i \int_{\R^{12}} \frac{\sigma}{\hbar}\,|\v{q}| \, \Sigma_{1}^{0}\psi_{in}(\q_{1},\q_{2})\, \psi_{in}(\q_{3},\q_{2}) \, \psi_{in}(\q_{3},\q_{4})\, \psi_{in}(\q_{1},\q_{4})    \,d\v{q}_{1}...d\v{q}_{4}
+\end{equation}
+
+$$\int_{\R^{12}} a_{1}\,\overline{b_{2}}\,a_{3}\,\overline{a_{4}} \,d\v{q}_{1}...d\v{q}_{4} + \int_{\R^{12}} a_{1}\, \overline{a_{2}}\, a_{3}\, \overline{b_{4}} \,d\v{q}_{1}...d\v{q}_{4} $$
+\begin{equation}\label{p12}
+=-2i \int_{\R^{12}} \frac{\sigma}{\hbar}\,|\v{q}| \, \Sigma_{1}^{0}\psi_{in}(\q_{1},\q_{2})\, \psi_{in}(\q_{3},\q_{2}) \, \psi_{in}(\q_{3},\q_{4})\, \psi_{in}(\q_{1},\q_{4})    \,d\v{q}_{1}...d\v{q}_{4}
+\end{equation}
+As\'i, por las ecuaciones \eqref{A1} y \eqref{A1int}, el termino de orden uno $B_{1}|\sigma/\hbar|$ de la pureza, esta dado por la suma de las ecuaciones \eqref{p11} y \eqref{p12} cuya suma es claramente cero. Por tanto,
+\begin{equation}\label{B1}
+B_{1}|\sigma/\hbar|= 0
+\end{equation}
+
+Ahora obtengamos el termino de orden dos $B_{2}|\sigma/\hbar|^{2}$ de la pureza. Para esto, de las ecuaciones \eqref{p1-p2-p-pcm} y \eqref{p-abc} observamos que los t\'erminos de orden dos del integrando de la pureza se pueden dividir en dos grupos. El primero es el que consiste de t\'erminos que son el producto de dos coeficientes $a_{i}$ y dos $b_{i}$. As\'i el primer grupo es,
+$$ b_{1}\,\overline{b_{2}}\,a_{3}\,\overline{a_{4}}  \,\,,\,\,  a_{1}\, \overline{a_{2}}\, b_{3}\, \overline{b_{4}}$$
+$$ b_{1}\, \overline{a_{2}} \, a_{3} \, \overline{b_{4}} \,\,,\,\, a_{1}\, \overline{b_{2}} \, b_{3}\, \overline{a_{4}} $$
+$$a_{1}\, \overline{b_{2}} \, a_{3} \, \overline{b_{4}} \,\,,\,\, b_{1}\, \overline{a_{2}} \, b_{3}\, \overline{a_{4}} $$
+M\'as aun, ya que en el c\'alculo de la pureza las variables $\v{p}_{1},...,\v{p}_{4}$ son mudas, tenemos que,
+\begin{equation}\label{g1a}
+\int_{\R^{12}} b_{1}\,\overline{b_{2}}\,a_{3}\,\overline{a_{4}} \,d\v{p}_{1}...d\v{p}_{4} = \int_{\R^{12}} a_{1}\, \overline{a_{2}}\, b_{3}\, \overline{b_{4}} \,d\v{p}_{1}...d\v{p}_{4}
+\end{equation}
+\begin{equation}\label{g1b}
+\int_{\R^{12}} b_{1}\, \overline{a_{2}} \, a_{3} \, \overline{b_{4}} \,d\v{p}_{1}...d\v{p}_{4} = \int_{\R^{12}} a_{1}\, \overline{b_{2}} \, b_{3}\, \overline{a_{4}} \,d\v{p}_{1}...d\v{p}_{4}
+\end{equation}
+\begin{equation}\label{g1c}
+\int_{\R^{12}} a_{1}\, \overline{b_{2}} \, a_{3} \, \overline{b_{4}} \,d\v{p}_{1}...d\v{p}_{4} = \int_{\R^{12}} b_{1}\, \overline{a_{2}} \, b_{3}\, \overline{a_{4}} \,d\v{p}_{1}...d\v{p}_{4}
+\end{equation}
+Desarrollando el lado izquierdo de la ecuaci\'on \eqref{g1a} tenemos que por las ecuaciones \eqref{psi} y \eqref{psi-est}, 
+$$\int_{\R^{12}} b_{1}\,\overline{b_{2}}\,a_{3}\,\overline{a_{4}} \,d\v{p}_{1}...d\v{p}_{4} $$ 
+$$= \left( \frac{\sigma}{\hbar} \right)^{2} \int_{\R^{12}} |\mu_{2}\q_{1}-\mu_{1}\q_{2}|\cdot |\mu_{2}\q_{3}-\mu_{1}\q_{2}|\cdot \Sigma_{1}^{0} \psi_{in}(\q_{1},\q_{2}) \cdot \Sigma_{1}^{0}\psi_{in}(\q_{3},\q_{2})\cdot \psi_{in}(\q_{3},\q_{4})\cdot \psi_{in}(\q_{1},\q_{4}) \,d\v{q}_{1}\,...\,d\v{q}_{4} $$
+$$= \left( \frac{\sigma}{\hbar} \right)^{2} \int_{\R^{12}}|\mu_{2}\q_{1}-\mu_{1}\q_{2}|\cdot |\mu_{2}\q_{3}-\mu_{1}\q_{2}|\cdot \Sigma_{1}^{0} \psi_{in}(\q_{1},\q_{2}) \cdot \Sigma_{1}^{0}\psi_{in}(\q_{3},\q_{2})\cdot \psi(\q_{1}) \cdot \psi(\q_{3}) \cdot \psi^{2}(\q_{4})\,d\v{q}_{1}...d\v{q}_{4} $$
+$$=\left( \frac{\sigma}{\hbar} \right)^{2} \int_{\R^{9}}|\mu_{2}\q_{1}-\mu_{1}\q_{2}|\cdot |\mu_{2}\q_{3}-\mu_{1}\q_{2}|\cdot \Sigma_{1}^{0} \psi_{in}(\q_{1},\q_{2}) \cdot \Sigma_{1}^{0}\psi_{in}(\q_{3},\q_{2})\cdot \psi_{in}(\q_{1},\q_{3})\,d\v{q}_{1}...d\v{q}_{3}\cdot \int_{\R^{3}}\psi^{2}(\q_{4}) d\q_{4} $$
+$$=\left( \frac{\sigma}{\hbar} \right)^{2} \int_{\R^{9}}|\mu_{2}\q_{1}-\mu_{1}\q_{2}|\cdot |\mu_{2}\q_{3}-\mu_{1}\q_{2}|\cdot \Sigma_{1}^{0} \psi_{in}(\q_{1},\q_{2}) \cdot \Sigma_{1}^{0}\psi_{in}(\q_{3},\q_{2})\cdot \psi_{in}(\q_{1},\q_{3})\,d\v{q}_{1}...d\v{q}_{3} $$
+Luego, definimos a $P_{1,1}(\psi_{in})$ de la siguiente forma,
+$$ -\left( \frac{\sigma}{\hbar} \right)^{2} P_{1,1}(\psi_{in}):= $$
+$$ \int_{\R^{12}} b_{1}\,\overline{b_{2}}\,a_{3}\,\overline{a_{4}} \,d\v{p}_{1}...d\v{p}_{4} + \int_{\R^{12}} a_{1}\, \overline{a_{2}}\, b_{3}\, \overline{b_{4}} \,d\v{p}_{1}...d\v{p}_{4} $$
+\begin{equation}\label{p1_1}
+=2 \left( \frac{\sigma}{\hbar} \right)^{2} \int_{\R^{9}}|\mu_{2}\q_{1}-\mu_{1}\q_{2}|\cdot |\mu_{2}\q_{3}-\mu_{1}\q_{2}|\cdot \Sigma_{1}^{0} \psi_{in}(\q_{1},\q_{2}) \cdot \Sigma_{1}^{0}\psi_{in}(\q_{3},\q_{2})\cdot \psi_{in}(\q_{1},\q_{3})\,d\v{q}_{1}...d\v{q}_{3} 
+\end{equation}
+
+Desarrollando el lado izquierdo de la ecuaci\'on \eqref{g1b}, tenemos que por las ecuaciones \eqref{psi} y \eqref{psi-est},  
+$$\int_{\R^{12}} b_{1}\,\overline{a_{2}}\,a_{3}\,\overline{b_{4}} \,d\v{p}_{1}...d\v{p}_{4} $$ 
+$$= \left( \frac{\sigma}{\hbar} \right)^{2} \int_{\R^{12}} |\mu_{2}\q_{1}-\mu_{1}\q_{2}|\cdot |\mu_{2}\q_{1}-\mu_{1}\q_{4}|\cdot \Sigma_{1}^{0} \psi_{in}(\q_{1},\q_{2}) \cdot \Sigma_{1}^{0}\psi_{in}(\q_{1},\q_{4})\cdot \psi_{in}(\q_{3},\q_{2})\cdot \psi_{in}(\q_{3},\q_{4}) \,d\v{q}_{1}\,...\,d\v{q}_{4} $$
+$$= \left( \frac{\sigma}{\hbar} \right)^{2} \int_{\R^{12}}|\mu_{2}\q_{1}-\mu_{1}\q_{2}|\cdot |\mu_{2}\q_{1}-\mu_{1}\q_{4}|\cdot \Sigma_{1}^{0} \psi_{in}(\q_{1},\q_{2}) \cdot \Sigma_{1}^{0}\psi_{in}(\q_{1},\q_{4})\cdot \psi(\q_{2}) \cdot \psi(\q_{4}) \cdot \psi^{2}(\q_{3})\,d\v{q}_{1}...d\v{q}_{4} $$
+$$=\left( \frac{\sigma}{\hbar} \right)^{2} \int_{\R^{9}}|\mu_{2}\q_{1}-\mu_{1}\q_{2}|\cdot |\mu_{2}\q_{1}-\mu_{1}\q_{4}|\cdot \Sigma_{1}^{0} \psi_{in}(\q_{1},\q_{2}) \cdot \Sigma_{1}^{0}\psi_{in}(\q_{1},\q_{4})\cdot \psi_{in}(\q_{2},\q_{4})\,d\v{q}_{1}\,d\v{q}_{2}\,d\v{q}_{4} \cdot \int_{\R^{3}}\psi^{2}(\q_{3}) d\q_{3} $$
+$$=\left( \frac{\sigma}{\hbar} \right)^{2} \int_{\R^{9}}|\mu_{2}\q_{1}-\mu_{1}\q_{2}|\cdot |\mu_{2}\q_{1}-\mu_{1}\q_{4}|\cdot \Sigma_{1}^{0} \psi_{in}(\q_{1},\q_{2}) \cdot \Sigma_{1}^{0}\psi_{in}(\q_{1},\q_{4})\cdot \psi_{in}(\q_{2},\q_{4})\, d\v{q}_{1}\,d\v{q}_{2}\,d\v{q}_{4} $$
+Y definimos a $P_{1,2}(\psi_{in})$ de la siguiente forma,
+$$ -\left( \frac{\sigma}{\hbar} \right)^{2} P_{1,2}(\psi_{in}):= $$
+$$\int_{\R^{12}} b_{1}\, \overline{a_{2}} \, a_{3} \, \overline{b_{4}} \,d\v{p}_{1}...d\v{p}_{4} + \int_{\R^{12}} a_{1}\, \overline{b_{2}} \, b_{3}\, \overline{a_{4}} \,d\v{p}_{1}...d\v{p}_{4} $$
+\begin{equation}\label{p1_2}
+=2\left( \frac{\sigma}{\hbar} \right)^{2} \int_{\R^{9}}|\mu_{2}\q_{1}-\mu_{1}\q_{2}|\cdot |\mu_{2}\q_{1}-\mu_{1}\q_{3}|\cdot \Sigma_{1}^{0} \psi_{in}(\q_{1},\q_{2}) \cdot \Sigma_{1}^{0}\psi_{in}(\q_{1},\q_{3})\cdot \psi_{in}(\q_{2},\q_{3})\, d\v{q}_{1}\,d\v{q}_{2}\,d\v{q}_{3} 
+\end{equation}
+
+Desarrollando el lado izquierdo de la ecuaci\'on \eqref{g1c}, tenemos que por las ecuaciones \eqref{psi} y \eqref{psi-est},
+$$\int_{\R^{12}} a_{1}\,\overline{b_{2}}\,a_{3}\,\overline{b_{4}} \,d\v{p}_{1}...d\v{p}_{4} $$ 
+$$= - \left(\frac{\sigma}{\hbar} \right)^{2} \int_{\R^{12}} |\mu_{2} \q_{3}-\mu_{1}\q_{2}| \cdot \Sigma_{1}^{0} \psi_{in}(\q_{3},\q_{2}) \cdot \psi_{in}(\q_{3},\q_{2}) \cdot |\mu_{2} \q_{1}-\mu_{1}\q_{4}| \cdot \Sigma_{1}^{0} \psi_{in}(\q_{1},\q_{4}) \cdot \psi_{in}(\q_{1},\q_{4})\,d\v{p}_{1}...d\v{p}_{4} $$
+$$= - \left(\frac{\sigma}{\hbar} \right)^{2} \left[ \int_{\R^{6}} |\mu_{2} \q_{1}-\mu_{1}\q_{2}| \cdot \Sigma_{1}^{0} \psi_{in}(\q_{1},\q_{2}) \cdot \psi_{in}(\q_{1},\q_{2}) \, d\q_{1}\,d\q_{2}  \right]^{2} $$
+Y definimos a $P_{1,3}(\psi_{in})$ de la siguiente forma,
+$$- \left(\frac{\sigma}{\hbar} \right)^{2} P_{1,3}(\psi_{in}) :=$$
+$$\int_{\R^{12}} a_{1}\, \overline{b_{2}} \, a_{3} \, \overline{b_{4}} \,d\v{p}_{1}...d\v{p}_{4} + \int_{\R^{12}} b_{1}\, \overline{a_{2}} \, b_{3}\, \overline{a_{4}} \,d\v{p}_{1}...d\v{p}_{4} $$
+\begin{equation}\label{p1_3}
+=-2 \left(\frac{\sigma}{\hbar} \right)^{2} \left[ \int_{\R^{6}} |\mu_{2} \q_{1}-\mu_{1}\q_{2}| \cdot \Sigma_{1}^{0} \psi_{in}(\q_{1},\q_{2}) \cdot \psi_{in}(\q_{1},\q_{2}) \, d\q_{1}\,d\q_{2}  \right]^{2} 
+\end{equation}
+
+Ahora, el segundo grupo de t\'erminos de orden dos del integrando de la pureza es el que est\'a formado por t\'erminos que son el producto de tres coeficientes $a_{i}$ y un coeficiente $c_{i}$. As\'i el segundo grupo es,
+$$ c_{1}\,\overline{a_{2}}\,a_{3}\,\overline{a_{4}}  \,\,,\,\,  a_{1}\, \overline{c_{2}}\, a_{3}\, \overline{a_{4}}$$
+$$ a_{1}\,\overline{a_{2}}\,c_{3}\,\overline{a_{4}}  \,\,,\,\,  a_{1}\, \overline{a_{2}}\, a_{3}\, \overline{c_{4}}$$
+De nuevo, ya que en el c\'alculo de la pureza las variables $\q_{1},...,\q_{4}$ son mudas y $c_{i}$ es un coeficiente real, tenemos que:
+$$ \int_{\R^{12}} c_{1}\,\overline{a_{2}}\,a_{3}\,\overline{a_{4}} \,d\q_{1},...,d\q_{4}=\int_{\R^{12}} a_{1}\, \overline{c_{2}}\, a_{3}\, \overline{a_{4}} \,d\q_{1},...,d\q_{4}$$ 
+\begin{equation}\label{cint}
+= \int_{\R^{12}} a_{1}\,\overline{a_{2}}\,c_{3}\,\overline{a_{4}} \,d\q_{1},...,d\q_{4}
+=\int_{\R^{12}} a_{1}\,\overline{a_{2}}\,a_{3}\,\overline{c_{4}} \,d\q_{1},...,d\q_{4}
+\end{equation}
+Desarrollando el extremo izquierdo de \eqref{cint} tenemos que por las ecuaciones \eqref{psi} y \eqref{psi-est},
+$$\int_{\R^{12}} c_{1}\,\overline{a_{2}}\,a_{3}\,\overline{a_{4}} \,d\q_{1},...,d\q_{4} $$
+$$= -\left( \frac{\sigma}{\hbar} \right)^{2} \int_{\R^{12}}  |\mu_{2}\q_{1}-\mu_{1}\q_{2}|^{2} \Sigma_{2}^{0} \psi_{in}(\q_{1},\q_{2})\,\psi_{in}(\q_{3},\q_{2})\,\psi_{in}(\q_{3},\q_{4})\, \psi_{in}(\q_{1},\q_{4})\, d\q_{1},...,d\q_{4} $$
+$$= -\left( \frac{\sigma}{\hbar} \right)^{2} \int_{\R^{12}}  |\mu_{2}\q_{1}-\mu_{1}\q_{2}|^{2} \Sigma_{2}^{0} \psi_{in}(\q_{1},\q_{2})\,\psi_{in}(\q_{1},\q_{2})\, \psi^{2}(\q_{3}) \, \psi^{2}(\q_{4})  d\q_{1},...,d\q_{4} $$
+$$= -\left( \frac{\sigma}{\hbar} \right)^{2} \int_{\R^{12}}  |\mu_{2}\q_{1}-\mu_{1}\q_{2}|^{2} \Sigma_{2}^{0} \psi_{in}(\q_{1},\q_{2})\,\psi_{in}(\q_{1},\q_{2})  d\q_{1}\, d\q_{2} \cdot \left[\int_{\R^{3}} \psi^{2}(\q) \, d\q \right]^{2} $$
+$$= -\left( \frac{\sigma}{\hbar} \right)^{2} \int_{\R^{12}}  |\mu_{2}\q_{1}-\mu_{1}\q_{2}|^{2} \Sigma_{2}^{0} \psi_{in}(\q_{1},\q_{2})\,\psi_{in}(\q_{1},\q_{2})  d\q_{1}\, d\q_{2} $$
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Y definimos a $P_{2}(\psi_{in})$ de la siguiente forma, 
+$$- \left( \frac{\sigma}{\hbar} \right)^{2} P_{2}(\psi_{in}):= $$
+$$ \int_{\R^{12}} c_{1}\,\overline{a_{2}}\,a_{3}\,\overline{a_{4}} \,d\q_{1},...,d\q_{4}+\int_{\R^{12}} a_{1}\, \overline{c_{2}}\, a_{3}\, \overline{a_{4}} \,d\q_{1},...,d\q_{4}$$
+$$+ \int_{\R^{12}} a_{1}\,\overline{a_{2}}\,c_{3}\,\overline{a_{4}} \,d\q_{1},...,d\q_{4}
++\int_{\R^{12}} a_{1}\,\overline{a_{2}}\,a_{3}\,\overline{c_{4}} \,d\q_{1},...,d\q_{4}$$
+\begin{equation}\label{p2}
+= -4 \left( \frac{\sigma}{\hbar} \right)^{2} \int_{\R^{12}} |\mu_{2}\q_{1}-\mu_{1}\q_{2}|^{2}\, \Sigma_{2}^{0} \psi_{in}(\q_{1},\q_{2})\,\psi_{in}(\q_{1},\q_{2}) d\q_{1}\, d\q_{2} 
+\end{equation}
+Luego, por las ecuaciones \eqref{A1} y \eqref{A1int}, el termino de orden dos $B_{2}|\sigma/\hbar|$ de la pureza, esta dado por la suma de las ecuaciones \eqref{p1_1}, \eqref{p1_2}, \eqref{p1_3} y \eqref{p2},
+\begin{equation}\label{B2}
+B_{2}|\sigma/\hbar|= - \left( \frac{\sigma}{\hbar} \right)^{2} \left[ P_{1,1}(\psi_{in})+P_{1,2}(\psi_{in})+P_{1,3}(\psi_{in})+P_{2}(\psi_{in}) \right] 
+\end{equation}
+As\'i, por las ecuaciones \eqref{pb}, \eqref{B0},\eqref{B1} y \eqref{B2} tenemos la expansi\'on hasta t\'erminos de orden $(\sigma/\hbar)^{2}$ de la pureza \eqref{Ppsi} en el l\'imite cuando $|\v{p}/\hbar|\rightarrow 0$ y $|\sigma/\hbar|\rightarrow 0$,
+\begin{equation}\label{exppur}
+\P \left( \left[I + i|\v{p}/\hbar| \Sigma_{1}^{0} - |\v{p}/\hbar|^{2} \Sigma_{2}^{0} \right] \varphi_{in} \right) = 1-\left( \frac{\sigma}{\hbar} \right)^{2} \left[ \sum_{k=1}^{3} P_{1,k}(\psi_{in})+P_{2}(\psi_{in}) \right]+O(|\sigma/\hbar|^{3})
+\end{equation}
+
+Ahora desarrollemos las integrales de $P_{1,1}(\psi_{in})$, $P_{1,2}(\psi_{in})$ y $P_{1,1}(\psi_{in})$. Primero calculemos expl\'icitamente a $\Sigma_{1}^{0} \psi_{in}$. Ya que $\Sigma_{1}^{0}= -\frac{2\, c_{0}}{\sqrt{4\pi}} \left\la \cdot , \frac{1}{\sqrt{4\pi}} \right\ra $ en donde $\la \cdot , \cdot \ra $ es el producto escalar de $L^{2}(\S^{2})$ respecto a la coordenada relativa $\q$, tenemos haciendo el cambio a coordenadas esf\'ericas $\q \longrightarrow (q,\theta,\phi)$ y por la ecuaci\'on \eqref{estinqcm}: 
+$$ \Sigma_{1}^{0} \psi_{in} = -\frac{2\, c_{0}}{\sqrt{4\pi}} \left\la \psi_{in} , \frac{1}{\sqrt{4\pi}} \right\ra $$ 
+$$= -\frac{2\, c_{0}}{4\pi^{5/2}} \int_{\S^{2}} \exp \left[ -\frac{\mu_{1}^{2}+\mu_{2}^{2}}{2}\, \q_{cm}^{2} - q^{2} \right]\, \exp \left[ -(\mu_{1} - \mu_{2}) |\q_{cm}|\, q \, \cos (\theta) \right] \, \sen(\theta)\, d\theta \, d\phi $$
+
+$$ = -\frac{2\, c_{0}}{4\pi^{5/2}}\, \exp \left[ -\frac{\mu_{1}^{2}+\mu_{2}^{2}}{2}\, \q_{cm}^{2} - q^{2} \right] \int_{\S^{2}} \exp \left[ -(\mu_{1} - \mu_{2}) |\q_{cm}|\, q \, \cos (\theta) \right] \, \sen(\theta)\, d\theta \, d\phi $$
+
+$$= -\frac{c_{0}}{\pi^{3/2}}\, \exp \left[ -\frac{\mu_{1}^{2}+\mu_{2}^{2}}{2}\, \q_{cm}^{2} - q^{2} \right] \int_{0}^{\pi} \exp \left[ -(\mu_{1} - \mu_{2}) |\q_{cm}|\, q \, \cos (\theta) \right] \, \sen(\theta)\, d\theta $$
+
+$$ = -\frac{2\,c_{0}}{\pi^{3/2}}\, \exp \left[ -\frac{\mu_{1}^{2}+\mu_{2}^{2}}{2}\, \q_{cm}^{2} - q^{2} \right]\, \frac{ \senh \left[ (\mu_{1}-\mu_{2})\, |\q_{cm}|\, q \, \right]}{ (\mu_{1}-\mu_{2})\, |\q_{cm}|\, q} $$
+Por tanto, en las coordenadas $\q_{1}$, $\q_{2}$ tenemos que,
+$$\Sigma_{1}^{0} \psi_{in}(\q_{1},\q_{2})= -2\,c_{0} \la \psi_{in},Y_{0} \ra \, Y_{0}= $$
+\begin{equation}\label{Spsi}
+-\frac{2\,c_{0}}{\pi^{3/2}}\, \exp \left[ -\frac{\mu_{1}^{2}+\mu_{2}^{2}}{2}\, |\q_{1}+\q_{2}|^{2} - |\mu_{2}\q_{1}-\mu_{1}\q_{2}|^{2} \right]\, \frac{ \senh \left[ (\mu_{1}-\mu_{2})\, |\q_{1}+\q_{2}|\cdot |\mu_{2}\q_{1}-\mu_{1}\q_{2}| \, \right]}{ (\mu_{1}-\mu_{2})\, |\q_{1}+\q_{2}|\cdot |\mu_{2}\q_{1}-\mu_{1}\q_{2}| }
+\end{equation}
+Por la ecuaci\'on \eqref{p1_1} tenemos que, $P_{1,1}(\psi_{in})$ se puede escribir como:
+\begin{equation}\label{p1_1_2}
+P_{1,1}(\psi_{in})= -2 \int_{\R^{3}} \left[ \int_{\R^{3}} |\mu_{2}\q_{1}-\mu_{1}\q_{2}|\, \Sigma_{1}^{0} \psi_{in}(\q_{1},\q_{2})\cdot \psi (\q_{1})\, d\q_{1} \right]^{2} \, d\q_{2}
+\end{equation}
+As\'i, por las ecuaciones \eqref{psi}, \eqref{Spsi} y \eqref{p1_1_2} tenemos que:
+$$P_{1,1}(\psi_{in})= $$
+\begin{align}\label{p11exp}
+-\frac{8\,c_{0}^{2}}{\pi^{9/2}} \int_{\R^{3}} \left[ \int_{\R^{3}} 
+|\mu_{2}\q_{1}-\mu_{1}\q_{2}|\, \exp \left[ -\frac{\mu_{1}^{2}+\mu_{2}^{2}}{2}\, |\q_{1}+\q_{2}|^{2} - |\mu_{2}\q_{1}-\mu_{1}\q_{2}|^{2}-\frac{|\q_{1}|^{2}}{2}\, \right] 
+\right.
+\nonumber\\
+\qquad \left. \vphantom{\int_{\R^{2}}}
+\cdot \frac{ \senh \left[ (\mu_{1}-\mu_{2})\, |\q_{1}+\q_{2}|\cdot |\mu_{2}\q_{1}-\mu_{1}\q_{2}| \, \right]}{ (\mu_{1}-\mu_{2})\, |\q_{1}+\q_{2}|\cdot |\mu_{2}\q_{1}-\mu_{1}\q_{2}| }
+\,d\q_{1} \right]^{2} d\q_{2}
+\end{align}
+
+Por la ecuaci\'on \eqref{p1_2} tenemos que, $P_{1,2}$ se puede escribir como: 
+$$P_{1,2}(\psi_{in})= -2 \int_{\R^{3}} \left[ \int_{\R^{3}} |\mu_{2}\q_{1}-\mu_{1}\q_{2}|\, \Sigma_{1}^{0} \psi_{in}(\q_{1},\q_{2})\cdot \psi (\q_{2})\, d\q_{2} \right]^{2} \, d\q_{1} $$
+\begin{equation}\label{p1_2_2}
+=-2 \int_{\R^{3}} \left[ \int_{\R^{3}} |\mu_{2}\q_{2}-\mu_{1}\q_{1}|\, \Sigma_{1}^{0} \psi_{in}(\q_{2},\q_{1})\cdot \psi (\q_{1})\, d\q_{1} \right]^{2} \, d\q_{2}
+\end{equation} 
+As\'i, por las ecuaciones \eqref{psi}, \eqref{Spsi} y \eqref{p1_2_2} tenemos que:
+$$P_{1,2}(\psi_{in})= $$
+\begin{align}\label{p12exp}
+-\frac{8\,c_{0}^{2}}{\pi^{9/2}} \int_{\R^{3}} \left[ \int_{\R^{3}} 
+|\mu_{2}\q_{2}-\mu_{1}\q_{1}|\, \exp \left[ -\frac{\mu_{1}^{2}+\mu_{2}^{2}}{2}\, |\q_{1}+\q_{2}|^{2} - |\mu_{2}\q_{2}-\mu_{1}\q_{1}|^{2}-\frac{|\q_{1}|^{2}}{2}\, \right] 
+\right.
+\nonumber\\
+\qquad \left. \vphantom{\int_{\R^{2}}}
+\cdot \frac{ \senh \left[ (\mu_{1}-\mu_{2})\, |\q_{1}+\q_{2}|\cdot |\mu_{2}\q_{2}-\mu_{1}\q_{1}| \, \right]}{ (\mu_{1}-\mu_{2})\, |\q_{1}+\q_{2}|\cdot |\mu_{2}\q_{2}-\mu_{1}\q_{1}| }
+\,d\q_{1} \right]^{2} d\q_{2}
+\end{align}
+
+As\'i tambi\'en por las ecuaciones \eqref{Spsi} y \eqref{p1_3} tenemos que,
+\begin{align}\label{p13exp}
+P_{1,3}(\psi_{in})= 
+-\frac{8\,c_{0}^{2}}{\pi^{6}} \left[ \int_{\R^{6}} 
+|\mu_{2}\q_{1}-\mu_{1}\q_{2}|\, \exp \left[ (-\mu_{1}^{2}-\mu_{2}^{2})\, |\q_{1}+\q_{2}|^{2} - 2\,|\mu_{2}\q_{1}-\mu_{1}\q_{2}|^{2} \right]
+\right.
+\nonumber\\
+\qquad \left. \vphantom{\int_{\R^{6}}}
+\cdot \exp[ -(\mu_{1}-\mu_{2})(\q_{1}+\q_{2})\cdot(\mu_{2}\q_{1}-\mu_{1}\q_{2}) ] 
+\cdot \frac{ \senh \left[ (\mu_{1}-\mu_{2})\, |\q_{1}+\q_{2}|\cdot |\mu_{2}\q_{1}-\mu_{1}\q_{2}| \, \right]}{ (\mu_{1}-\mu_{2})\, |\q_{1}+\q_{2}|\cdot |\mu_{2}\q_{1}-\mu_{1}\q_{2}| }
+\,d\q_{1}\, d\q_{2} \right]^{2} 
+\end{align}
+
+Denotando por,
+$$J(\mu_{1},\mu_{2})= $$
+\begin{align}\label{J}
+\frac{1}{\pi^{9/2}} \int_{\R^{3}} \left[ \int_{\R^{3}} 
+|\mu_{2}\q_{1}-\mu_{1}\q_{2}|\, \exp \left[ -\frac{\mu_{1}^{2}+\mu_{2}^{2}}{2}\, |\q_{1}+\q_{2}|^{2} - |\mu_{2}\q_{1}-\mu_{1}\q_{2}|^{2}-\frac{|\q_{1}|^{2}}{2}\, \right] 
+\right.
+\nonumber\\
+\qquad \left. \vphantom{\int_{\R^{2}}}
+\cdot \frac{ \senh \left[ (\mu_{1}-\mu_{2})\, |\q_{1}+\q_{2}|\cdot |\mu_{2}\q_{1}-\mu_{1}\q_{2}| \, \right]}{ (\mu_{1}-\mu_{2})\, |\q_{1}+\q_{2}|\cdot |\mu_{2}\q_{1}-\mu_{1}\q_{2}| }
+\,d\q_{1} \right]^{2} d\q_{2}
+\end{align}
+Y por,
+\begin{align}\label{L}
+L(\mu_{1},\mu_{2})= 
+\frac{1}{\pi^{3}} \int_{\R^{6}} 
+|\mu_{2}\q_{1}-\mu_{1}\q_{2}|\, \exp \left[ (-\mu_{1}^{2}-\mu_{2}^{2})\, |\q_{1}+\q_{2}|^{2} - 2\,|\mu_{2}\q_{1}-\mu_{1}\q_{2}|^{2} \right]
+\nonumber\\
+\qquad \vphantom{\int_{\R^{6}}}
+\cdot \exp[ -(\mu_{1}-\mu_{2})(\q_{1}+\q_{2})\cdot(\mu_{2}\q_{1}-\mu_{1}\q_{2}) ] 
+\cdot \frac{ \senh \left[ (\mu_{1}-\mu_{2})\, |\q_{1}+\q_{2}|\cdot |\mu_{2}\q_{1}-\mu_{1}\q_{2}| \, \right]}{ (\mu_{1}-\mu_{2})\, |\q_{1}+\q_{2}|\cdot |\mu_{2}\q_{1}-\mu_{1}\q_{2}| }
+\,d\q_{1}\, d\q_{2} 
+\end{align}
+Tenemos por las ecuaciones \eqref{p11exp}, \eqref{p12exp}, \eqref{p13exp},\eqref{J},\eqref{L} y utilizando el hecho de que $\mu_{2}=1-\mu_{1}$,
+
+\begin{equation}\label{p1-1j}
+P_{1,1}(\psi_{in})= -8\, c_{0}^{2}\, J(\mu_{1},1-\mu_{1})
+\end{equation}
+
+\begin{equation}\label{p1-2j}
+P_{1,2}(\psi_{in})= -8\, c_{0}^{2}\, J(1-\mu_{1},\mu_{1})
+\end{equation}
+
+\begin{equation}\label{p1-3l}
+P_{1,3}(\psi_{in})= 8\, c_{0}^{2}\, [ L(\mu_{1},1-\mu_{1}) ]^{2} 
+\end{equation}
+
+Ahora desarrollemos la integral de $P_{2}(\psi_{in})$. Para esto primero denotamos por, 
+\begin{subequations}\label{q-qcm-n}
+\begin{align*}
+q &:= |\q|\\
+q_{cm} &:= |\q_{cm}|
+\end{align*}
+\end{subequations}
+
+Y por,
+\begin{equation}\label{I_1}
+I_{0}(\q_{cm},q) := \int_{\S^{2}} \psi_{in}(\q_{cm},q , \w)\cdot Y_{1}(\w) \, sen(\t) \, d\t \, d\phi 
+\end{equation} 
+En donde $\w \in \S^{2}$ y $\q= q\, \w$. De la definici\'on de $Y_{1}(\w)$, notamos que esta es una funci\'on impar, es decir $Y_{1}(-\w)=-Y_{1}(\w)$.\\
+\n Ya que un vector en $\S^{2}$ se puede representar en coordenadas esf\'ericas por medio de sus \'angulos acimutal $\phi$ ($0\leq \phi < 2\pi$) y de colatitud $\t$ ($0\leq \t \leq \pi$) tenemos que, si $\w \in \S^{2}$ est\'a representado por los \'angulos $(\t , \phi)$ en un sistema de coordenadas fijo, entonces el vector $-\w$ va a estar representado por los \'angulos $ (\pi - \t , \phi + \pi) $ en ese mismo sistema de coordenadas. As\'i, $Y_{1}$ puede ser expresado como funci\'on de $(\t,\phi)$, es decir, $ Y_{1}= Y_{1}(\theta, \phi) $ y de esta forma, ya que es una funci\'on impar, tenemos que:
+\begin{equation}\label{y1im}
+Y_{1}(\pi - \t , \phi + \pi)= Y_{1}(-\w)= -Y_{1}(\w)= -Y_{1}(\t , \phi)
+\end{equation}
+Sean $\q_{cm} \in \R^{3}$ y $q \geq 0$ fijos. Ahora, sin p\'erdida de generalidad, escojamos un sistema de coordenadas en el que el vector $\q_{cm}$ sea paralelo al eje $z$ y este representado en coordenadas cartesianas por, $\q_{cm}=(0,0,q_{cm})$. De la ecuaci\'on \eqref{estinqcm} observamos que $\psi_{in}$ es una funci\'on que depende solamente de $q$, $q_{cm}$ y del \'angulo entre los vectores $\q\, $ y $\, \q_{cm}$, pero en el sistema de referencia escogido, el \'angulo entre estos dos vectores no es m\'as que el \'angulo de colatitud, $\t$ del vector $q\, \w$, es decir,\\
+$\psi_{in}=\psi_{in}(q_{cm},q,\t) $ . Por lo anterior y por la ecuaci\'on \eqref{I_1} tenemos que para este sistema de referencia y para este vector $\q_{cm}$:
+\begin{equation}\label{I_2}
+I_{0}(\q_{cm},q) = \int_{\S^{2}} \psi_{in}(q_{cm},q,\t)\cdot Y_{1}(\t,\phi) \, sen(\t) \, d\t \, d\phi 
+\end{equation}
+Ahora consideremos el caso en el que tenemos $-\q_{cm}$. Es claro que, $-\q_{cm}=(0,0,-q_{cm})$ y que ahora el \'angulo entre $\q$ y $-\q_{cm}$ esta dado por la diferencia $\pi - \t$, en donde $\t$ es el \'angulo de colatitud del vector $q\, \w$ en el sistema de referencia escogido anteriormente. Por lo anterior tenemos que para $-\q_{cm}$:
+
+$$ I_{0}(-\q_{cm},q)= \int_{0}^{2\pi} \int_{0}^{\pi} \psi_{in}(q_{cm},q,\pi-\t)\cdot Y_{1}(\t,\phi) \, sen(\t) \, d\t \, d\phi $$
+
+\n Ahora hagamos el cambio de variable $ \hat{\t}= \pi - \t $ , $ \hat{\phi}= \phi - \pi $ en la integral de la ecuaci\'on anterior, entonces tenemos por las ecuaciones \eqref{y1im} y \eqref{I_2}:
+$$ I_{0}(-\q_{cm},q)= - \int_{-\pi}^{\pi} \int_{\pi}^{0} \psi_{in}(q_{cm},q,\hat{\t})\cdot Y_{1}(\pi-\hat{\t},\hat{\phi}+\pi) \, sen(\pi-\hat{\t}) \, d\hat{\t} \, d\hat{\phi}$$
+$$ = \int_{-\pi}^{\pi} \int_{0}^{\pi} \psi_{in}(q_{cm},q,\hat{\t})\cdot Y_{1}(\pi-\hat{\t},\hat{\phi}+\pi) \, sen(\hat{\t}) \, d\hat{\t} \, d\hat{\phi} 
+=- \int_{-\pi}^{\pi} \int_{0}^{\pi} \psi_{in}(q_{cm},q,\hat{\t})\cdot Y_{1}(\hat{\t},\hat{\phi}) \, sen(\hat{\t}) \, d\hat{\t} \, d\hat{\phi}$$ 
+$$=- \int_{\S^{2}} \psi_{in}(q_{cm},q,\hat{\t})\cdot Y_{1}(\hat{\t},\hat{\phi}) \, sen(\hat{\t}) \, d\hat{\t} \, d\hat{\phi} = - I_{0}(\q_{cm},q) $$
+Y por tanto,
+\begin{equation}\label{I-imp}
+I_{0}(-\q_{cm},q)=- I_{0}(\q_{cm},q)
+\end{equation}
+De la ecuaci\'on \eqref{Spsi} es f\'acil ver que,$\la \psi_{in},Y_{0} \ra$ es una funci\'on que solo depende de $q$ y $q_{cm}$ dada por:
+
+\begin{equation}\label{psi-y0}
+\la \psi_{in},Y_{0} \ra =
+\frac{2}{\pi}\, \exp \left[ -\frac{\mu_{1}^{2}+\mu_{2}^{2}}{2}\, q_{cm}^{2} -q^{2} \right]\, \frac{ \senh \left[ (\mu_{1}-\mu_{2})\, q_{cm} \cdot q \, \right]}{ (\mu_{1}-\mu_{2})\, q_{cm} \cdot q }
+\end{equation}
+
+\n Por la definici\'on de $\Sigma_{2}^{0}$ y por la ecuaci\'on \eqref{p2} tenemos que,
+$$ P_{2}(\psi_{in})= 4 \int_{\R^{6}} |\mu_{2}\q_{1} -\mu_{1}\q_{2}|^{2}\, \psi_{in}(\q_{1},\q_{2}) \Big[ 2c_{0}^{2}\, \la \psi_{in},Y_{0} \ra \, Y_{0} + \la \psi_{in},Y_{1} \ra \, Y_{0} - \la \psi_{in},Y_{0} \ra \, Y_{1} \Big] \, d\q_{1}\, d\q_{2} $$
+\begin{equation}\label{p2_2}
+= 8\,c_{0}^{2} \int_{\R^{6}} |\mu_{2}\q_{1} -\mu_{1}\q_{2}|^{2}\, \psi_{in}(\q_{1},\q_{2})\, \la \psi_{in},Y_{0} \ra \, Y_{0} \, d\q_{1}\, d\q_{2}\, + I_{1}(\psi_{in}) + I_{2}(\psi_{in})
+\end{equation}
+En donde $ \la \cdot , \cdot \ra $ es el producto escalar de $L^{2}(\S^{2})$ respecto a la coordenada relativa $\q$ e introdujimos $I_{1}(\psi_{in})$, $I_{2}(\psi_{in})$ dados por,
+$$ I_{1}(\psi_{in})= 4 \int_{\R^{6}} |\mu_{2}\q_{1} -\mu_{1}\q_{2}|^{2}\, \psi_{in}(\q_{1},\q_{2})\, \la \psi_{in},Y_{1} \ra \, Y_{0} \, d\q_{1}\, d\q_{2} $$
+$$ I_{2}(\psi_{in})= -4 \int_{\R^{6}} |\mu_{2}\q_{1} -\mu_{1}\q_{2}|^{2}\, \psi_{in}(\q_{1},\q_{2})\, \la \psi_{in},Y_{0} \ra \, Y_{1} \, d\q_{1}\, d\q_{2} $$
+Desarrollemos a $I_{1}(\psi_{in})$ en las coordenadas $\q$ y $\q_{cm}$. Por las ecuaciones \eqref{I_1} y \eqref{I-imp} tenemos que,
+$$I_{1}(\psi_{in})= 4 \int_{\R^{6}} |\q|^{2}\, \psi_{in}(\q,\q_{cm})\, \la \psi_{in},Y_{1} \ra \, Y_{0} \, d\q\, d\q_{cm}$$
+$$= 4 \int_{\R^{6}} |\q|^{2}\, \psi_{in}(\q,\q_{cm})\, \left[ \int_{\S^{2}} \psi_{in}(\q_{cm},q,\w)\cdot Y_{1}(\w) \sen(\t) \, d\t \, d\phi \, \right] \, Y_{0} \, d\q\, d\q_{cm} $$
+$$ = 4 \int_{\R^{6}} |\q|^{2}\, \psi_{in}(\q,\q_{cm})\, I(\q_{cm},q) Y_{0} \, d\q\, d\q_{cm}= 4 \int_{\R^{3}} |\q|^{2}\, \psi_{in}(\q,\q_{cm}) Y_{0} \left[ \int_{\R^{3}} I_{0}(\q_{cm},q) \,d\q_{cm} \right] d\q=0 $$
+Por tanto,
+\begin{equation}\label{I10}
+I_{1}(\psi_{in})= 0
+\end{equation}
+Ahora desarrollemos a $I_{2}(\psi_{in})$ en las coordenadas $\q$ y $\q_{cm}$ para despu\'es hacer el cambio a coordenadas esf\'ericas $ \q \rightarrow (q,\t,\phi) $ y $ \q_{cm} \rightarrow (q_{cm},\hat{\t},\hat{\phi}) $. Por las ecuaciones \eqref{I_1}, \eqref{I-imp} y \eqref{psi-y0} tenemos que,
+$$ I_{2}(\psi_{in})= -4 \int_{\R^{6}} |\q|^{2}\, \psi_{in}(\q,\q_{cm}) \la \psi_{in},Y_{0} \ra \, Y_{1} \, d\q \, d\q_{cm}$$ 
+$$= -4 \int_{\R^{3}} \int_{0}^{\infty} q^{4}\,\la \psi_{in},Y_{0} \ra \left[ \int_{\S^{2}} \psi_{in}(\q_{cm},q, \w) \cdot Y_{1}(\w) \, \sen(\t) \, d\t \, d\phi \right] \, dq \, d\q_{cm} $$
+$$= -4 \int_{0}^{\infty} \int_{\R^{3}} q^{4}\,\la \psi_{in},Y_{0} \ra \, I_{0}(\q_{cm},q) \, d\q_{cm}\, dq $$
+$$= -4 \int_{0}^{\infty} q^{4} \int_{0}^{\infty} q_{cm}^{2} \, \la \psi_{in} , Y_{0} \ra \left[ \int_{\S^{2}} I_{0}(q_{cm}, \w ' ,q) \, \sen(\hat{\t}) \, d\hat{\t}\, d\hat{\phi} \right] \, dq_{cm}\, dq =0 $$
+En donde $\q_{cm}= q_{cm} \, \w '$. Por tanto,
+\begin{equation}\label{I20}
+I_{2}(\psi_{in})= 0
+\end{equation}
+As\'i, por las ecuaciones \eqref{psi-y0}, \eqref{p2_2}, \eqref{I10} y \eqref{I20},
+$$ P_{2}(\psi_{in}) = 8\,c_{0}^{2} \int_{\R^{6}} |\mu_{2}\q_{1} -\mu_{1}\q_{2}|^{2}\, \psi_{in}(\q_{1},\q_{2})\, \la \psi_{in},Y_{0} \ra \, Y_{0} \, d\q_{1}\, d\q_{2} $$
+$$= \frac{8\, c_{0}^{2}}{\pi^{3}} \int_{\R^{6}} \q^{2} \exp \left[ -(\mu_{1}^{2}+\mu_{2}^{2})\q_{cm}^{2} -2\q^{2} - (\mu_{1}-\mu_{2}) \q_{cm} \cdot \q \right] \frac{ \senh \left[ (\mu_{1}-\mu_{2}) |\q_{cm}|\cdot |\q|\right]}{(\mu_{1}-\mu_{2}) |\q_{cm}|\cdot |\q|}\, d\q \, d\q_{cm} $$
+Definiendo,
+$$ N(\mu_{1},\mu_{2})= $$
+\begin{equation}\label{N}
+\frac{1}{\pi^{3}} \int_{\R^{6}} \q^{2} \exp \left[ -(\mu_{1}^{2}+\mu_{2}^{2})\q_{cm}^{2} -2\q^{2} - (\mu_{1}-\mu_{2}) \q_{cm} \cdot \q \right] \frac{ \senh \left[ (\mu_{1}-\mu_{2}) |\q_{cm}|\cdot |\q|\right]}{(\mu_{1}-\mu_{2}) |\q_{cm}|\cdot |\q|}\, d\q \, d\q_{cm}
+\end{equation}
+Y utilizando el hecho de que $\mu_{2} = 1- \mu_{1}$,
+\begin{equation}\label{p2-2}
+P_{2}(\psi_{in}) = 8\,c_{0}^{2}\, N(\mu_{1},1-\mu_{1})
+\end{equation}
+Luego por las ecuaciones \eqref{1.4.0},\eqref{exppur}, \eqref{J}, \eqref{L},\eqref{p1-1j}-\eqref{p1-3l} y \eqref{p2-2} podemos escribir,
+$$ \P (\varphi_{out})= 1 - 8\, \frac{c_{0}^{2}\, \sigma^{2}}{\hbar^{2}} \Big[ \,[L(\mu_{1},1-\mu_{1})]^{2} + N(\mu_{1},1-\mu_{1}) - J(\mu_{1},1-\mu_{1}) - J(1-\mu_{1},\mu_{1})\, \Big] $$
+\begin{equation}\label{1.110}
++\begin{cases} \begin{matrix} o(|\sigma/\hbar|^{2}) & si\; \beta >5 \\ O(|\sigma/\hbar|^{3}) & si\; \beta > 7 \end{matrix} \end{cases}
+\end{equation}
+M\'as aun, la soluci\'on de las integrales en las ecuaciones \eqref{L} y \eqref{N} est\'a dada por,
+\begin{equation}\label{Lexp}
+L(\mu_{1},1-\mu_{1})= \sqrt{\frac{2}{\pi}} [ 1+(2\mu_{1}-1)^{2} ]^{-1/2}
+\end{equation}
+\begin{equation}\label{Nexp}
+N(\mu_{1},1-\mu_{1})= \frac{1}{2(2\mu_{1}-1)^{2}} \frac{1}{\sqrt{1+(2\mu_{1}-1)^{2}}}\cdot \left[ [1+(2\mu_{1}-1)^{2}]^{3/2} -1 \right]
+\end{equation}
+En el ap\'endice mostramos estos resultados a trav\'es de un c\'alculo explicito, as\'i como el valor de $ J(1/2,1/2)= 0.663497 $ y $ J(1,0)= 0.32627 $.\\
+
+Denotamos al coeficiente de entrelazamiento como $\E (\mu_{1})$, dado por,
+\begin{equation}\label{Eps}
+\E(\mu_{1}) = 8 \, \Big[ [L(\mu_{1},1-\mu_{1})]^{2} + N(\mu_{1},1-\mu_{1}) - J(\mu_{1},1-\mu_{1}) - J(1-\mu_{1},\mu_{1}) \Big] 
+\end{equation}
+Con un valor $\E(1/2)= 0.4770 $.\\
+Luego por las ecuaciones \eqref{Lexp} y \eqref{Nexp},
+$$ \E(\mu_{1})= \frac{16}{\pi [1+(2\mu_{1}-1)^{2}]} + \frac{4}{(2\mu_{1}-1)^{2}} \cdot \frac{[1+(2\mu_{1}-1)^{2}]^{3/2} - 1}{\sqrt{1+(2\mu_{1}-1)^{2}}} $$
+\begin{equation}\label{eps-2}
+- 8\, J(\mu_{1},1-\mu_{1}) - 8 \, J(1-\mu_{1},\mu_{1})
+\end{equation}
+Por lo anterior, la demostraci\'on del siguiente teorema es inmediata.
+
+\begin{theorem}
+Supongamos que la suposici\'on sobre el potencial $V$ se cumple y que en cero $H_{rel}$ no tiene una resonancia o un valor propio. Entonces en el l\'imite cuando $\sigma/\hbar \rightarrow 0 $
+\begin{equation}\label{p-eps}
+\P(\varphi_{out})= 1 - \left(\frac{c_{0} \, \sigma}{\hbar} \right)^{2}\E(\mu_{1}) +\begin{cases} \begin{matrix} o(|\sigma/\hbar|^{2}) & si\; \beta >5 \\ O(|\sigma/\hbar|^{3}) & si\; \beta > 7 \end{matrix} \end{cases}
+\end{equation}
+
+\end{theorem}
+\n {\bf Demostraci\'on}\\
+La ecuaci\'on \eqref{p-eps} es consecuencia directa de las ecuaciones \eqref{1.110} y \eqref{eps-2}.
