@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Titlle</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <script>
+            function displayDate()
+            {
+                document.getElementById("demo").innerHTML=Date(); // coment
+                alert("Hola!!!");
+                console.log("******");
+                
+            }
+            
+            function displayVar()
+            {
+                var x;
+                x= 2+3;
+                document.getElementById("demo2").innerHTML=x;
+            }
+            
+            
+            
+            function fNameFunction()
+            {
+                var s1;
+                s1= document.getElementById("Fname").getAttribute("value");
+                
+                var s2;
+                s2= document.getElementById("Lname").getAttribute("value");
+                
+                document.getElementById("aa").innerHTML=s1;
+                document.getElementById("bb").innerHTML=s2;
+                
+            }
+        </script>
+        
+    </head>
+    <body>
+        <div>TODO write content</div>
+
+        <h1>My First JavaScript</h1>
+        <p id="demo">This is a paragraph.</p>
+
+        <button id="demoButton" type="button" onclick="displayDate();">Display Date</button>
+       
+        <p id="demo2">Texto 2</p>
+        
+        <button id="demo2Button" type="button" onclick="displayVar();">Valor de variable</button>
+        
+        <br/>
+
+        <form>
+            First name: <input id="Fname" type="text" name="FirstName" value="Mickey"><br>
+            Last name: <input id="Lname" type="text" name="LastName" value="Mouse"><br>
+            Salida: <p id="aa">Primer nombre</p>
+            <p id="bb">Segundo nombre</p>
+            
+            <button id="demo3Button" type="button" onclick="fNameFunction();">Valor de variable</button>
+        </form>
+
+    </body>
+</html>
